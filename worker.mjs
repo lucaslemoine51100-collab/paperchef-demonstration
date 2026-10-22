@@ -22,7 +22,7 @@ postMessage({progress:'Ouverture de la base de démonstration…'});db=new PGlit
 
 const fresh=!(await db.query("SELECT to_regclass('paperchef.demo_metadata')::text AS name")).rows[0].name;
 
-if(fresh){await seed.seedFreshDatabase(db);await db.query('DELETE FROM catering.planned_services');await db.query('DELETE FROM catering.weeks');}
+if(fresh)throw Error('Le catalogue de référence est absent. Rechargez la démonstration.');
 
 await accounts.initialize(db);for(const [role,name]of Object.entries(roles))await db.query("INSERT INTO paperchef.users(id,username,name,role,password_hash,active) VALUES($1,$1,$2,$3,'demo-no-password',true) ON CONFLICT(id) DO NOTHING",[role,name,role]);
 
@@ -30,7 +30,7 @@ globalThis.demoUser={id:input.role,username:input.role,name:roles[input.role],ro
 
 postMessage({progress:'Préparation des variantes…'});const app=await serverModule.createSharedServer(db,{origin:'https://demo.local',pdfExporter:async()=>{throw Error('Le PDF est produit dans votre navigateur.')}});server=app.server;
 
-if(fresh){const rows=(await app.repo.library()).filter(t=>t.active);const week=await app.repo.createWeek({id:'demo-week',startDate:'2026-10-12'});for(let i=0;i<14;i++){const date=new Date('2026-10-12T12:00:00Z');date.setUTCDate(date.getUTCDate()+Math.floor(i/2));await app.repo.planService({id:'demo-service-'+i,weekId:week.id,date:date.toISOString().slice(0,10),mealPeriod:i%2?'dinner':'lunch',serviceTemplateId:rows[(i*3)%rows.length].id,coverCount:i%2?100:180,meatPercent:70});}await db.exec('CREATE TABLE paperchef.demo_metadata(version int); INSERT INTO paperchef.demo_metadata VALUES(1)');}
+if(!(await db.query('SELECT count(*)::int n FROM catering.planned_services')).rows[0].n){const rows=(await app.repo.library()).filter(t=>t.active);const week=await app.repo.createWeek({id:'demo-week',startDate:'2026-10-12'});for(let i=0;i<14;i++){const date=new Date('2026-10-12T12:00:00Z');date.setUTCDate(date.getUTCDate()+Math.floor(i/2));await app.repo.planService({id:'demo-service-'+i,weekId:week.id,date:date.toISOString().slice(0,10),mealPeriod:i%2?'dinner':'lunch',serviceTemplateId:rows[(i*3)%rows.length].id,coverCount:i%2?100:180,meatPercent:70});}}
 
 await db.fs.syncToFs(false);postMessage({ready:true});}
 
