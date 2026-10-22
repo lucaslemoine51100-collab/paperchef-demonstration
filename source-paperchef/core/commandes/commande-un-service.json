@@ -1,0 +1,2658 @@
+{
+  "scope": "single_service",
+  "title": "LUNDI — MIDI",
+  "orientation": "portrait",
+  "dateRange": {
+    "start": "2026-10-05",
+    "end": "2026-10-05",
+    "complete": true
+  },
+  "rangeLabel": "LUNDI 2026-10-05 → LUNDI 2026-10-05",
+  "serviceCount": 1,
+  "services": [
+    {
+      "serviceId": "service-reference",
+      "serviceName": "Carbonnade / Limande",
+      "headcount": 100,
+      "serviceDate": "2026-10-05",
+      "mealType": "lunch",
+      "planningSource": "selection",
+      "selectionIndex": 0,
+      "dayLabel": "LUNDI",
+      "mealLabel": "MIDI",
+      "label": "LUNDI — MIDI",
+      "coversLabel": "MIDI : 100 COUVERTS"
+    }
+  ],
+  "covers": {
+    "total": "100",
+    "byService": [
+      {
+        "serviceId": "service-reference",
+        "serviceName": "Carbonnade / Limande",
+        "headcount": 100,
+        "serviceDate": "2026-10-05",
+        "mealType": "lunch",
+        "planningSource": "selection",
+        "selectionIndex": 0,
+        "dayLabel": "LUNDI",
+        "mealLabel": "MIDI",
+        "label": "LUNDI — MIDI",
+        "coversLabel": "MIDI : 100 COUVERTS"
+      }
+    ]
+  },
+  "summaryLabels": [
+    "MIDI : 100 COUVERTS"
+  ],
+  "categories": [
+    {
+      "id": "Dairy",
+      "label": "Crémerie",
+      "color": "#7e3298",
+      "icon": "milk",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-22",
+          "name": "Beurre doux",
+          "displayQuantity": "1,9 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "37",
+            "denominator": "20"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "unit": "g",
+                "exact": {
+                  "numerator": "250",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "250",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "4"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "8",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "8",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "8",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-23",
+          "name": "Crème liquide",
+          "displayQuantity": "700 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "7",
+            "denominator": "10"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-23",
+                "normalized_name": "Crème liquide",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "700",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "700",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "10"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Meat",
+      "label": "Viande",
+      "color": "#d51f3c",
+      "icon": "meat",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-1",
+          "name": "Bœuf à mijoter",
+          "displayQuantity": "10,5 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "21",
+            "denominator": "2"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-1",
+                "normalized_name": "Bœuf à mijoter",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "21",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Fish",
+      "label": "Poisson",
+      "color": "#007cc1",
+      "icon": "fish",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-17",
+          "name": "Limande meunière surgelée",
+          "displayQuantity": "30 pièces",
+          "displayUnit": "pièces",
+          "exactQuantity": {
+            "numerator": "30",
+            "denominator": "1"
+          },
+          "canonicalUnit": "pièces",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "limande",
+              "recipe_name": "Limande meunière",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-17",
+                "normalized_name": "Limande meunière surgelée",
+                "unit": "unités",
+                "exact": {
+                  "numerator": "30",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "pièces",
+              "original_exact_quantity": {
+                "numerator": "30",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "30",
+                "denominator": "1"
+              },
+              "canonical_unit": "pièces",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Frozen",
+      "label": "Surgelé",
+      "color": "#009cb7",
+      "icon": "snow",
+      "isEmpty": true,
+      "lines": []
+    },
+    {
+      "id": "FreshProduce",
+      "label": "Fruits et légumes frais",
+      "color": "#398421",
+      "icon": "leaf",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-3",
+          "name": "Carottes fraîches",
+          "displayQuantity": "13,4 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "67",
+            "denominator": "5"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-3",
+                "normalized_name": "Carottes fraîches",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "7",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "7",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-3",
+                "normalized_name": "Carottes fraîches",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "12",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "12",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "12",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-24",
+          "name": "Échalotes fraîches",
+          "displayQuantity": "300 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "3",
+            "denominator": "10"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-24",
+                "normalized_name": "Échalotes fraîches",
+                "unit": "g",
+                "exact": {
+                  "numerator": "300",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "300",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "10"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-18",
+          "name": "Frites crues sous vide",
+          "displayQuantity": "20,0 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "20",
+            "denominator": "1"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "frites",
+              "recipe_name": "Frites",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-18",
+                "normalized_name": "Frites crues sous vide",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "20",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "20",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "20",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-2",
+          "name": "Oignons frais",
+          "displayQuantity": "2,8 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "14",
+            "denominator": "5"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-2",
+                "normalized_name": "Oignons frais",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "14",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "14",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "14",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Grocery",
+      "label": "Épicerie",
+      "color": "#e88300",
+      "icon": "jar",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-8",
+          "name": "Bière brune/ambrée",
+          "displayQuantity": "3,0 L",
+          "displayUnit": "L",
+          "exactQuantity": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-8",
+                "normalized_name": "Bière brune/ambrée",
+                "unit": "L",
+                "exact": {
+                  "numerator": "3",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "purchase-bouillon-beef-powder",
+          "name": "Bouillon de bœuf en poudre",
+          "displayQuantity": "80 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "2",
+            "denominator": "25"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-9",
+                "normalized_name": "Bouillon de bœuf préparé",
+                "unit": "L",
+                "exact": {
+                  "numerator": "4",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "80",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "2",
+                "denominator": "25"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "purchase-bouillon-vegetables-powder",
+          "name": "Bouillon de légumes en poudre",
+          "displayQuantity": "40 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "1",
+            "denominator": "25"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-35",
+                "normalized_name": "Bouillon de légumes préparé",
+                "unit": "L",
+                "exact": {
+                  "numerator": "2",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "40",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "25"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-6",
+          "name": "Cassonade",
+          "displayQuantity": "140 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "7",
+            "denominator": "50"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-6",
+                "normalized_name": "Cassonade",
+                "unit": "g",
+                "exact": {
+                  "numerator": "140",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "140",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "50"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-5",
+          "name": "Farine de blé",
+          "displayQuantity": "250 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "1",
+            "denominator": "4"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-5",
+                "normalized_name": "Farine de blé",
+                "unit": "g",
+                "exact": {
+                  "numerator": "250",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "250",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "4"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-4",
+          "name": "Huile",
+          "displayQuantity": "400 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "2",
+            "denominator": "5"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-4",
+                "normalized_name": "Huile",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "300",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "300",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "10"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-4",
+                "normalized_name": "Huile",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "100",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "100",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "10"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-26",
+          "name": "Jus de citron",
+          "displayQuantity": "100 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "1",
+            "denominator": "10"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-26",
+                "normalized_name": "Jus de citron",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "100",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "100",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "10"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-13",
+          "name": "Laurier sec",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "pièces",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-13",
+                "normalized_name": "Laurier sec",
+                "unit": "pièces",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "pièces",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "pièces",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-27",
+          "name": "Maïzena",
+          "displayQuantity": "30 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "3",
+            "denominator": "100"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-27",
+                "normalized_name": "Maïzena",
+                "unit": "g",
+                "exact": {
+                  "numerator": "30",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "30",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "100"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-11",
+          "name": "Moutarde forte",
+          "displayQuantity": "500 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "1",
+            "denominator": "2"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-11",
+                "normalized_name": "Moutarde forte",
+                "unit": "g",
+                "exact": {
+                  "numerator": "500",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "500",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-10",
+          "name": "Pain d’épices",
+          "displayQuantity": "1,0 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-10",
+                "normalized_name": "Pain d’épices",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-15",
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-14",
+          "name": "Sel fin",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-12",
+          "name": "Thym sec",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-12",
+                "normalized_name": "Thym sec",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-7",
+          "name": "Vinaigre de vin",
+          "displayQuantity": "140 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "7",
+            "denominator": "50"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-7",
+                "normalized_name": "Vinaigre de vin",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "140",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "140",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "50"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-25",
+          "name": "Vinaigre de vin blanc",
+          "displayQuantity": "150 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "3",
+            "denominator": "20"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-25",
+                "normalized_name": "Vinaigre de vin blanc",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "150",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "150",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "20"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "columns": [
+        [
+          {
+            "id": "Dairy",
+            "label": "Crémerie",
+            "color": "#7e3298",
+            "icon": "milk",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-22",
+                "name": "Beurre doux",
+                "displayQuantity": "1,9 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "37",
+                  "denominator": "20"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-22",
+                      "normalized_name": "Beurre doux",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "250",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "250",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "4"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-22",
+                      "normalized_name": "Beurre doux",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "8",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "8",
+                      "denominator": "5"
+                    },
+                    "exact_quantity": {
+                      "numerator": "8",
+                      "denominator": "5"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-23",
+                "name": "Crème liquide",
+                "displayQuantity": "700 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "7",
+                  "denominator": "10"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-23",
+                      "normalized_name": "Crème liquide",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "700",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "700",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "7",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "Meat",
+            "label": "Viande",
+            "color": "#d51f3c",
+            "icon": "meat",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-1",
+                "name": "Bœuf à mijoter",
+                "displayQuantity": "10,5 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "21",
+                  "denominator": "2"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-1",
+                      "normalized_name": "Bœuf à mijoter",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "21",
+                        "denominator": "2"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "2"
+                    },
+                    "exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "2"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "Fish",
+            "label": "Poisson",
+            "color": "#007cc1",
+            "icon": "fish",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-17",
+                "name": "Limande meunière surgelée",
+                "displayQuantity": "30 pièces",
+                "displayUnit": "pièces",
+                "exactQuantity": {
+                  "numerator": "30",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "pièces",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "limande",
+                    "recipe_name": "Limande meunière",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-17",
+                      "normalized_name": "Limande meunière surgelée",
+                      "unit": "unités",
+                      "exact": {
+                        "numerator": "30",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "pièces",
+                    "original_exact_quantity": {
+                      "numerator": "30",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "30",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "pièces",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "FreshProduce",
+            "label": "Fruits et légumes frais",
+            "color": "#398421",
+            "icon": "leaf",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-3",
+                "name": "Carottes fraîches",
+                "displayQuantity": "13,4 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "67",
+                  "denominator": "5"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-3",
+                      "normalized_name": "Carottes fraîches",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "7",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "7",
+                      "denominator": "5"
+                    },
+                    "exact_quantity": {
+                      "numerator": "7",
+                      "denominator": "5"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-3",
+                      "normalized_name": "Carottes fraîches",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "12",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "12",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "12",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-24",
+                "name": "Échalotes fraîches",
+                "displayQuantity": "300 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "3",
+                  "denominator": "10"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-24",
+                      "normalized_name": "Échalotes fraîches",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "300",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "300",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-18",
+                "name": "Frites crues sous vide",
+                "displayQuantity": "20,0 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "20",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "frites",
+                    "recipe_name": "Frites",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-18",
+                      "normalized_name": "Frites crues sous vide",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "20",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "20",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "20",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-2",
+                "name": "Oignons frais",
+                "displayQuantity": "2,8 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "14",
+                  "denominator": "5"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-2",
+                      "normalized_name": "Oignons frais",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "14",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "14",
+                      "denominator": "5"
+                    },
+                    "exact_quantity": {
+                      "numerator": "14",
+                      "denominator": "5"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          }
+        ],
+        [
+          {
+            "id": "Grocery",
+            "label": "Épicerie",
+            "color": "#e88300",
+            "icon": "jar",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-8",
+                "name": "Bière brune/ambrée",
+                "displayQuantity": "3,0 L",
+                "displayUnit": "L",
+                "exactQuantity": {
+                  "numerator": "3",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-8",
+                      "normalized_name": "Bière brune/ambrée",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "3",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "purchase-bouillon-beef-powder",
+                "name": "Bouillon de bœuf en poudre",
+                "displayQuantity": "80 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "2",
+                  "denominator": "25"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-9",
+                      "normalized_name": "Bouillon de bœuf préparé",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "4",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "80",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "2",
+                      "denominator": "25"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "purchase-bouillon-vegetables-powder",
+                "name": "Bouillon de légumes en poudre",
+                "displayQuantity": "40 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "1",
+                  "denominator": "25"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-35",
+                      "normalized_name": "Bouillon de légumes préparé",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "2",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "40",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "25"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-6",
+                "name": "Cassonade",
+                "displayQuantity": "140 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "7",
+                  "denominator": "50"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-6",
+                      "normalized_name": "Cassonade",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "140",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "140",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "7",
+                      "denominator": "50"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-5",
+                "name": "Farine de blé",
+                "displayQuantity": "250 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "1",
+                  "denominator": "4"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-5",
+                      "normalized_name": "Farine de blé",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "250",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "250",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "4"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-4",
+                "name": "Huile",
+                "displayQuantity": "400 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "2",
+                  "denominator": "5"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-4",
+                      "normalized_name": "Huile",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "300",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "300",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-4",
+                      "normalized_name": "Huile",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "100",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "100",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-26",
+                "name": "Jus de citron",
+                "displayQuantity": "100 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "1",
+                  "denominator": "10"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-26",
+                      "normalized_name": "Jus de citron",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "100",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "100",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-13",
+                "name": "Laurier sec",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "pièces",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-13",
+                      "normalized_name": "Laurier sec",
+                      "unit": "pièces",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "pièces",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "pièces",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-27",
+                "name": "Maïzena",
+                "displayQuantity": "30 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "3",
+                  "denominator": "100"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-27",
+                      "normalized_name": "Maïzena",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "30",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "30",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-11",
+                "name": "Moutarde forte",
+                "displayQuantity": "500 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "1",
+                  "denominator": "2"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-11",
+                      "normalized_name": "Moutarde forte",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "500",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "500",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "2"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-10",
+                "name": "Pain d’épices",
+                "displayQuantity": "1,0 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "1",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-10",
+                      "normalized_name": "Pain d’épices",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "1",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "1",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "name": "Poivre noir",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "name": "Sel fin",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-12",
+                "name": "Thym sec",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-12",
+                      "normalized_name": "Thym sec",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-7",
+                "name": "Vinaigre de vin",
+                "displayQuantity": "140 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "7",
+                  "denominator": "50"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-7",
+                      "normalized_name": "Vinaigre de vin",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "140",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "140",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "7",
+                      "denominator": "50"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-25",
+                "name": "Vinaigre de vin blanc",
+                "displayQuantity": "150 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "3",
+                  "denominator": "20"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 100,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-25",
+                      "normalized_name": "Vinaigre de vin blanc",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "150",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "150",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "20"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          }
+        ]
+      ]
+    }
+  ],
+  "hasUnquantified": true
+}

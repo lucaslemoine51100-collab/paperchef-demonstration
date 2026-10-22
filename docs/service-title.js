@@ -1,0 +1,5 @@
+(function(root){
+ function build(graph){const seen=new Set();return (graph.components||[]).map((c,index)=>{const categories=(graph.categories||[]).filter(k=>k.component_id===c.id);const has=(category,sub)=>categories.some(k=>k.category===category&&(!sub||k.subcategory===sub));const rank=has('Protein','Meat')?0:has('Protein','Fish')?1:has('Protein','Vegetarian')?2:has('Protein')?2:has('Starch')?3:has('Vegetable')?4:has('Sauce')?5:6;return {c,index,rank};}).filter(({c})=>c.active!==false&&c.menu_visible!==false&&c.name?.trim()).sort((a,b)=>a.rank-b.rank||a.index-b.index).filter(({c})=>{const key=c.dish_id||c.recipe_id||c.id;if(seen.has(key))return false;seen.add(key);return true;}).map(({c})=>c.name.trim()).join(' · ');}
+ function display(graph){return graph.service.planned_service_id?(graph.service.display_name||graph.service.name):(build(graph)||graph.service.name);}
+ const api={build,display};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.serviceTitle=api;
+})(typeof globalThis==='undefined'?this:globalThis);

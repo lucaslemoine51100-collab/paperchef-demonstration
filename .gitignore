@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.env*
+!.env.example
+test-data/
+*profile*/
+embedded-files.json
+shim-*.mjs
+globals.mjs
+.openai/
+dist/

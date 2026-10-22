@@ -1,0 +1,5 @@
+[
+ {"ingredient_id":"ingredient-18","normalized_name":"Frites crues sous vide","old_category":"Frozen","new_category":"FreshProduce","reason":"Frites crues sous vide réfrigérées, non surgelées : décision utilisateur."},
+ {"ingredient_id":"ingredient-59","normalized_name":"Thon égoutté","old_category":"Fish","new_category":"Grocery","reason":"Thon acheté en conserve : décision utilisateur."},
+ {"ingredient_id":"ingredient-v1-bdcb15f432a96e61","normalized_name":"Thon au naturel","old_category":"Fish","new_category":"Grocery","reason":"Thon acheté en conserve : décision utilisateur."}
+]

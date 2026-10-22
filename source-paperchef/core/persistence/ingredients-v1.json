@@ -1,0 +1,1369 @@
+[
+  {
+    "normalized_name": "Bœuf à mijoter",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Bœuf haché",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Paleron de bœuf",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Joue de bœuf",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Rôti de bœuf",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Sauté de veau",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Escalope de veau",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Sauté de porc",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Rôti de porc",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Échine de porc",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Filet de porc",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Lardons crus",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Jambon blanc",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Jambon cru",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Saucisse fumée",
+    "default_unit": "pièces",
+    "purchase_category": "Meat",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Saucisse de Toulouse",
+    "default_unit": "pièces",
+    "purchase_category": "Meat",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Merguez viande",
+    "default_unit": "pièces",
+    "purchase_category": "Meat",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Cuisse de poulet",
+    "default_unit": "pièces",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Filet de poulet",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Escalope de dinde",
+    "default_unit": "kg",
+    "purchase_category": "Meat",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Saumon sans peau",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Cabillaud",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Colin",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Merlu",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Limande meunière surgelée",
+    "default_unit": "pièces",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish",
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Truite",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Thon égoutté",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Thon au naturel",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Maquereau",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Sardine",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Lieu noir",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Lieu jaune",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Queue de lotte",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Sandre",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Filet de poisson pané",
+    "default_unit": "pièces",
+    "purchase_category": "Fish",
+    "allergen_status": "review_required",
+    "allergens": [
+      "fish",
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Poisson meunière surgelé",
+    "default_unit": "pièces",
+    "purchase_category": "Fish",
+    "allergen_status": "review_required",
+    "allergens": [
+      "fish",
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Moules",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "molluscs"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Crevettes",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "known",
+    "allergens": [
+      "crustaceans"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Fumet de poisson préparé",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Terrine de poisson",
+    "default_unit": "kg",
+    "purchase_category": "Fish",
+    "allergen_status": "review_required",
+    "allergens": [
+      "fish"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Frites crues sous vide/surgelées nature",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Haricots verts surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Petits pois surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Brocolis surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Chou-fleur surgelé",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Épinards surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Courgettes surgelées",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Champignons surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Poireaux surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Carottes surgelées",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Légumes couscous surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Ratatouille surgelée nature",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Brunoise carotte/oignon/céleri",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "known",
+    "allergens": [
+      "celery"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Échalotes surgelées",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Oignons surgelés",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Cerises surgelées",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Myrtilles surgelées",
+    "default_unit": "kg",
+    "purchase_category": "Frozen",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Feuilletage surgelé",
+    "default_unit": "plaques",
+    "purchase_category": "Frozen",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten",
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Pâte brisée surgelée",
+    "default_unit": "plaques",
+    "purchase_category": "Frozen",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Merguez végétales",
+    "default_unit": "pièces",
+    "purchase_category": "Frozen",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Carottes fraîches",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Oignons frais",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Échalotes fraîches",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Ail",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Pommes de terre",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Pommes de terre sous vide",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Poireaux frais",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Courgettes fraîches",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Champignons de Paris",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Tomates fraîches",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Salade verte",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Endives",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Poivrons rouges",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Poivrons verts",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Aubergines",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Concombre",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Céleri branche",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "known",
+    "allergens": [
+      "celery"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Céleri-rave",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "known",
+    "allergens": [
+      "celery"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Persil frais",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Citron frais",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Orange",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Pomme",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Poire",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Banane",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Raisin",
+    "default_unit": "kg",
+    "purchase_category": "FreshProduce",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Lait demi-écrémé",
+    "default_unit": "L",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Lait entier",
+    "default_unit": "L",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Crème liquide",
+    "default_unit": "L",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Crème épaisse",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Beurre doux",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Beurre demi-sel",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Œufs entiers liquides",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "eggs"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Œufs coquille",
+    "default_unit": "pièces",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "eggs"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Emmental râpé",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Grana Padano",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Comté",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Cantal",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Maroilles",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Mozzarella",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Fromage blanc",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Yaourt nature",
+    "default_unit": "pièces",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Mascarpone",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Fromage à la coupe",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Parmesan",
+    "default_unit": "kg",
+    "purchase_category": "Dairy",
+    "allergen_status": "known",
+    "allergens": [
+      "milk"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Crème dessert industrielle",
+    "default_unit": "pièces",
+    "purchase_category": "Dairy",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Farine de blé",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Maïzena",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Semoule de blé",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Pâtes sèches",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Riz",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Riz rond",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Polenta",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Lentilles vertes",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Pois cassés",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Pois chiches",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Haricots rouges",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Haricots blancs",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Chapelure",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Pain d’épices",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Pain de mie",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Tomates concassées",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Concentré de tomate",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Tomates pelées",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Huile d’olive",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Huile de colza",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Huile de tournesol",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Vinaigre de cidre",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Vinaigre de vin",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Vinaigre de vin blanc",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Moutarde forte",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "mustard"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Moutarde à l’ancienne",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "mustard"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Miel",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Sucre blanc",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Cassonade",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Sel fin",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Poivre noir",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Cumin moulu",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Ras-el-hanout",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Curry",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Paprika",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Thym",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Laurier",
+    "default_unit": "pièces",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Muscade",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Bière brune/ambrée",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Bouillon de bœuf préparé",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Bouillon de légumes préparé",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Bouillon de volaille préparé",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Jus de citron",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "none",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Sauce soja",
+    "default_unit": "L",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [
+      "soy",
+      "gluten"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Sésame",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "sesame"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Cacahuètes",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "peanuts"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Amandes",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "nuts"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Noix",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "nuts"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Noisettes",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "known",
+    "allergens": [
+      "nuts"
+    ],
+    "active": true
+  },
+  {
+    "normalized_name": "Chocolat noir",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  },
+  {
+    "normalized_name": "Cacao en poudre",
+    "default_unit": "kg",
+    "purchase_category": "Grocery",
+    "allergen_status": "review_required",
+    "allergens": [],
+    "active": true
+  }
+]

@@ -1,0 +1,14 @@
+
+.production-references{margin:1.2mm 0 0;padding:1mm 1.3mm;background:#fffaf3;border:.2mm solid #dfc7a2;border-radius:1mm;break-inside:avoid;}
+.production-reference h3{color:#a56416;margin:0 0 1mm;font-size:7pt;text-align:center;letter-spacing:.1pt;}
+.reference-cells{display:grid;grid-template-columns:repeat(auto-fit,minmax(16mm,1fr));gap:0;}
+.reference-cell{display:flex;flex-direction:column;align-items:center;text-align:center;padding:.3mm 1mm;min-width:0;}
+.reference-cell+.reference-cell{border-left:.2mm solid #d7c9b4;}
+.reference-cell strong{font-size:9pt;line-height:1.15;color:#25312b;white-space:nowrap;}
+.reference-cell span{font-size:6.5pt;line-height:1.15;margin-top:.5mm;overflow-wrap:anywhere;}
+.horizontal>.production-references{grid-column:1 / -1;}
+@media screen and (max-width:600px){.reference-cell strong{font-size:14px}.reference-cell span{font-size:11px}.production-reference h3{font-size:12px}}
+
+.single-ratio{display:flex;align-items:center;justify-content:space-between;gap:2mm}.single-ratio h3{margin:0;text-align:left}.single-ratio .reference-cell{flex-direction:row;gap:1mm;padding:0}.single-ratio .reference-cell span{margin:0}.single-ratio .reference-cells{display:block}
+
+.tray-plan{font-size:6.5pt;text-align:center;margin:-.5mm 0 .6mm;color:#5a5549;}

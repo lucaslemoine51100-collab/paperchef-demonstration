@@ -1,0 +1,749 @@
+{
+  "orderSelection": {
+    "serviceId": "lasagnes",
+    "headcount": 100
+  },
+  "dayLabel": null,
+  "mealType": null,
+  "serviceName": "Lasagnes bolognaises · Lasagnes saumon-épinards · Salade verte · Vinaigrette",
+  "serviceId": "lasagnes",
+  "headcount": 100,
+  "portionSummary": "70 portions viande · 30 portions poisson",
+  "components": [
+    {
+      "source": {
+        "serviceId": "lasagnes",
+        "componentId": "lasagnes:component:lasagnes-bolo",
+        "sharedPreparationId": null,
+        "recipeId": "lasagnes:recipe:lasagnes-bolo"
+      },
+      "name": "Lasagnes bolognaises",
+      "id": "lasagnes-bolo",
+      "categories": [
+        [
+          "Protéine",
+          "Viande"
+        ],
+        [
+          "Féculent"
+        ],
+        [
+          "Légume"
+        ],
+        [
+          "Plat complet"
+        ]
+      ],
+      "colorProfile": "meat",
+      "calculatedPortions": 70,
+      "shared": false,
+      "productionReferences": [
+        {
+          "type": "per_production_unit",
+          "label": "1 GN 1/1",
+          "order": 0,
+          "base": {
+            "exact": {
+              "numerator": "1",
+              "denominator": "1"
+            },
+            "unit": "bacs",
+            "displayQuantity": "1 bac"
+          },
+          "yield": {
+            "exact": {
+              "numerator": "10",
+              "denominator": "1"
+            },
+            "unit": "portions",
+            "displayQuantity": "10 portions"
+          },
+          "productionUnitId": "production-1",
+          "ratios": [
+            {
+              "name": "Feuilles de lasagne",
+              "source": "production_subunit",
+              "isQs": false,
+              "exact": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "unit": "unités",
+              "displayQuantity": "4 unités",
+              "order": 0
+            }
+          ]
+        }
+      ],
+      "productionUnits": {
+        "name": "Bac GN 1/1",
+        "units": "7 bacs",
+        "items": "28 plaques",
+        "capacity": "70 portions",
+        "ingredientBasis": "Ingrédients sur les portions demandées"
+      },
+      "ingredients": [
+        {
+          "name": "Bœuf haché",
+          "displayQuantity": "7,0 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "7",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Brunoise carotte/oignon/céleri",
+          "displayQuantity": "1,1 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "21",
+            "denominator": "20"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Tomates concassées",
+          "displayQuantity": "7,0 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "7",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Concentré de tomate",
+          "displayQuantity": "350 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "350",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Bouillon de bœuf",
+          "displayQuantity": "2,1 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "21",
+            "denominator": "10"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Huile d’olive",
+          "displayQuantity": "210 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "210",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Thym sec",
+          "displayQuantity": "20 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "20",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Ail",
+          "displayQuantity": "70 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "70",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Grana Padano de finition",
+          "displayQuantity": "350 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "350",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Béchamel prélevée",
+          "displayQuantity": "8,0 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "8",
+            "denominator": "1"
+          },
+          "internalTransfer": true
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Faire revenir la brunoise et l’ail dans l’huile d’olive."
+        },
+        {
+          "order": 2,
+          "text": "Ajouter le bœuf haché et le faire revenir en le détachant."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter le concentré, les tomates concassées, le bouillon et le thym."
+        },
+        {
+          "order": 4,
+          "text": "Laisser mijoter pour obtenir une garniture liée, sans excès de liquide."
+        },
+        {
+          "order": 5,
+          "text": "Prélever la quantité de béchamel indiquée pour les lasagnes bolognaises."
+        },
+        {
+          "order": 6,
+          "text": "Monter les bacs en alternant feuilles de lasagne, garniture et béchamel."
+        },
+        {
+          "order": 7,
+          "text": "Répartir le Grana de finition sur les bacs."
+        },
+        {
+          "order": 8,
+          "text": "Cuire 45 minutes à 180 °C en four ventilé."
+        }
+      ],
+      "steps": [
+        "Faire revenir la brunoise et l’ail dans l’huile d’olive.",
+        "Ajouter le bœuf haché et le faire revenir en le détachant.",
+        "Ajouter le concentré, les tomates concassées, le bouillon et le thym.",
+        "Laisser mijoter pour obtenir une garniture liée, sans excès de liquide.",
+        "Prélever la quantité de béchamel indiquée pour les lasagnes bolognaises.",
+        "Monter les bacs en alternant feuilles de lasagne, garniture et béchamel.",
+        "Répartir le Grana de finition sur les bacs.",
+        "Cuire 45 minutes à 180 °C en four ventilé."
+      ],
+      "notes": [],
+      "allergens": [
+        "Gluten",
+        "Lait",
+        "Céleri"
+      ],
+      "reviewNames": [
+        "Bouillon de bœuf préparé"
+      ],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "lasagnes",
+        "componentId": "lasagnes:component:lasagnes-saumon",
+        "sharedPreparationId": null,
+        "recipeId": "lasagnes:recipe:lasagnes-saumon"
+      },
+      "name": "Lasagnes saumon-épinards",
+      "id": "lasagnes-saumon",
+      "categories": [
+        [
+          "Protéine",
+          "Poisson"
+        ],
+        [
+          "Féculent"
+        ],
+        [
+          "Légume"
+        ],
+        [
+          "Plat complet"
+        ]
+      ],
+      "colorProfile": "fish",
+      "calculatedPortions": 30,
+      "shared": false,
+      "productionReferences": [
+        {
+          "type": "per_production_unit",
+          "label": "1 GN 1/1",
+          "order": 0,
+          "base": {
+            "exact": {
+              "numerator": "1",
+              "denominator": "1"
+            },
+            "unit": "bacs",
+            "displayQuantity": "1 bac"
+          },
+          "yield": {
+            "exact": {
+              "numerator": "10",
+              "denominator": "1"
+            },
+            "unit": "portions",
+            "displayQuantity": "10 portions"
+          },
+          "productionUnitId": "production-1",
+          "ratios": [
+            {
+              "name": "Feuilles de lasagne",
+              "source": "production_subunit",
+              "isQs": false,
+              "exact": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "unit": "unités",
+              "displayQuantity": "4 unités",
+              "order": 0
+            }
+          ]
+        }
+      ],
+      "productionUnits": {
+        "name": "Bac GN 1/1",
+        "units": "3 bacs",
+        "items": "12 plaques",
+        "capacity": "30 portions",
+        "ingredientBasis": "Ingrédients sur les portions demandées"
+      },
+      "ingredients": [
+        {
+          "name": "Saumon",
+          "displayQuantity": "3,6 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "18",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Épinards surgelés",
+          "displayQuantity": "4,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "9",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Jus de citron",
+          "displayQuantity": "150 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "150",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Grana Padano de finition",
+          "displayQuantity": "150 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "150",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Béchamel prélevée",
+          "displayQuantity": "4,0 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "4",
+            "denominator": "1"
+          },
+          "internalTransfer": true
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Cuire les épinards puis les égoutter soigneusement."
+        },
+        {
+          "order": 2,
+          "text": "Préparer le saumon en morceaux et ajouter le jus de citron."
+        },
+        {
+          "order": 3,
+          "text": "Prélever la quantité de béchamel indiquée pour les lasagnes saumon-épinards."
+        },
+        {
+          "order": 4,
+          "text": "Monter les bacs en alternant feuilles de lasagne, saumon, épinards et béchamel."
+        },
+        {
+          "order": 5,
+          "text": "Répartir le Grana de finition sur les bacs."
+        },
+        {
+          "order": 6,
+          "text": "Cuire 45 minutes à 180 °C en four ventilé."
+        }
+      ],
+      "steps": [
+        "Cuire les épinards puis les égoutter soigneusement.",
+        "Préparer le saumon en morceaux et ajouter le jus de citron.",
+        "Prélever la quantité de béchamel indiquée pour les lasagnes saumon-épinards.",
+        "Monter les bacs en alternant feuilles de lasagne, saumon, épinards et béchamel.",
+        "Répartir le Grana de finition sur les bacs.",
+        "Cuire 45 minutes à 180 °C en four ventilé."
+      ],
+      "notes": [],
+      "allergens": [
+        "Poisson",
+        "Gluten",
+        "Lait"
+      ],
+      "reviewNames": [],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "lasagnes",
+        "componentId": "lasagnes:component:salade",
+        "sharedPreparationId": null,
+        "recipeId": "lasagnes:recipe:salade"
+      },
+      "name": "Salade verte",
+      "id": "salade",
+      "categories": [
+        [
+          "Légume"
+        ]
+      ],
+      "colorProfile": "vegetable",
+      "calculatedPortions": 100,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Salade verte",
+          "displayQuantity": "5,0 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "5",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Préparer la salade selon son conditionnement : laver et essorer si nécessaire."
+        },
+        {
+          "order": 2,
+          "text": "Dresser la quantité de salade indiquée."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter la vinaigrette au moment du service, ou la proposer à part."
+        }
+      ],
+      "steps": [
+        "Préparer la salade selon son conditionnement : laver et essorer si nécessaire.",
+        "Dresser la quantité de salade indiquée.",
+        "Ajouter la vinaigrette au moment du service, ou la proposer à part."
+      ],
+      "notes": [],
+      "allergens": [],
+      "reviewNames": [],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "lasagnes",
+        "componentId": "lasagnes:component:vinaigrette",
+        "sharedPreparationId": null,
+        "recipeId": "lasagnes:recipe:vinaigrette"
+      },
+      "name": "Vinaigrette",
+      "id": "vinaigrette",
+      "categories": [
+        [
+          "Sauce"
+        ]
+      ],
+      "colorProfile": "sauce",
+      "calculatedPortions": 100,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Huile de colza",
+          "displayQuantity": "900 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "900",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Vinaigre de cidre",
+          "displayQuantity": "300 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "300",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Moutarde à l’ancienne",
+          "displayQuantity": "150 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "150",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Miel",
+          "displayQuantity": "80 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "75",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Échalotes surgelées",
+          "displayQuantity": "110 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "110",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Eau (si besoin pour détendre)",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Mélanger le vinaigre, la moutarde, le miel, le sel et le poivre."
+        },
+        {
+          "order": 2,
+          "text": "Incorporer l’huile progressivement en fouettant."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter les échalotes et mélanger."
+        },
+        {
+          "order": 4,
+          "text": "Détendre avec un peu d’eau uniquement si nécessaire."
+        },
+        {
+          "order": 5,
+          "text": "Mélanger de nouveau avant le service."
+        }
+      ],
+      "steps": [
+        "Mélanger le vinaigre, la moutarde, le miel, le sel et le poivre.",
+        "Incorporer l’huile progressivement en fouettant.",
+        "Ajouter les échalotes et mélanger.",
+        "Détendre avec un peu d’eau uniquement si nécessaire.",
+        "Mélanger de nouveau avant le service."
+      ],
+      "notes": [],
+      "allergens": [
+        "Moutarde"
+      ],
+      "reviewNames": [],
+      "yield": "1,5 L",
+      "serviceRule": null,
+      "allocations": []
+    }
+  ],
+  "sharedPreparations": [
+    {
+      "source": {
+        "serviceId": "lasagnes",
+        "componentId": null,
+        "sharedPreparationId": "lasagnes:preparation:bechamel",
+        "recipeId": "lasagnes:recipe:bechamel"
+      },
+      "name": "Béchamel commune",
+      "id": "bechamel",
+      "categories": [
+        [
+          "Préparation commune"
+        ]
+      ],
+      "colorProfile": "neutral",
+      "calculatedPortions": 100,
+      "shared": true,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Lait",
+          "displayQuantity": "12,0 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "12",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Beurre",
+          "displayQuantity": "600 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "600",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Farine",
+          "displayQuantity": "600 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "600",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Grana Padano (béchamel)",
+          "displayQuantity": "1,0 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Muscade",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Faire fondre le beurre. Ajouter la farine et mélanger pour réaliser un roux."
+        },
+        {
+          "order": 2,
+          "text": "Incorporer progressivement le lait en fouettant."
+        },
+        {
+          "order": 3,
+          "text": "Chauffer en remuant jusqu’à liaison de la sauce."
+        },
+        {
+          "order": 4,
+          "text": "Incorporer le Grana, puis muscade, sel et poivre."
+        },
+        {
+          "order": 5,
+          "text": "Répartir selon les prélèvements indiqués."
+        }
+      ],
+      "steps": [
+        "Faire fondre le beurre. Ajouter la farine et mélanger pour réaliser un roux.",
+        "Incorporer progressivement le lait en fouettant.",
+        "Chauffer en remuant jusqu’à liaison de la sauce.",
+        "Incorporer le Grana, puis muscade, sel et poivre.",
+        "Répartir selon les prélèvements indiqués."
+      ],
+      "notes": [],
+      "allergens": [
+        "Gluten",
+        "Lait"
+      ],
+      "reviewNames": [],
+      "yield": "12,0 L",
+      "serviceRule": null,
+      "allocations": [
+        {
+          "to": "Lasagnes bolognaises",
+          "displayQuantity": "8,0 L"
+        },
+        {
+          "to": "Lasagnes saumon-épinards",
+          "displayQuantity": "4,0 L"
+        }
+      ]
+    }
+  ],
+  "allergens": [
+    "Gluten",
+    "Lait",
+    "Céleri",
+    "Poisson",
+    "Moutarde"
+  ],
+  "reviewNames": [
+    "Bouillon de bœuf préparé"
+  ],
+  "allergensComplete": false,
+  "notes": [
+    "Quantités arrondies uniquement à l’affichage.",
+    "QS : quantité suffisante, à ajuster à la préparation."
+  ],
+  "roundingNote": "kg / L : au dixième · g / ml : à la dizaine · pièces : entières"
+}

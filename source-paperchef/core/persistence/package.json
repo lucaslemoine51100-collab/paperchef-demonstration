@@ -1,0 +1,9 @@
+{
+  "name": "catering-v0-persistence",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {"test": "node ../run-tests.js", "seeds": "node generate-seeds.js", "ingredients": "node generate-ingredient-seeds.js"},
+  "devDependencies": {"@electric-sql/pglite": "0.3.14"},
+  "peerDependencies": {"pg": "^8.0.0"},
+  "peerDependenciesMeta": {"pg": {"optional": true}}
+}

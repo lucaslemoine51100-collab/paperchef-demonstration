@@ -1,0 +1,4799 @@
+{
+  "scope": "multi_service_portrait",
+  "title": "LUNDI",
+  "orientation": "portrait",
+  "dateRange": {
+    "start": "2026-10-05",
+    "end": "2026-10-05",
+    "complete": true
+  },
+  "rangeLabel": "LUNDI 2026-10-05 → LUNDI 2026-10-05",
+  "serviceCount": 2,
+  "services": [
+    {
+      "serviceId": "service-reference",
+      "serviceName": "Carbonnade / Limande",
+      "headcount": 170,
+      "serviceDate": "2026-10-05",
+      "mealType": "lunch",
+      "planningSource": "selection",
+      "selectionIndex": 0,
+      "dayLabel": "LUNDI",
+      "mealLabel": "MIDI",
+      "label": "LUNDI — MIDI",
+      "coversLabel": "MIDI : 170 COUVERTS"
+    },
+    {
+      "serviceId": "lasagnes",
+      "serviceName": "Lasagnes bolognaises / saumon-épinards",
+      "headcount": 150,
+      "serviceDate": "2026-10-05",
+      "mealType": "dinner",
+      "planningSource": "selection",
+      "selectionIndex": 1,
+      "dayLabel": "LUNDI",
+      "mealLabel": "SOIR",
+      "label": "LUNDI — SOIR",
+      "coversLabel": "SOIR : 150 COUVERTS"
+    }
+  ],
+  "covers": {
+    "total": "320",
+    "byService": [
+      {
+        "serviceId": "service-reference",
+        "serviceName": "Carbonnade / Limande",
+        "headcount": 170,
+        "serviceDate": "2026-10-05",
+        "mealType": "lunch",
+        "planningSource": "selection",
+        "selectionIndex": 0,
+        "dayLabel": "LUNDI",
+        "mealLabel": "MIDI",
+        "label": "LUNDI — MIDI",
+        "coversLabel": "MIDI : 170 COUVERTS"
+      },
+      {
+        "serviceId": "lasagnes",
+        "serviceName": "Lasagnes bolognaises / saumon-épinards",
+        "headcount": 150,
+        "serviceDate": "2026-10-05",
+        "mealType": "dinner",
+        "planningSource": "selection",
+        "selectionIndex": 1,
+        "dayLabel": "LUNDI",
+        "mealLabel": "SOIR",
+        "label": "LUNDI — SOIR",
+        "coversLabel": "SOIR : 150 COUVERTS"
+      }
+    ]
+  },
+  "summaryLabels": [
+    "MIDI : 170 COUVERTS",
+    "SOIR : 150 COUVERTS",
+    "TOTAL : 320 COUVERTS"
+  ],
+  "categories": [
+    {
+      "id": "Dairy",
+      "label": "Crémerie",
+      "color": "#7e3298",
+      "icon": "milk",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-22",
+          "name": "Beurre doux",
+          "displayQuantity": "4,0 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "809",
+            "denominator": "200"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "unit": "g",
+                "exact": {
+                  "numerator": "425",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "425",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "40"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "68",
+                  "denominator": "25"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "68",
+                "denominator": "25"
+              },
+              "exact_quantity": {
+                "numerator": "68",
+                "denominator": "25"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "unit": "g",
+                "exact": {
+                  "numerator": "900",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "900",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "9",
+                "denominator": "10"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "ingredient-23",
+          "name": "Crème liquide",
+          "displayQuantity": "1,2 L",
+          "displayUnit": "L",
+          "exactQuantity": {
+            "numerator": "119",
+            "denominator": "100"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-23",
+                "normalized_name": "Crème liquide",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "1190",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "1190",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "119",
+                "denominator": "100"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-45",
+          "name": "Grana Padano",
+          "displayQuantity": "2,3 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "9",
+            "denominator": "4"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-45",
+                "normalized_name": "Grana Padano",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "3",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "3",
+                "denominator": "2"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "grana-finition",
+              "recipe_name": "Grana Padano de finition",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-45",
+                "normalized_name": "Grana Padano",
+                "unit": "g",
+                "exact": {
+                  "numerator": "750",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "750",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "4"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-53",
+          "name": "Lait",
+          "displayQuantity": "18,0 L",
+          "displayUnit": "L",
+          "exactQuantity": {
+            "numerator": "18",
+            "denominator": "1"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-53",
+                "normalized_name": "Lait",
+                "unit": "L",
+                "exact": {
+                  "numerator": "18",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "18",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "18",
+                "denominator": "1"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Meat",
+      "label": "Viande",
+      "color": "#d51f3c",
+      "icon": "meat",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-1",
+          "name": "Bœuf à mijoter",
+          "displayQuantity": "17,9 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "357",
+            "denominator": "20"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-1",
+                "normalized_name": "Bœuf à mijoter",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "357",
+                  "denominator": "20"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "357",
+                "denominator": "20"
+              },
+              "exact_quantity": {
+                "numerator": "357",
+                "denominator": "20"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-41",
+          "name": "Bœuf haché",
+          "displayQuantity": "10,5 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "21",
+            "denominator": "2"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-41",
+                "normalized_name": "Bœuf haché",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "21",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Fish",
+      "label": "Poisson",
+      "color": "#007cc1",
+      "icon": "fish",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-17",
+          "name": "Limande meunière surgelée",
+          "displayQuantity": "51 pièces",
+          "displayUnit": "pièces",
+          "exactQuantity": {
+            "numerator": "51",
+            "denominator": "1"
+          },
+          "canonicalUnit": "pièces",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "limande",
+              "recipe_name": "Limande meunière",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-17",
+                "normalized_name": "Limande meunière surgelée",
+                "unit": "unités",
+                "exact": {
+                  "numerator": "51",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "pièces",
+              "original_exact_quantity": {
+                "numerator": "51",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "51",
+                "denominator": "1"
+              },
+              "canonical_unit": "pièces",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-43",
+          "name": "Saumon",
+          "displayQuantity": "5,4 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "27",
+            "denominator": "5"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-saumon",
+              "recipe_name": "Lasagnes saumon-épinards",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-43",
+                "normalized_name": "Saumon",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "27",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "27",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "27",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Frozen",
+      "label": "Surgelé",
+      "color": "#009cb7",
+      "icon": "snow",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-v1-f520fc8c78c3148c",
+          "name": "Brunoise carotte/oignon/céleri",
+          "displayQuantity": "1,6 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "63",
+            "denominator": "40"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-v1-f520fc8c78c3148c",
+                "normalized_name": "Brunoise carotte/oignon/céleri",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "63",
+                  "denominator": "40"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "63",
+                "denominator": "40"
+              },
+              "exact_quantity": {
+                "numerator": "63",
+                "denominator": "40"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-51",
+          "name": "Échalotes surgelées",
+          "displayQuantity": "170 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "33",
+            "denominator": "200"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-51",
+                "normalized_name": "Échalotes surgelées",
+                "unit": "g",
+                "exact": {
+                  "numerator": "165",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "165",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "33",
+                "denominator": "200"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-v1-193f3be8b788e191",
+          "name": "Épinards surgelés",
+          "displayQuantity": "6,8 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "27",
+            "denominator": "4"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-saumon",
+              "recipe_name": "Lasagnes saumon-épinards",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-v1-193f3be8b788e191",
+                "normalized_name": "Épinards surgelés",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "27",
+                  "denominator": "4"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "27",
+                "denominator": "4"
+              },
+              "exact_quantity": {
+                "numerator": "27",
+                "denominator": "4"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "FreshProduce",
+      "label": "Fruits et légumes frais",
+      "color": "#398421",
+      "icon": "leaf",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-39",
+          "name": "Ail",
+          "displayQuantity": "110 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "21",
+            "denominator": "200"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-39",
+                "normalized_name": "Ail",
+                "unit": "g",
+                "exact": {
+                  "numerator": "105",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "105",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "21",
+                "denominator": "200"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-3",
+          "name": "Carottes fraîches",
+          "displayQuantity": "22,8 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "1139",
+            "denominator": "50"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-3",
+                "normalized_name": "Carottes fraîches",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "119",
+                  "denominator": "50"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "119",
+                "denominator": "50"
+              },
+              "exact_quantity": {
+                "numerator": "119",
+                "denominator": "50"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-3",
+                "normalized_name": "Carottes fraîches",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "102",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "102",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "102",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-24",
+          "name": "Échalotes fraîches",
+          "displayQuantity": "510 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "51",
+            "denominator": "100"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-24",
+                "normalized_name": "Échalotes fraîches",
+                "unit": "g",
+                "exact": {
+                  "numerator": "510",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "510",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "51",
+                "denominator": "100"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-18",
+          "name": "Frites crues sous vide",
+          "displayQuantity": "34,0 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "34",
+            "denominator": "1"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "frites",
+              "recipe_name": "Frites",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-18",
+                "normalized_name": "Frites crues sous vide",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "34",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "34",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "34",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-2",
+          "name": "Oignons frais",
+          "displayQuantity": "4,8 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "119",
+            "denominator": "25"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-2",
+                "normalized_name": "Oignons frais",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "119",
+                  "denominator": "25"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "119",
+                "denominator": "25"
+              },
+              "exact_quantity": {
+                "numerator": "119",
+                "denominator": "25"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-46",
+          "name": "Salade verte",
+          "displayQuantity": "7,5 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "15",
+            "denominator": "2"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "salade",
+              "recipe_name": "Salade verte",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-46",
+                "normalized_name": "Salade verte",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "15",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "15",
+                "denominator": "2"
+              },
+              "exact_quantity": {
+                "numerator": "15",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    },
+    {
+      "id": "Grocery",
+      "label": "Épicerie",
+      "color": "#e88300",
+      "icon": "jar",
+      "isEmpty": false,
+      "lines": [
+        {
+          "ingredientId": "ingredient-8",
+          "name": "Bière brune/ambrée",
+          "displayQuantity": "5,1 L",
+          "displayUnit": "L",
+          "exactQuantity": {
+            "numerator": "51",
+            "denominator": "10"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-8",
+                "normalized_name": "Bière brune/ambrée",
+                "unit": "L",
+                "exact": {
+                  "numerator": "51",
+                  "denominator": "10"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "51",
+                "denominator": "10"
+              },
+              "exact_quantity": {
+                "numerator": "51",
+                "denominator": "10"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "purchase-bouillon-beef-powder",
+          "name": "Bouillon de bœuf en poudre",
+          "displayQuantity": "200 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "199",
+            "denominator": "1000"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-9",
+                "normalized_name": "Bouillon de bœuf préparé",
+                "unit": "L",
+                "exact": {
+                  "numerator": "34",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "680",
+                "denominator": "5000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "125"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-9",
+                "normalized_name": "Bouillon de bœuf préparé",
+                "unit": "L",
+                "exact": {
+                  "numerator": "63",
+                  "denominator": "20"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "1260",
+                "denominator": "20000"
+              },
+              "exact_quantity": {
+                "numerator": "63",
+                "denominator": "1000"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "purchase-bouillon-vegetables-powder",
+          "name": "Bouillon de légumes en poudre",
+          "displayQuantity": "70 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "17",
+            "denominator": "250"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-35",
+                "normalized_name": "Bouillon de légumes préparé",
+                "unit": "L",
+                "exact": {
+                  "numerator": "17",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "340",
+                "denominator": "5000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "250"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-6",
+          "name": "Cassonade",
+          "displayQuantity": "240 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "119",
+            "denominator": "500"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-6",
+                "normalized_name": "Cassonade",
+                "unit": "g",
+                "exact": {
+                  "numerator": "238",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "238",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "119",
+                "denominator": "500"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-36",
+          "name": "Concentré de tomate",
+          "displayQuantity": "530 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "21",
+            "denominator": "40"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-36",
+                "normalized_name": "Concentré de tomate",
+                "unit": "g",
+                "exact": {
+                  "numerator": "525",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "525",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "21",
+                "denominator": "40"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-5",
+          "name": "Farine de blé",
+          "displayQuantity": "1,3 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "53",
+            "denominator": "40"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-5",
+                "normalized_name": "Farine de blé",
+                "unit": "g",
+                "exact": {
+                  "numerator": "425",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "425",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "40"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-5",
+                "normalized_name": "Farine de blé",
+                "unit": "g",
+                "exact": {
+                  "numerator": "900",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "900",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "9",
+                "denominator": "10"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "ingredient-4",
+          "name": "Huile",
+          "displayQuantity": "680 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "17",
+            "denominator": "25"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-4",
+                "normalized_name": "Huile",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "510",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "510",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "51",
+                "denominator": "100"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-4",
+                "normalized_name": "Huile",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "170",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "170",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "100"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-31",
+          "name": "Huile d’olive",
+          "displayQuantity": "320 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "63",
+            "denominator": "200"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-31",
+                "normalized_name": "Huile d’olive",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "315",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "315",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "63",
+                "denominator": "200"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-47",
+          "name": "Huile de colza",
+          "displayQuantity": "1,4 L",
+          "displayUnit": "L",
+          "exactQuantity": {
+            "numerator": "27",
+            "denominator": "20"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-47",
+                "normalized_name": "Huile de colza",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "1350",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "1350",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "27",
+                "denominator": "20"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-26",
+          "name": "Jus de citron",
+          "displayQuantity": "400 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "79",
+            "denominator": "200"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-26",
+                "normalized_name": "Jus de citron",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "170",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "170",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "100"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-saumon",
+              "recipe_name": "Lasagnes saumon-épinards",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-26",
+                "normalized_name": "Jus de citron",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "225",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "225",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "9",
+                "denominator": "40"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "ingredient-13",
+          "name": "Laurier sec",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "pièces",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-13",
+                "normalized_name": "Laurier sec",
+                "unit": "pièces",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "pièces",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "pièces",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-27",
+          "name": "Maïzena",
+          "displayQuantity": "50 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "51",
+            "denominator": "1000"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-27",
+                "normalized_name": "Maïzena",
+                "unit": "g",
+                "exact": {
+                  "numerator": "51",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "51",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "51",
+                "denominator": "1000"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-50",
+          "name": "Miel",
+          "displayQuantity": "110 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "9",
+            "denominator": "80"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-50",
+                "normalized_name": "Miel",
+                "unit": "g",
+                "exact": {
+                  "numerator": "225",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "225",
+                "denominator": "2000"
+              },
+              "exact_quantity": {
+                "numerator": "9",
+                "denominator": "80"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-49",
+          "name": "Moutarde à l’ancienne",
+          "displayQuantity": "230 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "9",
+            "denominator": "40"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-49",
+                "normalized_name": "Moutarde à l’ancienne",
+                "unit": "g",
+                "exact": {
+                  "numerator": "225",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "225",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "9",
+                "denominator": "40"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-11",
+          "name": "Moutarde forte",
+          "displayQuantity": "850 g",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "17",
+            "denominator": "20"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-11",
+                "normalized_name": "Moutarde forte",
+                "unit": "g",
+                "exact": {
+                  "numerator": "850",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "850",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "20"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-54",
+          "name": "Muscade",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-54",
+                "normalized_name": "Muscade",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-10",
+          "name": "Pain d’épices",
+          "displayQuantity": "1,7 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "17",
+            "denominator": "10"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-10",
+                "normalized_name": "Pain d’épices",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "17",
+                  "denominator": "10"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "17",
+                "denominator": "10"
+              },
+              "exact_quantity": {
+                "numerator": "17",
+                "denominator": "10"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-15",
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "ingredient-14",
+          "name": "Sel fin",
+          "displayQuantity": "QS",
+          "displayUnit": null,
+          "exactQuantity": null,
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carottes",
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "bechamel",
+              "recipe_name": "Béchamel commune",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "ingredient-12",
+          "name": "Thym sec",
+          "displayQuantity": "30 g + QS",
+          "displayUnit": "g",
+          "exactQuantity": {
+            "numerator": "3",
+            "denominator": "100"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": false,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-12",
+                "normalized_name": "Thym sec",
+                "unit": "kg",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — MIDI"
+            },
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-12",
+                "normalized_name": "Thym sec",
+                "unit": "g",
+                "exact": {
+                  "numerator": "30",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "30",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "100"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "service-reference",
+            "lasagnes"
+          ],
+          "sourceCount": 2
+        },
+        {
+          "ingredientId": "ingredient-34",
+          "name": "Tomates concassées",
+          "displayQuantity": "10,5 kg",
+          "displayUnit": "kg",
+          "exactQuantity": {
+            "numerator": "21",
+            "denominator": "2"
+          },
+          "canonicalUnit": "kg",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "lasagnes-bolo",
+              "recipe_name": "Lasagnes bolognaises",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-34",
+                "normalized_name": "Tomates concassées",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "21",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-48",
+          "name": "Vinaigre de cidre",
+          "displayQuantity": "450 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "9",
+            "denominator": "20"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 1,
+              "service_id": "lasagnes",
+              "service_name": "Lasagnes bolognaises / saumon-épinards",
+              "headcount": 150,
+              "recipe_id": "vinaigrette",
+              "recipe_name": "Vinaigrette",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-48",
+                "normalized_name": "Vinaigre de cidre",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "450",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "450",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "9",
+                "denominator": "20"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — SOIR"
+            }
+          ],
+          "sourceServices": [
+            "lasagnes"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-7",
+          "name": "Vinaigre de vin",
+          "displayQuantity": "240 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "119",
+            "denominator": "500"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "carbonnade",
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-7",
+                "normalized_name": "Vinaigre de vin",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "238",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "238",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "119",
+                "denominator": "500"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        },
+        {
+          "ingredientId": "ingredient-25",
+          "name": "Vinaigre de vin blanc",
+          "displayQuantity": "260 ml",
+          "displayUnit": "ml",
+          "exactQuantity": {
+            "numerator": "51",
+            "denominator": "200"
+          },
+          "canonicalUnit": "L",
+          "quantityComplete": true,
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 170,
+              "recipe_id": "beurre-blanc",
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-25",
+                "normalized_name": "Vinaigre de vin blanc",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "255",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "255",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "51",
+                "denominator": "200"
+              },
+              "canonical_unit": "L",
+              "serviceLabel": "LUNDI — MIDI"
+            }
+          ],
+          "sourceServices": [
+            "service-reference"
+          ],
+          "sourceCount": 1
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "columns": [
+        [
+          {
+            "id": "Dairy",
+            "label": "Crémerie",
+            "color": "#7e3298",
+            "icon": "milk",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-22",
+                "name": "Beurre doux",
+                "displayQuantity": "4,0 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "809",
+                  "denominator": "200"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-22",
+                      "normalized_name": "Beurre doux",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "425",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "425",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "40"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-22",
+                      "normalized_name": "Beurre doux",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "68",
+                        "denominator": "25"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "68",
+                      "denominator": "25"
+                    },
+                    "exact_quantity": {
+                      "numerator": "68",
+                      "denominator": "25"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-22",
+                      "normalized_name": "Beurre doux",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "900",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "900",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "9",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "ingredient-23",
+                "name": "Crème liquide",
+                "displayQuantity": "1,2 L",
+                "displayUnit": "L",
+                "exactQuantity": {
+                  "numerator": "119",
+                  "denominator": "100"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-23",
+                      "normalized_name": "Crème liquide",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "1190",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "1190",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-45",
+                "name": "Grana Padano",
+                "displayQuantity": "2,3 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "9",
+                  "denominator": "4"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-45",
+                      "normalized_name": "Grana Padano",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "3",
+                        "denominator": "2"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "2"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "2"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "grana-finition",
+                    "recipe_name": "Grana Padano de finition",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-45",
+                      "normalized_name": "Grana Padano",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "750",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "750",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "4"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-53",
+                "name": "Lait",
+                "displayQuantity": "18,0 L",
+                "displayUnit": "L",
+                "exactQuantity": {
+                  "numerator": "18",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-53",
+                      "normalized_name": "Lait",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "18",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "18",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "18",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "Meat",
+            "label": "Viande",
+            "color": "#d51f3c",
+            "icon": "meat",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-1",
+                "name": "Bœuf à mijoter",
+                "displayQuantity": "17,9 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "357",
+                  "denominator": "20"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-1",
+                      "normalized_name": "Bœuf à mijoter",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "357",
+                        "denominator": "20"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "357",
+                      "denominator": "20"
+                    },
+                    "exact_quantity": {
+                      "numerator": "357",
+                      "denominator": "20"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-41",
+                "name": "Bœuf haché",
+                "displayQuantity": "10,5 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "21",
+                  "denominator": "2"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-41",
+                      "normalized_name": "Bœuf haché",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "21",
+                        "denominator": "2"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "2"
+                    },
+                    "exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "2"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "Fish",
+            "label": "Poisson",
+            "color": "#007cc1",
+            "icon": "fish",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-17",
+                "name": "Limande meunière surgelée",
+                "displayQuantity": "51 pièces",
+                "displayUnit": "pièces",
+                "exactQuantity": {
+                  "numerator": "51",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "pièces",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "limande",
+                    "recipe_name": "Limande meunière",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-17",
+                      "normalized_name": "Limande meunière surgelée",
+                      "unit": "unités",
+                      "exact": {
+                        "numerator": "51",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "pièces",
+                    "original_exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "pièces",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-43",
+                "name": "Saumon",
+                "displayQuantity": "5,4 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "27",
+                  "denominator": "5"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-saumon",
+                    "recipe_name": "Lasagnes saumon-épinards",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-43",
+                      "normalized_name": "Saumon",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "27",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "27",
+                      "denominator": "5"
+                    },
+                    "exact_quantity": {
+                      "numerator": "27",
+                      "denominator": "5"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "Frozen",
+            "label": "Surgelé",
+            "color": "#009cb7",
+            "icon": "snow",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-v1-f520fc8c78c3148c",
+                "name": "Brunoise carotte/oignon/céleri",
+                "displayQuantity": "1,6 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "63",
+                  "denominator": "40"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-v1-f520fc8c78c3148c",
+                      "normalized_name": "Brunoise carotte/oignon/céleri",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "63",
+                        "denominator": "40"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "63",
+                      "denominator": "40"
+                    },
+                    "exact_quantity": {
+                      "numerator": "63",
+                      "denominator": "40"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-51",
+                "name": "Échalotes surgelées",
+                "displayQuantity": "170 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "33",
+                  "denominator": "200"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-51",
+                      "normalized_name": "Échalotes surgelées",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "165",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "165",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "33",
+                      "denominator": "200"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-v1-193f3be8b788e191",
+                "name": "Épinards surgelés",
+                "displayQuantity": "6,8 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "27",
+                  "denominator": "4"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-saumon",
+                    "recipe_name": "Lasagnes saumon-épinards",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-v1-193f3be8b788e191",
+                      "normalized_name": "Épinards surgelés",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "27",
+                        "denominator": "4"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "27",
+                      "denominator": "4"
+                    },
+                    "exact_quantity": {
+                      "numerator": "27",
+                      "denominator": "4"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          },
+          {
+            "id": "FreshProduce",
+            "label": "Fruits et légumes frais",
+            "color": "#398421",
+            "icon": "leaf",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-39",
+                "name": "Ail",
+                "displayQuantity": "110 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "21",
+                  "denominator": "200"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-39",
+                      "normalized_name": "Ail",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "105",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "105",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "200"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-3",
+                "name": "Carottes fraîches",
+                "displayQuantity": "22,8 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "1139",
+                  "denominator": "50"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-3",
+                      "normalized_name": "Carottes fraîches",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "119",
+                        "denominator": "50"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "50"
+                    },
+                    "exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "50"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-3",
+                      "normalized_name": "Carottes fraîches",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "102",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "102",
+                      "denominator": "5"
+                    },
+                    "exact_quantity": {
+                      "numerator": "102",
+                      "denominator": "5"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-24",
+                "name": "Échalotes fraîches",
+                "displayQuantity": "510 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "51",
+                  "denominator": "100"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-24",
+                      "normalized_name": "Échalotes fraîches",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "510",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "510",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-18",
+                "name": "Frites crues sous vide",
+                "displayQuantity": "34,0 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "34",
+                  "denominator": "1"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "frites",
+                    "recipe_name": "Frites",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-18",
+                      "normalized_name": "Frites crues sous vide",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "34",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "34",
+                      "denominator": "1"
+                    },
+                    "exact_quantity": {
+                      "numerator": "34",
+                      "denominator": "1"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-2",
+                "name": "Oignons frais",
+                "displayQuantity": "4,8 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "119",
+                  "denominator": "25"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-2",
+                      "normalized_name": "Oignons frais",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "119",
+                        "denominator": "25"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "25"
+                    },
+                    "exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "25"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-46",
+                "name": "Salade verte",
+                "displayQuantity": "7,5 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "15",
+                  "denominator": "2"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "salade",
+                    "recipe_name": "Salade verte",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-46",
+                      "normalized_name": "Salade verte",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "15",
+                        "denominator": "2"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "15",
+                      "denominator": "2"
+                    },
+                    "exact_quantity": {
+                      "numerator": "15",
+                      "denominator": "2"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          }
+        ],
+        [
+          {
+            "id": "Grocery",
+            "label": "Épicerie",
+            "color": "#e88300",
+            "icon": "jar",
+            "isEmpty": false,
+            "lines": [
+              {
+                "ingredientId": "ingredient-8",
+                "name": "Bière brune/ambrée",
+                "displayQuantity": "5,1 L",
+                "displayUnit": "L",
+                "exactQuantity": {
+                  "numerator": "51",
+                  "denominator": "10"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-8",
+                      "normalized_name": "Bière brune/ambrée",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "51",
+                        "denominator": "10"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "10"
+                    },
+                    "exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "purchase-bouillon-beef-powder",
+                "name": "Bouillon de bœuf en poudre",
+                "displayQuantity": "200 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "199",
+                  "denominator": "1000"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-9",
+                      "normalized_name": "Bouillon de bœuf préparé",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "34",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "680",
+                      "denominator": "5000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "125"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-9",
+                      "normalized_name": "Bouillon de bœuf préparé",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "63",
+                        "denominator": "20"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "1260",
+                      "denominator": "20000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "63",
+                      "denominator": "1000"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "purchase-bouillon-vegetables-powder",
+                "name": "Bouillon de légumes en poudre",
+                "displayQuantity": "70 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "17",
+                  "denominator": "250"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-35",
+                      "normalized_name": "Bouillon de légumes préparé",
+                      "unit": "L",
+                      "exact": {
+                        "numerator": "17",
+                        "denominator": "5"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "340",
+                      "denominator": "5000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "250"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-6",
+                "name": "Cassonade",
+                "displayQuantity": "240 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "119",
+                  "denominator": "500"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-6",
+                      "normalized_name": "Cassonade",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "238",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "238",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "500"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-36",
+                "name": "Concentré de tomate",
+                "displayQuantity": "530 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "21",
+                  "denominator": "40"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-36",
+                      "normalized_name": "Concentré de tomate",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "525",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "525",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "40"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-5",
+                "name": "Farine de blé",
+                "displayQuantity": "1,3 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "53",
+                  "denominator": "40"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-5",
+                      "normalized_name": "Farine de blé",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "425",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "425",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "40"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-5",
+                      "normalized_name": "Farine de blé",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "900",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "900",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "9",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "ingredient-4",
+                "name": "Huile",
+                "displayQuantity": "680 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "17",
+                  "denominator": "25"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-4",
+                      "normalized_name": "Huile",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "510",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "510",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-4",
+                      "normalized_name": "Huile",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "170",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "170",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-31",
+                "name": "Huile d’olive",
+                "displayQuantity": "320 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "63",
+                  "denominator": "200"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-31",
+                      "normalized_name": "Huile d’olive",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "315",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "315",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "63",
+                      "denominator": "200"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-47",
+                "name": "Huile de colza",
+                "displayQuantity": "1,4 L",
+                "displayUnit": "L",
+                "exactQuantity": {
+                  "numerator": "27",
+                  "denominator": "20"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-47",
+                      "normalized_name": "Huile de colza",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "1350",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "1350",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "27",
+                      "denominator": "20"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-26",
+                "name": "Jus de citron",
+                "displayQuantity": "400 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "79",
+                  "denominator": "200"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-26",
+                      "normalized_name": "Jus de citron",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "170",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "170",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-saumon",
+                    "recipe_name": "Lasagnes saumon-épinards",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-26",
+                      "normalized_name": "Jus de citron",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "225",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "225",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "9",
+                      "denominator": "40"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "ingredient-13",
+                "name": "Laurier sec",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "pièces",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-13",
+                      "normalized_name": "Laurier sec",
+                      "unit": "pièces",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "pièces",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "pièces",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-27",
+                "name": "Maïzena",
+                "displayQuantity": "50 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "51",
+                  "denominator": "1000"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-27",
+                      "normalized_name": "Maïzena",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "51",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "1000"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-50",
+                "name": "Miel",
+                "displayQuantity": "110 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "9",
+                  "denominator": "80"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-50",
+                      "normalized_name": "Miel",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "225",
+                        "denominator": "2"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "225",
+                      "denominator": "2000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "9",
+                      "denominator": "80"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-49",
+                "name": "Moutarde à l’ancienne",
+                "displayQuantity": "230 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "9",
+                  "denominator": "40"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-49",
+                      "normalized_name": "Moutarde à l’ancienne",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "225",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "225",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "9",
+                      "denominator": "40"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-11",
+                "name": "Moutarde forte",
+                "displayQuantity": "850 g",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "17",
+                  "denominator": "20"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-11",
+                      "normalized_name": "Moutarde forte",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "850",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "850",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "20"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-54",
+                "name": "Muscade",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-54",
+                      "normalized_name": "Muscade",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-10",
+                "name": "Pain d’épices",
+                "displayQuantity": "1,7 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "17",
+                  "denominator": "10"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-10",
+                      "normalized_name": "Pain d’épices",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "17",
+                        "denominator": "10"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "10"
+                    },
+                    "exact_quantity": {
+                      "numerator": "17",
+                      "denominator": "10"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "name": "Poivre noir",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-15",
+                      "normalized_name": "Poivre noir",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "name": "Sel fin",
+                "displayQuantity": "QS",
+                "displayUnit": null,
+                "exactQuantity": null,
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carottes",
+                    "recipe_name": "Carottes braisées",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "bechamel",
+                    "recipe_name": "Béchamel commune",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-14",
+                      "normalized_name": "Sel fin",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "ingredient-12",
+                "name": "Thym sec",
+                "displayQuantity": "30 g + QS",
+                "displayUnit": "g",
+                "exactQuantity": {
+                  "numerator": "3",
+                  "denominator": "100"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": false,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-12",
+                      "normalized_name": "Thym sec",
+                      "unit": "kg",
+                      "exact": null
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": null,
+                    "exact_quantity": null,
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — MIDI"
+                  },
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-12",
+                      "normalized_name": "Thym sec",
+                      "unit": "g",
+                      "exact": {
+                        "numerator": "30",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "30",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "3",
+                      "denominator": "100"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference",
+                  "lasagnes"
+                ],
+                "sourceCount": 2
+              },
+              {
+                "ingredientId": "ingredient-34",
+                "name": "Tomates concassées",
+                "displayQuantity": "10,5 kg",
+                "displayUnit": "kg",
+                "exactQuantity": {
+                  "numerator": "21",
+                  "denominator": "2"
+                },
+                "canonicalUnit": "kg",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "lasagnes-bolo",
+                    "recipe_name": "Lasagnes bolognaises",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-34",
+                      "normalized_name": "Tomates concassées",
+                      "unit": "kg",
+                      "exact": {
+                        "numerator": "21",
+                        "denominator": "2"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "kg",
+                    "original_exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "2"
+                    },
+                    "exact_quantity": {
+                      "numerator": "21",
+                      "denominator": "2"
+                    },
+                    "canonical_unit": "kg",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-48",
+                "name": "Vinaigre de cidre",
+                "displayQuantity": "450 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "9",
+                  "denominator": "20"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 1,
+                    "service_id": "lasagnes",
+                    "service_name": "Lasagnes bolognaises / saumon-épinards",
+                    "headcount": 150,
+                    "recipe_id": "vinaigrette",
+                    "recipe_name": "Vinaigrette",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-48",
+                      "normalized_name": "Vinaigre de cidre",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "450",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "450",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "9",
+                      "denominator": "20"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — SOIR"
+                  }
+                ],
+                "sourceServices": [
+                  "lasagnes"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-7",
+                "name": "Vinaigre de vin",
+                "displayQuantity": "240 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "119",
+                  "denominator": "500"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "carbonnade",
+                    "recipe_name": "Carbonnade flamande",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-7",
+                      "normalized_name": "Vinaigre de vin",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "238",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "238",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "119",
+                      "denominator": "500"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              },
+              {
+                "ingredientId": "ingredient-25",
+                "name": "Vinaigre de vin blanc",
+                "displayQuantity": "260 ml",
+                "displayUnit": "ml",
+                "exactQuantity": {
+                  "numerator": "51",
+                  "denominator": "200"
+                },
+                "canonicalUnit": "L",
+                "quantityComplete": true,
+                "sources": [
+                  {
+                    "selection_index": 0,
+                    "service_id": "service-reference",
+                    "service_name": "Carbonnade / Limande",
+                    "headcount": 170,
+                    "recipe_id": "beurre-blanc",
+                    "recipe_name": "Sauce beurre blanc",
+                    "culinary_requirement": {
+                      "ingredient_id": "ingredient-25",
+                      "normalized_name": "Vinaigre de vin blanc",
+                      "unit": "ml",
+                      "exact": {
+                        "numerator": "255",
+                        "denominator": "1"
+                      }
+                    },
+                    "purchase_unit_convention": null,
+                    "original_unit": "L",
+                    "original_exact_quantity": {
+                      "numerator": "255",
+                      "denominator": "1000"
+                    },
+                    "exact_quantity": {
+                      "numerator": "51",
+                      "denominator": "200"
+                    },
+                    "canonical_unit": "L",
+                    "serviceLabel": "LUNDI — MIDI"
+                  }
+                ],
+                "sourceServices": [
+                  "service-reference"
+                ],
+                "sourceCount": 1
+              }
+            ],
+            "continuation": false
+          }
+        ]
+      ]
+    }
+  ],
+  "hasUnquantified": true
+}

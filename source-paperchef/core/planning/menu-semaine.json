@@ -1,0 +1,279 @@
+{
+  "weekId": "demo-week-2026-10-05",
+  "dateRangeLabel": "DU LUNDI 5 AU DIMANCHE 11 OCTOBRE 2026",
+  "days": [
+    {
+      "date": "2026-10-05",
+      "dayLabel": "LUNDI",
+      "lunchService": {
+        "plannedServiceId": "demo-monday-lunch",
+        "serviceTemplateId": "service-reference",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "service-reference:component:carbonnade",
+            "name": "Carbonnade flamande",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Viande"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "service-reference:component:limande",
+            "name": "Limande meunière",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Poisson"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "service-reference:component:frites",
+            "name": "Frites",
+            "functionalCategories": [
+              [
+                "Féculent"
+              ]
+            ],
+            "displayColor": "#d75b00"
+          },
+          {
+            "componentId": "service-reference:component:carottes",
+            "name": "Carottes braisées",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d"
+          },
+          {
+            "componentId": "service-reference:component:beurre-blanc",
+            "name": "Sauce beurre blanc",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5"
+          }
+        ]
+      },
+      "dinnerService": {
+        "plannedServiceId": "demo-monday-dinner",
+        "serviceTemplateId": "couscous-vegetarien",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "couscous-vegetarien:component:merguez-vegetales",
+            "name": "Merguez végétales",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Végétarien"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "couscous-vegetarien:component:semoule",
+            "name": "Semoule",
+            "functionalCategories": [
+              [
+                "Féculent"
+              ]
+            ],
+            "displayColor": "#d75b00"
+          },
+          {
+            "componentId": "couscous-vegetarien:component:legumes-couscous",
+            "name": "Légumes couscous",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d"
+          },
+          {
+            "componentId": "couscous-vegetarien:component:sauce-couscous",
+            "name": "Sauce couscous végétarienne",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "dayLabel": "MARDI",
+      "lunchService": {
+        "plannedServiceId": "demo-tuesday-lunch",
+        "serviceTemplateId": "lasagnes",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "lasagnes:component:lasagnes-bolo",
+            "name": "Lasagnes bolognaises",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Viande"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Légume"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "lasagnes:component:lasagnes-saumon",
+            "name": "Lasagnes saumon-épinards",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Poisson"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Légume"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "lasagnes:component:salade",
+            "name": "Salade verte",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d"
+          },
+          {
+            "componentId": "lasagnes:component:vinaigrette",
+            "name": "Vinaigrette",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5"
+          }
+        ]
+      },
+      "dinnerService": {
+        "plannedServiceId": "demo-tuesday-dinner",
+        "serviceTemplateId": "quiches",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "quiches:component:quiche-lard",
+            "name": "Quiche au lard",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Viande"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "quiches:component:quiche-thon",
+            "name": "Quiche au thon",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Poisson"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529"
+          },
+          {
+            "componentId": "quiches:component:salade",
+            "name": "Salade verte",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d"
+          },
+          {
+            "componentId": "quiches:component:vinaigrette",
+            "name": "Vinaigrette",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "dayLabel": "MERCREDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-08",
+      "dayLabel": "JEUDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-09",
+      "dayLabel": "VENDREDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-10",
+      "dayLabel": "SAMEDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-11",
+      "dayLabel": "DIMANCHE",
+      "lunchService": null,
+      "dinnerService": null
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+-- Catalogue V1 : 156 entrées demandées + 10 ingrédients génériques conservés.
+-- Import idempotent des noms ; IDs existants privilégiés. Les anciennes lignes ne sont jamais supprimées.
+BEGIN;
+CREATE TEMP TABLE incoming_ingredients (id text,name text,unit text,category text,status text,allergens jsonb,aliases jsonb) ON COMMIT DROP;
+INSERT INTO incoming_ingredients VALUES
+('ingredient-v1-b96db085f0aa6532','Bœuf à mijoter','kg','Meat','none','[]','["Bœuf à mijoter"]'),
+('ingredient-v1-c0671c9dae9f7670','Bœuf haché','kg','Meat','none','[]','["Bœuf haché"]'),
+('ingredient-v1-cef767edabd53bd6','Paleron de bœuf','kg','Meat','none','[]','["Paleron de bœuf"]'),
+('ingredient-v1-77ba559bdf5ba1f8','Joue de bœuf','kg','Meat','none','[]','["Joue de bœuf"]'),
+('ingredient-v1-56b39996a26dce2c','Rôti de bœuf','kg','Meat','none','[]','["Rôti de bœuf"]'),
+('ingredient-v1-d156e58393f50390','Sauté de veau','kg','Meat','none','[]','["Sauté de veau"]'),
+('ingredient-v1-407f3b38bea4d83e','Escalope de veau','kg','Meat','none','[]','["Escalope de veau"]'),
+('ingredient-v1-2171f9ffa8d07581','Sauté de porc','kg','Meat','none','[]','["Sauté de porc"]'),
+('ingredient-v1-27c149b0c6b4d75a','Rôti de porc','kg','Meat','none','[]','["Rôti de porc"]'),
+('ingredient-v1-46119d7d838bb9c5','Échine de porc','kg','Meat','none','[]','["Échine de porc"]'),
+('ingredient-v1-a4ad371bec3f88cb','Filet de porc','kg','Meat','none','[]','["Filet de porc"]'),
+('ingredient-v1-915fad9a91c7ddc8','Lardons crus','kg','Meat','review_required','[]','["Lardons crus"]'),
+('ingredient-v1-d1aa26fc9012cb9c','Jambon blanc','kg','Meat','review_required','[]','["Jambon blanc"]'),
+('ingredient-v1-f317612eaade5915','Jambon cru','kg','Meat','review_required','[]','["Jambon cru"]'),
+('ingredient-v1-050f2416d8bf5140','Saucisse fumée','pièces','Meat','review_required','[]','["Saucisse fumée"]'),
+('ingredient-v1-c4bf5e6d6ca9fdfd','Saucisse de Toulouse','pièces','Meat','review_required','[]','["Saucisse de Toulouse"]'),
+('ingredient-v1-0bd559b8e4ca09b9','Merguez viande','pièces','Meat','review_required','[]','["Merguez viande"]'),
+('ingredient-v1-0b665f10f0b0166f','Cuisse de poulet','pièces','Meat','none','[]','["Cuisse de poulet"]'),
+('ingredient-v1-5c042128805903e5','Filet de poulet','kg','Meat','none','[]','["Filet de poulet"]'),
+('ingredient-v1-915e2575b2176970','Escalope de dinde','kg','Meat','none','[]','["Escalope de dinde"]'),
+('ingredient-v1-a30eb44d707ba49c','Saumon sans peau','kg','Fish','known','["fish"]','["Saumon sans peau"]'),
+('ingredient-v1-2ba4f4491e8a829a','Cabillaud','kg','Fish','known','["fish"]','["Cabillaud"]'),
+('ingredient-v1-4c1001c251c1c923','Colin','kg','Fish','known','["fish"]','["Colin"]'),
+('ingredient-v1-d6d3f0bf3cde5234','Merlu','kg','Fish','known','["fish"]','["Merlu"]'),
+('ingredient-v1-f9704b20976fc97e','Limande meunière surgelée','pièces','Fish','known','["fish","gluten"]','["Limande meunière surgelée","Limande meunière"]'),
+('ingredient-v1-0358db8b8d8508bf','Truite','kg','Fish','known','["fish"]','["Truite"]'),
+('ingredient-v1-99be66bfa31747c6','Thon égoutté','kg','Fish','known','["fish"]','["Thon égoutté"]'),
+('ingredient-v1-bdcb15f432a96e61','Thon au naturel','kg','Fish','known','["fish"]','["Thon au naturel"]'),
+('ingredient-v1-5aef58ff95750cde','Maquereau','kg','Fish','known','["fish"]','["Maquereau"]'),
+('ingredient-v1-fcbae2dba427afdf','Sardine','kg','Fish','known','["fish"]','["Sardine"]'),
+('ingredient-v1-3aa90120e6ba14e8','Lieu noir','kg','Fish','known','["fish"]','["Lieu noir"]'),
+('ingredient-v1-42434c3bba6044f8','Lieu jaune','kg','Fish','known','["fish"]','["Lieu jaune"]'),
+('ingredient-v1-2bbcf3af610c60fd','Queue de lotte','kg','Fish','known','["fish"]','["Queue de lotte"]'),
+('ingredient-v1-f846268d307e51db','Sandre','kg','Fish','known','["fish"]','["Sandre"]'),
+('ingredient-v1-5968231e4bb9df69','Filet de poisson pané','pièces','Fish','review_required','["fish","gluten"]','["Filet de poisson pané"]'),
+('ingredient-v1-6ae99f60dd3a9238','Poisson meunière surgelé','pièces','Fish','review_required','["fish","gluten"]','["Poisson meunière surgelé"]'),
+('ingredient-v1-342b9196409e823d','Moules','kg','Fish','known','["molluscs"]','["Moules"]'),
+('ingredient-v1-8833fcc5c11f0770','Crevettes','kg','Fish','known','["crustaceans"]','["Crevettes"]'),
+('ingredient-v1-7a098147ca07d36d','Fumet de poisson préparé','L','Grocery','review_required','["fish"]','["Fumet de poisson préparé"]'),
+('ingredient-v1-78fd6a0f3e8de61d','Terrine de poisson','kg','Fish','review_required','["fish"]','["Terrine de poisson"]'),
+('ingredient-v1-f3ce6b297a235b0f','Frites crues sous vide/surgelées nature','kg','Frozen','review_required','[]','["Frites crues sous vide/surgelées nature","Frites crues sous vide"]'),
+('ingredient-v1-bae89e183758418f','Haricots verts surgelés','kg','Frozen','none','[]','["Haricots verts surgelés"]'),
+('ingredient-v1-769d1629ee71976c','Petits pois surgelés','kg','Frozen','none','[]','["Petits pois surgelés"]'),
+('ingredient-v1-93a75b742c2d12b0','Brocolis surgelés','kg','Frozen','none','[]','["Brocolis surgelés"]'),
+('ingredient-v1-e455de7686d0e562','Chou-fleur surgelé','kg','Frozen','none','[]','["Chou-fleur surgelé"]'),
+('ingredient-v1-193f3be8b788e191','Épinards surgelés','kg','Frozen','none','[]','["Épinards surgelés"]'),
+('ingredient-v1-54e7de78b83d414e','Courgettes surgelées','kg','Frozen','none','[]','["Courgettes surgelées"]'),
+('ingredient-v1-d978bdfba44f506f','Champignons surgelés','kg','Frozen','none','[]','["Champignons surgelés"]'),
+('ingredient-v1-fbd403d8db15822e','Poireaux surgelés','kg','Frozen','none','[]','["Poireaux surgelés"]'),
+('ingredient-v1-962f74b25026bab8','Carottes surgelées','kg','Frozen','none','[]','["Carottes surgelées"]'),
+('ingredient-v1-0ef59a229293bfc2','Légumes couscous surgelés','kg','Frozen','review_required','[]','["Légumes couscous surgelés"]'),
+('ingredient-v1-a9ef21942055d990','Ratatouille surgelée nature','kg','Frozen','review_required','[]','["Ratatouille surgelée nature"]'),
+('ingredient-v1-f520fc8c78c3148c','Brunoise carotte/oignon/céleri','kg','Frozen','known','["celery"]','["Brunoise carotte/oignon/céleri"]'),
+('ingredient-v1-365e510eed821d5d','Échalotes surgelées','kg','Frozen','none','[]','["Échalotes surgelées"]'),
+('ingredient-v1-ab44e914cb294827','Oignons surgelés','kg','Frozen','none','[]','["Oignons surgelés"]'),
+('ingredient-v1-68e347cca2fb6f84','Cerises surgelées','kg','Frozen','none','[]','["Cerises surgelées"]'),
+('ingredient-v1-c8d300764858dfc3','Myrtilles surgelées','kg','Frozen','none','[]','["Myrtilles surgelées"]'),
+('ingredient-v1-1f1c0e70907221d1','Feuilletage surgelé','plaques','Frozen','known','["gluten","milk"]','["Feuilletage surgelé"]'),
+('ingredient-v1-1354a0ff4ebf651d','Pâte brisée surgelée','plaques','Frozen','review_required','[]','["Pâte brisée surgelée"]'),
+('ingredient-v1-5fec4d56155e4fde','Merguez végétales','pièces','Frozen','review_required','[]','["Merguez végétales"]'),
+('ingredient-v1-556742eac078129f','Carottes fraîches','kg','FreshProduce','none','[]','["Carottes fraîches","Carottes"]'),
+('ingredient-v1-55af3098b7b1487a','Oignons frais','kg','FreshProduce','none','[]','["Oignons frais","Oignons"]'),
+('ingredient-v1-b111b143f365d977','Échalotes fraîches','kg','FreshProduce','none','[]','["Échalotes fraîches","Échalotes"]'),
+('ingredient-v1-8a21a9fb7eb34005','Ail','kg','FreshProduce','none','[]','["Ail"]'),
+('ingredient-v1-54ba20c23da5e47f','Pommes de terre','kg','FreshProduce','none','[]','["Pommes de terre"]'),
+('ingredient-v1-56885c72049a5604','Pommes de terre sous vide','kg','FreshProduce','review_required','[]','["Pommes de terre sous vide"]'),
+('ingredient-v1-cdd23d6ea347ff76','Poireaux frais','kg','FreshProduce','none','[]','["Poireaux frais"]'),
+('ingredient-v1-94a1e6c4b6e7e876','Courgettes fraîches','kg','FreshProduce','none','[]','["Courgettes fraîches"]'),
+('ingredient-v1-458235d77df53b5c','Champignons de Paris','kg','FreshProduce','none','[]','["Champignons de Paris"]'),
+('ingredient-v1-4ca9f2b551cdc62c','Tomates fraîches','kg','FreshProduce','none','[]','["Tomates fraîches"]'),
+('ingredient-v1-4701eff16e7d3f4b','Salade verte','kg','FreshProduce','none','[]','["Salade verte"]'),
+('ingredient-v1-a350352ebc0f2f8e','Endives','kg','FreshProduce','none','[]','["Endives"]'),
+('ingredient-v1-9ce348550566a14c','Poivrons rouges','kg','FreshProduce','none','[]','["Poivrons rouges"]'),
+('ingredient-v1-0aea879006dafc40','Poivrons verts','kg','FreshProduce','none','[]','["Poivrons verts"]'),
+('ingredient-v1-7ca5f584833d63e7','Aubergines','kg','FreshProduce','none','[]','["Aubergines"]'),
+('ingredient-v1-ef9d60b04ac0cf08','Concombre','kg','FreshProduce','none','[]','["Concombre"]'),
+('ingredient-v1-b3f634a39db21a53','Céleri branche','kg','FreshProduce','known','["celery"]','["Céleri branche"]'),
+('ingredient-v1-373912c31f3c5291','Céleri-rave','kg','FreshProduce','known','["celery"]','["Céleri-rave"]'),
+('ingredient-v1-dd7214401670e380','Persil frais','kg','FreshProduce','none','[]','["Persil frais"]'),
+('ingredient-v1-ceb0fdb60b80e6c0','Citron frais','kg','FreshProduce','none','[]','["Citron frais"]'),
+('ingredient-v1-1b4c9133da73a711','Orange','kg','FreshProduce','none','[]','["Orange"]'),
+('ingredient-v1-9169bf3e501fea19','Pomme','kg','FreshProduce','none','[]','["Pomme"]'),
+('ingredient-v1-e7854e19683638ef','Poire','kg','FreshProduce','none','[]','["Poire"]'),
+('ingredient-v1-0df55addf230c004','Banane','kg','FreshProduce','none','[]','["Banane"]'),
+('ingredient-v1-9aa26756cc9def1c','Raisin','kg','FreshProduce','none','[]','["Raisin"]'),
+('ingredient-v1-858dc217884d4f91','Lait demi-écrémé','L','Dairy','known','["milk"]','["Lait demi-écrémé"]'),
+('ingredient-v1-6d1a594948c56f9c','Lait entier','L','Dairy','known','["milk"]','["Lait entier"]'),
+('ingredient-v1-89af5b48bff26d6f','Crème liquide','L','Dairy','known','["milk"]','["Crème liquide"]'),
+('ingredient-v1-c4f58134336e6a5d','Crème épaisse','kg','Dairy','known','["milk"]','["Crème épaisse"]'),
+('ingredient-v1-341dcf5e7116e5e2','Beurre doux','kg','Dairy','known','["milk"]','["Beurre doux","Beurre"]'),
+('ingredient-v1-1d70b2e3b852757f','Beurre demi-sel','kg','Dairy','known','["milk"]','["Beurre demi-sel"]'),
+('ingredient-v1-a683b205fc742a0c','Œufs entiers liquides','kg','Dairy','known','["eggs"]','["Œufs entiers liquides"]'),
+('ingredient-v1-3f9672ee9fa0ba75','Œufs coquille','pièces','Dairy','known','["eggs"]','["Œufs coquille"]'),
+('ingredient-v1-0af04408fa553571','Emmental râpé','kg','Dairy','known','["milk"]','["Emmental râpé"]'),
+('ingredient-v1-05453f88348d167f','Grana Padano','kg','Dairy','known','["milk"]','["Grana Padano"]'),
+('ingredient-v1-c1d9448767ef278a','Comté','kg','Dairy','known','["milk"]','["Comté"]'),
+('ingredient-v1-9ca22c7454bfdbb2','Cantal','kg','Dairy','known','["milk"]','["Cantal"]'),
+('ingredient-v1-3dffcac32358e653','Maroilles','kg','Dairy','known','["milk"]','["Maroilles"]'),
+('ingredient-v1-b5508392157fa1c4','Mozzarella','kg','Dairy','known','["milk"]','["Mozzarella"]'),
+('ingredient-v1-65991f9688e35601','Fromage blanc','kg','Dairy','known','["milk"]','["Fromage blanc"]'),
+('ingredient-v1-b80d4b6b368426b8','Yaourt nature','pièces','Dairy','known','["milk"]','["Yaourt nature"]'),
+('ingredient-v1-4c13386250337c66','Mascarpone','kg','Dairy','known','["milk"]','["Mascarpone"]'),
+('ingredient-v1-263def818aea341b','Fromage à la coupe','kg','Dairy','known','["milk"]','["Fromage à la coupe"]'),
+('ingredient-v1-f28dacba7409a84d','Parmesan','kg','Dairy','known','["milk"]','["Parmesan"]'),
+('ingredient-v1-80e6989ac5b262df','Crème dessert industrielle','pièces','Dairy','review_required','[]','["Crème dessert industrielle"]'),
+('ingredient-v1-e75d44edc741da7d','Farine de blé','kg','Grocery','known','["gluten"]','["Farine de blé","Farine"]'),
+('ingredient-v1-19ea1b3595b48342','Maïzena','kg','Grocery','none','[]','["Maïzena"]'),
+('ingredient-v1-2b4cd43ed7f9225c','Semoule de blé','kg','Grocery','known','["gluten"]','["Semoule de blé","Semoule crue"]'),
+('ingredient-v1-d11acae863529357','Pâtes sèches','kg','Grocery','known','["gluten"]','["Pâtes sèches"]'),
+('ingredient-v1-0f3e78a6d912e273','Riz','kg','Grocery','none','[]','["Riz"]'),
+('ingredient-v1-8d43ffa86766ad25','Riz rond','kg','Grocery','none','[]','["Riz rond"]'),
+('ingredient-v1-1132a3a78a80e199','Polenta','kg','Grocery','none','[]','["Polenta"]'),
+('ingredient-v1-13cb15fcfd63bfb8','Lentilles vertes','kg','Grocery','none','[]','["Lentilles vertes"]'),
+('ingredient-v1-b5c50948a6e9cb60','Pois cassés','kg','Grocery','none','[]','["Pois cassés"]'),
+('ingredient-v1-8a0fd03c94f1fef1','Pois chiches','kg','Grocery','none','[]','["Pois chiches"]'),
+('ingredient-v1-89cc8a4c8b650919','Haricots rouges','kg','Grocery','none','[]','["Haricots rouges"]'),
+('ingredient-v1-402a0aa682ddf2f7','Haricots blancs','kg','Grocery','none','[]','["Haricots blancs"]'),
+('ingredient-v1-1a0fb58b0024228b','Chapelure','kg','Grocery','known','["gluten"]','["Chapelure"]'),
+('ingredient-v1-14af4c642d6b4544','Pain d’épices','kg','Grocery','known','["gluten"]','["Pain d’épices"]'),
+('ingredient-v1-94b4d386a34d99aa','Pain de mie','kg','Grocery','review_required','[]','["Pain de mie"]'),
+('ingredient-v1-0c8903870b4883c3','Tomates concassées','kg','Grocery','none','[]','["Tomates concassées"]'),
+('ingredient-v1-abdf7b6e045d82af','Concentré de tomate','kg','Grocery','none','[]','["Concentré de tomate"]'),
+('ingredient-v1-154da0b53b803fdd','Tomates pelées','kg','Grocery','none','[]','["Tomates pelées"]'),
+('ingredient-v1-3d74a5fdb90ce615','Huile d’olive','L','Grocery','none','[]','["Huile d’olive"]'),
+('ingredient-v1-b559be14a7b33d3a','Huile de colza','L','Grocery','none','[]','["Huile de colza"]'),
+('ingredient-v1-90ef32ff90f52a22','Huile de tournesol','L','Grocery','none','[]','["Huile de tournesol"]'),
+('ingredient-v1-201964b50e4297a7','Vinaigre de cidre','L','Grocery','none','[]','["Vinaigre de cidre"]'),
+('ingredient-v1-5076c087873ee2ce','Vinaigre de vin','L','Grocery','review_required','[]','["Vinaigre de vin"]'),
+('ingredient-v1-d28ad12c0566bdd2','Vinaigre de vin blanc','L','Grocery','review_required','[]','["Vinaigre de vin blanc"]'),
+('ingredient-v1-4272b554ffa85a39','Moutarde forte','kg','Grocery','known','["mustard"]','["Moutarde forte"]'),
+('ingredient-v1-085ec8acee13b90a','Moutarde à l’ancienne','kg','Grocery','known','["mustard"]','["Moutarde à l’ancienne"]'),
+('ingredient-v1-1704189573899296','Miel','kg','Grocery','none','[]','["Miel"]'),
+('ingredient-v1-83d783dc774441f9','Sucre blanc','kg','Grocery','none','[]','["Sucre blanc"]'),
+('ingredient-v1-298514d3fcc06435','Cassonade','kg','Grocery','none','[]','["Cassonade"]'),
+('ingredient-v1-5bdc5d3ff0ae5e2b','Sel fin','kg','Grocery','none','[]','["Sel fin","Sel"]'),
+('ingredient-v1-f0fd10b23cb42307','Poivre noir','kg','Grocery','none','[]','["Poivre noir","Poivre"]'),
+('ingredient-v1-027069298a2de88e','Cumin moulu','kg','Grocery','none','[]','["Cumin moulu"]'),
+('ingredient-v1-d04a49f8dc168d47','Ras-el-hanout','kg','Grocery','review_required','[]','["Ras-el-hanout"]'),
+('ingredient-v1-0b8e0d9bc8319e36','Curry','kg','Grocery','review_required','[]','["Curry"]'),
+('ingredient-v1-67aa6b6c143c6683','Paprika','kg','Grocery','none','[]','["Paprika"]'),
+('ingredient-v1-b2cd0d2b16a4fbe7','Thym','kg','Grocery','none','[]','["Thym"]'),
+('ingredient-v1-228685c20715c9d5','Laurier','pièces','Grocery','none','[]','["Laurier"]'),
+('ingredient-v1-5b488676875bada5','Muscade','kg','Grocery','none','[]','["Muscade"]'),
+('ingredient-v1-6ca235aa0dd438c6','Bière brune/ambrée','L','Grocery','known','["gluten"]','["Bière brune/ambrée"]'),
+('ingredient-v1-6253f9556e486070','Bouillon de bœuf préparé','L','Grocery','review_required','[]','["Bouillon de bœuf préparé","Bouillon de bœuf"]'),
+('ingredient-v1-3d88f3229881405e','Bouillon de légumes préparé','L','Grocery','review_required','[]','["Bouillon de légumes préparé"]'),
+('ingredient-v1-d5099e9e0940ca52','Bouillon de volaille préparé','L','Grocery','review_required','[]','["Bouillon de volaille préparé"]'),
+('ingredient-v1-abe950f6be15af44','Jus de citron','L','Grocery','none','[]','["Jus de citron"]'),
+('ingredient-v1-30c0f51fe3e5b872','Sauce soja','L','Grocery','review_required','["soy","gluten"]','["Sauce soja"]'),
+('ingredient-v1-686f14b7389c463b','Sésame','kg','Grocery','known','["sesame"]','["Sésame"]'),
+('ingredient-v1-0b0cabd610cc2007','Cacahuètes','kg','Grocery','known','["peanuts"]','["Cacahuètes"]'),
+('ingredient-v1-10c1e7a3776a3ef3','Amandes','kg','Grocery','known','["nuts"]','["Amandes"]'),
+('ingredient-v1-e4acf3f0f9e37f5a','Noix','kg','Grocery','known','["nuts"]','["Noix"]'),
+('ingredient-v1-6ce3edf031d6e168','Noisettes','kg','Grocery','known','["nuts"]','["Noisettes"]'),
+('ingredient-v1-1e66d95e086a3774','Chocolat noir','kg','Grocery','review_required','[]','["Chocolat noir"]'),
+('ingredient-v1-d4cd8e9ee1e05bc3','Cacao en poudre','kg','Grocery','review_required','[]','["Cacao en poudre"]'),
+('ingredient-v1-c9b12f5e43ffbe57','Eau','L','Grocery','none','[]','["Eau","Eau chaude en cours de cuisson","Eau (si besoin pour détendre)"]'),
+('ingredient-v1-db478eaf718c7297','Huile','L','Grocery','review_required','[]','["Huile"]'),
+('ingredient-v1-eacad3e7284f224d','Bouillon de légumes ou eau','L','Grocery','review_required','[]','["Bouillon de légumes ou eau"]'),
+('ingredient-v1-dcdc1fcf84ac95d4','Légumes couscous','kg','FreshProduce','review_required','[]','["Légumes couscous"]'),
+('ingredient-v1-fdde1d9e77e304e1','Légumes','kg','FreshProduce','review_required','[]','["Légumes"]'),
+('ingredient-v1-10148ef5c9fc2d03','Brunoise de légumes','kg','FreshProduce','review_required','[]','["Brunoise de légumes"]'),
+('ingredient-v1-477275148652fd2c','Saumon','kg','Fish','known','["fish"]','["Saumon"]'),
+('ingredient-v1-6ab51f2dd875e6e0','Épinards','kg','FreshProduce','none','[]','["Épinards"]'),
+('ingredient-v1-6b8ee4028851ede6','Lait','L','Dairy','known','["milk"]','["Lait"]'),
+('ingredient-v1-7292a004fefbd7fe','Œufs','kg','Dairy','known','["eggs"]','["Œufs"]');
+DO $$ DECLARE item record; duplicate_row record; target_id text; incoming_alias_name text; existing_alias text; allergen_code text; BEGIN
+ FOR item IN SELECT * FROM incoming_ingredients LOOP
+  -- Préférer l’ID portant déjà le nom canonique, puis un alias actif existant.
+  SELECT i.id INTO target_id FROM catering.ingredients i WHERE i.active AND
+    i.normalized_key IN (SELECT catering.ingredient_name_key(value) FROM jsonb_array_elements_text(item.aliases))
+    ORDER BY (i.normalized_key=catering.ingredient_name_key(item.name)) DESC,i.created_at,i.id LIMIT 1;
+  IF target_id IS NULL THEN
+   target_id=item.id;
+   INSERT INTO catering.ingredients(id,normalized_name,default_unit,purchase_category,allergen_status,rounding_profile_id)
+    VALUES(target_id,item.name,item.unit,item.category,'review_required','v0-display');
+  END IF;
+  FOR duplicate_row IN SELECT i.id FROM catering.ingredients i WHERE i.active AND i.id<>target_id AND
+    i.normalized_key IN (SELECT catering.ingredient_name_key(value) FROM jsonb_array_elements_text(item.aliases)) LOOP
+   UPDATE catering.recipe_ingredients SET ingredient_id=target_id WHERE ingredient_id=duplicate_row.id;
+   UPDATE catering.rule_profiles SET ingredient_id=target_id WHERE ingredient_id=duplicate_row.id;
+   INSERT INTO catering.ingredient_allergens(ingredient_id,allergen_id) SELECT target_id,allergen_id FROM catering.ingredient_allergens WHERE ingredient_id=duplicate_row.id ON CONFLICT DO NOTHING;
+   UPDATE catering.ingredient_aliases SET ingredient_id=target_id WHERE ingredient_id=duplicate_row.id;
+   UPDATE catering.ingredients SET superseded_by_id=target_id WHERE superseded_by_id=duplicate_row.id;
+   UPDATE catering.ingredients SET active=false,superseded_by_id=target_id WHERE id=duplicate_row.id;
+  END LOOP;
+  UPDATE catering.ingredients SET normalized_name=item.name,default_unit=item.unit,purchase_category=item.category,
+    allergen_status=item.status,rounding_profile_id=coalesce(rounding_profile_id,'v0-display'),active=true WHERE id=target_id;
+  FOR allergen_code IN SELECT value FROM jsonb_array_elements_text(item.allergens) LOOP
+   IF NOT EXISTS(SELECT 1 FROM catering.allergens a WHERE a.code=allergen_code) THEN RAISE EXCEPTION 'Allergène inconnu : %',allergen_code; END IF;
+   INSERT INTO catering.ingredient_allergens(ingredient_id,allergen_id) SELECT target_id,a.id FROM catering.allergens a WHERE a.code=allergen_code ON CONFLICT DO NOTHING;
+  END LOOP;
+  FOR incoming_alias_name IN SELECT value FROM jsonb_array_elements_text(item.aliases) LOOP
+   SELECT ingredient_id INTO existing_alias FROM catering.ingredient_aliases WHERE alias_key=catering.ingredient_name_key(incoming_alias_name);
+   IF existing_alias IS NOT NULL AND existing_alias<>target_id THEN RAISE EXCEPTION 'Alias ambigu : %',incoming_alias_name; END IF;
+   INSERT INTO catering.ingredient_aliases(alias_key,alias_name,ingredient_id) VALUES(catering.ingredient_name_key(incoming_alias_name),incoming_alias_name,target_id) ON CONFLICT DO NOTHING;
+  END LOOP;
+ END LOOP;
+END $$;
+INSERT INTO catering.schema_migrations(version) VALUES ('004') ON CONFLICT DO NOTHING;
+COMMIT;

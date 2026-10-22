@@ -1,0 +1,689 @@
+{
+  "orderSelection": {
+    "serviceId": "service-reference",
+    "headcount": 160
+  },
+  "dayLabel": null,
+  "mealType": null,
+  "serviceName": "Carbonnade flamande · Limande meunière · Frites · Carottes braisées · Sauce beurre blanc",
+  "serviceId": "service-reference",
+  "headcount": 160,
+  "portionSummary": "112 portions viande · 48 portions poisson",
+  "components": [
+    {
+      "source": {
+        "serviceId": "service-reference",
+        "componentId": "service-reference:component:carbonnade",
+        "sharedPreparationId": null,
+        "recipeId": "service-reference:recipe:carbonnade"
+      },
+      "name": "Carbonnade flamande",
+      "id": "carbonnade",
+      "categories": [
+        [
+          "Protéine",
+          "Viande"
+        ]
+      ],
+      "colorProfile": "meat",
+      "calculatedPortions": 112,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Bœuf à mijoter",
+          "displayQuantity": "16,8 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "84",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Oignons",
+          "displayQuantity": "4,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "112",
+            "denominator": "25"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Carottes",
+          "displayQuantity": "2,2 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "56",
+            "denominator": "25"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Huile",
+          "displayQuantity": "480 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "480",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Farine",
+          "displayQuantity": "400 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "400",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Cassonade",
+          "displayQuantity": "220 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "224",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Vinaigre de vin",
+          "displayQuantity": "220 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "224",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Bière brune/ambrée",
+          "displayQuantity": "4,8 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "24",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Bouillon de bœuf",
+          "displayQuantity": "6,4 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "32",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Pain d’épices",
+          "displayQuantity": "1,6 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "8",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Moutarde forte",
+          "displayQuantity": "800 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "800",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Thym sec",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Laurier sec",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Eau chaude en cours de cuisson",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Saisir le bœuf en plusieurs fois dans l’huile, puis réserver."
+        },
+        {
+          "order": 2,
+          "text": "Faire suer les oignons et les carottes."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter la cassonade et mélanger."
+        },
+        {
+          "order": 4,
+          "text": "Déglacer avec le vinaigre de vin."
+        },
+        {
+          "order": 5,
+          "text": "Remettre la viande, ajouter la farine et mélanger."
+        },
+        {
+          "order": 6,
+          "text": "Verser la bière et le bouillon. Ajouter thym et laurier."
+        },
+        {
+          "order": 7,
+          "text": "Laisser mijoter jusqu’à ce que la viande soit tendre ; ajouter un peu d’eau chaude si nécessaire."
+        },
+        {
+          "order": 8,
+          "text": "Retirer la viande et réduire la sauce si nécessaire."
+        },
+        {
+          "order": 9,
+          "text": "Ajouter le pain d’épices et la moutarde, remettre la viande dans la sauce, mélanger puis rectifier l’assaisonnement avant le service."
+        }
+      ],
+      "steps": [
+        "Saisir le bœuf en plusieurs fois dans l’huile, puis réserver.",
+        "Faire suer les oignons et les carottes.",
+        "Ajouter la cassonade et mélanger.",
+        "Déglacer avec le vinaigre de vin.",
+        "Remettre la viande, ajouter la farine et mélanger.",
+        "Verser la bière et le bouillon. Ajouter thym et laurier.",
+        "Laisser mijoter jusqu’à ce que la viande soit tendre ; ajouter un peu d’eau chaude si nécessaire.",
+        "Retirer la viande et réduire la sauce si nécessaire.",
+        "Ajouter le pain d’épices et la moutarde, remettre la viande dans la sauce, mélanger puis rectifier l’assaisonnement avant le service."
+      ],
+      "notes": [],
+      "allergens": [
+        "Gluten",
+        "Moutarde"
+      ],
+      "reviewNames": [
+        "Huile",
+        "Vinaigre de vin",
+        "Bouillon de bœuf préparé"
+      ],
+      "yield": null,
+      "serviceRule": "4,0 L",
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "service-reference",
+        "componentId": "service-reference:component:limande",
+        "sharedPreparationId": null,
+        "recipeId": "service-reference:recipe:limande"
+      },
+      "name": "Limande meunière",
+      "id": "limande",
+      "categories": [
+        [
+          "Protéine",
+          "Poisson"
+        ]
+      ],
+      "colorProfile": "fish",
+      "calculatedPortions": 48,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Limande meunière",
+          "displayQuantity": "48 unités",
+          "displayUnit": "unités",
+          "exact": {
+            "numerator": "48",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Disposer les limandes sur plaque avec papier cuisson."
+        },
+        {
+          "order": 2,
+          "text": "Cuire au four selon les recommandations du fabricant."
+        }
+      ],
+      "steps": [
+        "Disposer les limandes sur plaque avec papier cuisson.",
+        "Cuire au four selon les recommandations du fabricant."
+      ],
+      "notes": [
+        "Produit surgelé."
+      ],
+      "allergens": [
+        "Poisson",
+        "Gluten"
+      ],
+      "reviewNames": [],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "service-reference",
+        "componentId": "service-reference:component:frites",
+        "sharedPreparationId": null,
+        "recipeId": "service-reference:recipe:frites"
+      },
+      "name": "Frites",
+      "id": "frites",
+      "categories": [
+        [
+          "Féculent"
+        ]
+      ],
+      "colorProfile": "starch",
+      "calculatedPortions": 160,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Frites crues sous vide",
+          "displayQuantity": "32,0 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "32",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Précuire les frites à 140 °C dans la matinée."
+        },
+        {
+          "order": 2,
+          "text": "Au service, terminer la cuisson à 180 °C."
+        },
+        {
+          "order": 3,
+          "text": "Égoutter et servir."
+        }
+      ],
+      "steps": [
+        "Précuire les frites à 140 °C dans la matinée.",
+        "Au service, terminer la cuisson à 180 °C.",
+        "Égoutter et servir."
+      ],
+      "notes": [],
+      "allergens": [],
+      "reviewNames": [
+        "Frites crues sous vide"
+      ],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "service-reference",
+        "componentId": "service-reference:component:carottes",
+        "sharedPreparationId": null,
+        "recipeId": "service-reference:recipe:carottes"
+      },
+      "name": "Carottes braisées",
+      "id": "carottes",
+      "categories": [
+        [
+          "Légume"
+        ]
+      ],
+      "colorProfile": "vegetable",
+      "calculatedPortions": 160,
+      "shared": false,
+      "productionReferences": [
+        {
+          "type": "per_base_quantity",
+          "label": "PAR BAC GN 1/1 PROFOND · 4 KG DE CAROTTES",
+          "order": 0,
+          "base": {
+            "exact": {
+              "numerator": "4",
+              "denominator": "1"
+            },
+            "unit": "kg",
+            "displayQuantity": "4 kg"
+          },
+          "yield": null,
+          "productionUnitId": null,
+          "ratios": [
+            {
+              "name": "Beurre",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "250",
+                "denominator": "3"
+              },
+              "unit": "g",
+              "displayQuantity": "250/3 g",
+              "order": 0
+            },
+            {
+              "name": "Huile",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "100",
+                "denominator": "3"
+              },
+              "unit": "ml",
+              "displayQuantity": "100/3 ml",
+              "order": 1
+            },
+            {
+              "name": "Bouillon de légumes préparé",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "2",
+                "denominator": "3"
+              },
+              "unit": "L",
+              "displayQuantity": "2/3 L",
+              "order": 2
+            }
+          ]
+        }
+      ],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Carottes",
+          "displayQuantity": "19,2 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "96",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Beurre",
+          "displayQuantity": "400 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "400",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Huile",
+          "displayQuantity": "160 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "160",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Bouillon de légumes préparé",
+          "displayQuantity": "3,2 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "16",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Éplucher si besoin, puis tailler les carottes."
+        },
+        {
+          "order": 2,
+          "text": "Répartir 4 kg de carottes par bac GN 1/1 profond."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter le beurre, l’huile et le bouillon selon le repère par bac. Saler et poivrer."
+        },
+        {
+          "order": 4,
+          "text": "Cuire à 200 °C en four ventilé : 15 minutes avec un couvercle."
+        },
+        {
+          "order": 5,
+          "text": "Retirer le couvercle et poursuivre la cuisson 30 minutes."
+        }
+      ],
+      "steps": [
+        "Éplucher si besoin, puis tailler les carottes.",
+        "Répartir 4 kg de carottes par bac GN 1/1 profond.",
+        "Ajouter le beurre, l’huile et le bouillon selon le repère par bac. Saler et poivrer.",
+        "Cuire à 200 °C en four ventilé : 15 minutes avec un couvercle.",
+        "Retirer le couvercle et poursuivre la cuisson 30 minutes."
+      ],
+      "notes": [],
+      "allergens": [
+        "Lait"
+      ],
+      "reviewNames": [
+        "Huile",
+        "Bouillon de légumes préparé"
+      ],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "service-reference",
+        "componentId": "service-reference:component:beurre-blanc",
+        "sharedPreparationId": null,
+        "recipeId": "service-reference:recipe:beurre-blanc"
+      },
+      "name": "Sauce beurre blanc",
+      "id": "beurre-blanc",
+      "categories": [
+        [
+          "Sauce"
+        ]
+      ],
+      "colorProfile": "sauce",
+      "calculatedPortions": 48,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Beurre doux",
+          "displayQuantity": "2,6 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "64",
+            "denominator": "25"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Crème liquide",
+          "displayQuantity": "1120 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "1120",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Échalotes",
+          "displayQuantity": "480 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "480",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Vinaigre de vin blanc",
+          "displayQuantity": "240 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "240",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Jus de citron",
+          "displayQuantity": "160 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "160",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Maïzena",
+          "displayQuantity": "50 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "48",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Émincer les échalotes et les faire réduire avec le vinaigre de vin blanc."
+        },
+        {
+          "order": 2,
+          "text": "Délayer la Maïzena dans une partie de la crème froide."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter le reste de crème, puis la crème contenant la Maïzena ; chauffer en remuant pour lier."
+        },
+        {
+          "order": 4,
+          "text": "À feu doux, incorporer progressivement le beurre en morceaux en fouettant."
+        },
+        {
+          "order": 5,
+          "text": "Ajouter le jus de citron, saler et poivrer."
+        }
+      ],
+      "steps": [
+        "Émincer les échalotes et les faire réduire avec le vinaigre de vin blanc.",
+        "Délayer la Maïzena dans une partie de la crème froide.",
+        "Ajouter le reste de crème, puis la crème contenant la Maïzena ; chauffer en remuant pour lier.",
+        "À feu doux, incorporer progressivement le beurre en morceaux en fouettant.",
+        "Ajouter le jus de citron, saler et poivrer."
+      ],
+      "notes": [
+        "Sans eau, sans fumet, sans vin blanc."
+      ],
+      "allergens": [
+        "Lait"
+      ],
+      "reviewNames": [
+        "Vinaigre de vin blanc"
+      ],
+      "yield": "4,0 L",
+      "serviceRule": null,
+      "allocations": []
+    }
+  ],
+  "sharedPreparations": [],
+  "allergens": [
+    "Gluten",
+    "Moutarde",
+    "Poisson",
+    "Lait"
+  ],
+  "reviewNames": [
+    "Huile",
+    "Vinaigre de vin",
+    "Bouillon de bœuf préparé",
+    "Frites crues sous vide",
+    "Bouillon de légumes préparé",
+    "Vinaigre de vin blanc"
+  ],
+  "allergensComplete": false,
+  "notes": [
+    "Quantités arrondies uniquement à l’affichage.",
+    "QS : quantité suffisante, à ajuster à la préparation."
+  ],
+  "roundingNote": "kg / L : au dixième · g / ml : à la dizaine · pièces : entières"
+}

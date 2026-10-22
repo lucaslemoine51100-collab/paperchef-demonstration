@@ -1,0 +1,255 @@
+{
+  "version": 19,
+  "unclassifiedPolicy": "unclassified",
+  "services": {
+    "quiches": {
+      "label": "Quiche au lard · Quiche au thon · Salade verte · Vinaigrette",
+      "fridayEveningCompatible": true,
+      "allowedSlots": "friday_dinner"
+    },
+    "f99fd375-daa3-480a-817a-f27f37a935e0": {
+      "label": "Croque-monsieur jambon · Croque-monsieur thon · Salade verte · Vinaigrette",
+      "fridayEveningCompatible": true,
+      "allowedSlots": "friday_dinner"
+    },
+    "service-reference": {
+      "label": "Carbonnade flamande · Limande meunière · Frites · Carottes braisées · Sauce beurre blanc",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "cf2c43b1-fd77-4968-bc44-1810f843c18c": {
+      "label": "Sauté de bœuf aux olives · Filet de lieu noir · Frites · Haricots verts persillés · Sauce tomate aux olives",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "7fb31da3-6f6c-48c0-a0d1-1fe6e3226414": {
+      "label": "Boulettes de bœuf · Poisson à la bordelaise · Semoule · Poêlée de légumes grillés · Sauce tomate crémée",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "f20789d0-35ad-4ede-a716-5491d3d9a07d": {
+      "label": "Chili sin carne · Riz basmati",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "deeff188-3b85-47ea-916e-c97be180bfee": {
+      "label": "Chipolata et merguez · Poisson à la provençale · Pommes de terre vapeur au beurre · Haricots plats ail et persil · Jus aux oignons",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "couscous-vegetarien": {
+      "label": "Merguez végétales · Semoule · Légumes couscous · Sauce couscous végétarienne",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "38b0564e-7470-4e3b-830b-59c859cb950c": {
+      "label": "Cuisse de poulet rôtie · Poisson pané · Pommes rissolées au four · Carottes à la crème · Sauce crème ciboulette",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "c529246f-271c-459c-bb02-f377a2b84587": {
+      "label": "Escalope de dinde · Filet de colin · Pommes de terre rôties · Haricots verts persillés · Sauce citron et herbes",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "79262dc4-8e2e-4752-8ec7-6792f37f8b20": {
+      "label": "Filet de poulet mariné moutarde-estragon · Filet de colin mariné moutarde-estragon · Boulgour · Chou-fleur rôti · Sauce moutarde, estragon et miel",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "a7d1dce4-28b0-49d7-895c-60b519b1a252": {
+      "label": "Garniture viande de choucroute · Filet d’églefin · Pommes de terre vapeur · Choucroute · Sauce fromage blanc citron-ciboulette",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "1368ffd6-3d91-43a9-ab1b-2542f6ca72e8": {
+      "label": "Hachis parmentier de canard · Brandade de morue · Brocolis vapeur · Sauce citron et herbes",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "af415d5b-6a80-4233-97f3-ebd931f7c2ac": {
+      "label": "Jambon grillé au curcuma · Filet de dorade au thym · Gratin de gnocchis sauce romaine · Courgettes persillées",
+      "allowedSlots": "weekday",
+      "fridayEveningCompatible": false
+    },
+    "76bc070c-8c81-4914-8f42-e4fd669d7db7": {
+      "label": "Jarret de porc rôti · Filet de lieu noir · Lentilles crémeuses au curry · Carottes braisées · Sauce curry coco-coriandre",
+      "allowedSlots": "weekday",
+      "fridayEveningCompatible": false
+    },
+    "lasagnes": {
+      "label": "Lasagnes bolognaises · Lasagnes saumon-épinards · Salade verte · Vinaigrette",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "418a320f-85db-4478-ac80-03f44a879200": {
+      "label": "Omelette au fromage · Riz pilaf · Brocolis vapeur · Sauce champignons",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "4be38fbe-de36-430d-9619-c43d32c05df8": {
+      "label": "Omelette aux oignons et ciboulette · Polenta crémeuse · Épinards crémeux · Sauce crème oignons-ciboulette réservée au service",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "eb4726bb-5e6f-482b-9116-ffe08ed9640d": {
+      "label": "Poulet basquaise · Cabillaud au pesto · Polenta crémeuse · Piperade de poivrons",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "0ed0b693-0776-43f3-b409-f426b6908aa3": {
+      "label": "Rosbif · Filet de lieu noir · Gratin dauphinois · Haricots verts persillés · Sauce balsamique à l’échalote",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "f5272108-b0a0-4535-a8ad-0c0d74560652": {
+      "label": "Rôti de dinde au curcuma · Filet de hoki au curcuma · Pâtes · Petits pois-carottes persillés · Sauce champignons",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "1ade68a7-0e79-440b-9659-5cefda11e2bd": {
+      "label": "Saucisses fumées · Filet de truite · Pois cassés · Fondue de poireaux · Sauce moutarde",
+      "allowedSlots": "weekday",
+      "fridayEveningCompatible": false
+    },
+    "2b9f31c1-b9c2-4089-bf83-30fbe1b8977d": {
+      "label": "Sauté de porc au caramel · Filet de cabillaud · Riz basmati · Poêlée wok · Sauce paprika",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "a75202d5-12b4-4e67-9838-097771d29686": {
+      "label": "Steak frais · Saumon rôti · Frites · Haricots verts persillés · Sauce au poivre · Sauce à l’oseille",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "2a773a6e-0fae-4393-8e34-51d7d08d8c7a": {
+      "label": "Steak haché · Steak de thon mariné · Pâtes · Ratatouille au four · Sauce tomate",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "3ddfb5b1-0593-47e7-b090-ae4a9e86424e": {
+      "label": "Émincé de dinde au curry · Filet de merlu sauce curry · Riz pilaf · Petits pois aux carottes et oignons · Sauce curry coco-coriandre",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "87e7ec88-3359-49cc-942c-66fda92cd88f": {
+      "label": "Émincé de poulet façon tajine aux abricots · Filet de merlu aux épices douces · Semoule · Poêlée orientale · Sauce tajine réservée au service",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "d9c43e97-73e3-4869-9f6a-cee1d586cfd4": {
+      "label": "Œufs gratinés à la béchamel · Pâtes · Épinards à la béchamel",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "1e81640f-d74e-4045-a809-c33c216b83ed": {
+      "label": "Sauté de veau Marengo · Filet de lieu noir · Frites · Carottes braisées · Sauce beurre blanc",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "d17c0056-e65c-4454-93a8-c025e9e8f9ee": {
+      "label": "Boudins noir et blanc · Aile de raie à l’huile d’olive et au citron · Spaetzle poêlés · Choux de Bruxelles rôtis · Sauce crémeuse au cidre et moutarde à l’ancienne",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "2efcac9b-3e6c-4ecb-9f57-e2352b812eb7": {
+      "label": "Cuisses de poulet marinées au curry · Filet de merlu sauce curry · Riz pilaf · Poêlée orientale · Sauce curry coco-coriandre",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "2f43cead-d711-41c1-9714-b9949fd0f23e": {
+      "label": "Escalope de dinde · Limande meunière · Purée · Haricots verts persillés · Sauce champignons",
+      "allowedSlots": "weekday",
+      "fridayEveningCompatible": false
+    },
+    "8ce4d3d6-ad42-42fe-b4f6-063902f16682": {
+      "label": "Jambon grillé aux herbes de Provence et paprika doux · Dorade aux herbes de Provence et paprika doux · Semoule · Aubergines rôties · Sauce tomate crémée",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "69f751bc-95b5-4908-aba8-5ef1972c6bae": {
+      "label": "Pizza chorizo · Pizza thon · Salade verte · Vinaigrette",
+      "allowedSlots": "friday_dinner",
+      "fridayEveningCompatible": false
+    },
+    "7cecfee7-6833-44a6-906f-6a31a6d516e3": {
+      "label": "Poulet rôti en quartiers · Poisson à la bordelaise · Pommes de terre vapeur au beurre · Poêlée de légumes grillés · Jus de volaille crémé",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "2bfb746a-368b-4382-89b6-f4f5abd5c7b7": {
+      "label": "Rougail de saucisses · Hoki sauce rougail · Riz basmati · Gratin de courgettes",
+      "allowedSlots": "weekday",
+      "fridayEveningCompatible": false
+    },
+    "3368df29-c828-4a11-aa5b-6cc87f5d1eda": {
+      "label": "Poitrine de porc tranchée grillée · Filet de lieu noir rôti aux herbes · Tartiflette sans lardons · Haricots verts vapeur",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "6438e59b-5224-432f-a00e-d138e3583057": {
+      "label": "Omelette aux fines herbes · Boulgour · Ratatouille au four · Sauce tomate",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "d5374fe6-c485-40d7-ac23-1f8916d74726": {
+      "label": "Coq au vin · Truite aux amandes · Pâtes · Gratin de courgettes · Sauce beurre-citron aux amandes",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "547fa13e-3d71-4d6b-93a0-921a50c019e8": {
+      "label": "Blanquette de veau · Blanquette de poisson · Riz pilaf · Fricassée de champignons",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "6a794b8f-21fd-424b-b8c9-8e5bf3e711f0": {
+      "label": "Boulettes de bœuf · Hoki paprika-citron · Quinoa · Chou-fleur rôti aux épices douces · Sauce tomate crémée",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "a1b60968-f84e-452f-9cd0-9e9859d14eb4": {
+      "label": "Saucisses fumées · Filet de merlu aux herbes · Mogettes à la tomate · Brocolis vapeur",
+      "allowedSlots": "weekday_lunch",
+      "fridayEveningCompatible": false
+    },
+    "2ed54884-da09-409f-a585-4c6f59b4a9b7": {
+      "label": "Bolognaise végétarienne Accro · Spaghetti à l’huile d’olive · Haricots plats persillés",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "4413dc85-5829-4dd5-949d-0436e0ab69e3": {
+      "label": "Émincé de poulet à la normande · Poisson à la bordelaise · Riz pilaf · Poêlée de légumes grillés",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "5e2efa4f-6da1-4278-b448-ee7d46b3dff4": {
+      "label": "Steak haché · Poisson pané · Pommes rissolées au four · Petits pois vapeur · Sauce fromage blanc citron-ciboulette",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    },
+    "4bbf17f8-dc29-4545-b996-c14fb1b72875": {
+      "label": "Émincé de poulet paprika-oignons · Filet de colin au paprika · Boulgour · Julienne de légumes persillée",
+      "allowedSlots": "all",
+      "fridayEveningCompatible": false
+    }
+  },
+  "rules": {
+    "fridayDinnerExclusiveCategory": "friday_dinner",
+    "minimumVegetarianServices": 2,
+    "minimumLegumeStarchServices": 1,
+    "uniqueServices": true,
+    "accompanimentMinimumDayDistance": 2,
+    "fries": {
+      "oncePerWeek": true,
+      "oddWeek": {
+        "day": 1,
+        "period": "lunch"
+      },
+      "evenWeek": {
+        "day": 4,
+        "period": "lunch"
+      },
+      "calendar": "ISO"
+    }
+  }
+}

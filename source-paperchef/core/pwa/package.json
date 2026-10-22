@@ -1,0 +1,1 @@
+{"name":"restauration-pwa-v0","version":"0.1.0","private":true,"scripts":{"start":"node server.js"},"dependencies":{"@electric-sql/pglite":"0.3.14"},"peerDependencies":{"pg":"^8.0.0"},"peerDependenciesMeta":{"pg":{"optional":true}}}

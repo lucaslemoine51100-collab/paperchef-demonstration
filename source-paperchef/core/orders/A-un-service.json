@@ -1,0 +1,2012 @@
+{
+  "categories": [
+    {
+      "category": "Dairy",
+      "label": "Crémerie",
+      "lines": [
+        {
+          "ingredient_id": "ingredient-22",
+          "ingredient_ids": [
+            "ingredient-22"
+          ],
+          "purchase_key": "ingredient-22",
+          "normalized_name": "Beurre doux",
+          "purchase_category": "Dairy",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carottes",
+              "recipe_domain_id": "carottes",
+              "component_id": "service-reference:component:carottes",
+              "component_ids": [
+                "service-reference:component:carottes"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carottes:ingredient:1",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-22",
+              "purchase_ingredient_id": "ingredient-22",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-22",
+                  "purchase_ingredient_id": "ingredient-22",
+                  "source_unit": "g",
+                  "purchase_unit": "kg",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "name": "Beurre",
+                "unit": "g",
+                "exact": {
+                  "numerator": "250",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "250",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "4"
+              },
+              "canonical_unit": "kg"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:0",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-22",
+              "purchase_ingredient_id": "ingredient-22",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-22",
+                "normalized_name": "Beurre doux",
+                "name": "Beurre doux",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "8",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "8",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "8",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "37",
+            "denominator": "20"
+          },
+          "display_quantity": "1,9",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-23",
+          "ingredient_ids": [
+            "ingredient-23"
+          ],
+          "purchase_key": "ingredient-23",
+          "normalized_name": "Crème liquide",
+          "purchase_category": "Dairy",
+          "canonical_unit": "L",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:1",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-23",
+              "purchase_ingredient_id": "ingredient-23",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-23",
+                  "purchase_ingredient_id": "ingredient-23",
+                  "source_unit": "ml",
+                  "purchase_unit": "L",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-23",
+                "normalized_name": "Crème liquide",
+                "name": "Crème liquide",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "700",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "700",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "10"
+              },
+              "canonical_unit": "L"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "7",
+            "denominator": "10"
+          },
+          "display_quantity": "0,7",
+          "display_unit": "L",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        }
+      ]
+    },
+    {
+      "category": "Meat",
+      "label": "Viande",
+      "lines": [
+        {
+          "ingredient_id": "ingredient-1",
+          "ingredient_ids": [
+            "ingredient-1"
+          ],
+          "purchase_key": "ingredient-1",
+          "normalized_name": "Bœuf à mijoter",
+          "purchase_category": "Meat",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:0",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-1",
+              "purchase_ingredient_id": "ingredient-1",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-1",
+                "normalized_name": "Bœuf à mijoter",
+                "name": "Bœuf à mijoter",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "21",
+                  "denominator": "2"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "exact_quantity": {
+                "numerator": "21",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "21",
+            "denominator": "2"
+          },
+          "display_quantity": "10,5",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        }
+      ]
+    },
+    {
+      "category": "Fish",
+      "label": "Poisson",
+      "lines": [
+        {
+          "ingredient_id": "ingredient-17",
+          "ingredient_ids": [
+            "ingredient-17"
+          ],
+          "purchase_key": "ingredient-17",
+          "normalized_name": "Limande meunière surgelée",
+          "purchase_category": "Fish",
+          "canonical_unit": "pièces",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:limande",
+              "recipe_domain_id": "limande",
+              "component_id": "service-reference:component:limande",
+              "component_ids": [
+                "service-reference:component:limande"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:limande:ingredient:0",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-17",
+              "purchase_ingredient_id": "ingredient-17",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-17",
+                  "purchase_ingredient_id": "ingredient-17",
+                  "source_unit": "unités",
+                  "purchase_unit": "pièces",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Limande meunière",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-17",
+                "normalized_name": "Limande meunière surgelée",
+                "name": "Limande meunière",
+                "unit": "unités",
+                "exact": {
+                  "numerator": "30",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "pièces",
+              "original_exact_quantity": {
+                "numerator": "30",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "30",
+                "denominator": "1"
+              },
+              "canonical_unit": "pièces"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "30",
+            "denominator": "1"
+          },
+          "display_quantity": "30",
+          "display_unit": "pièces",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        }
+      ]
+    },
+    {
+      "category": "Frozen",
+      "label": "Surgelé",
+      "lines": []
+    },
+    {
+      "category": "FreshProduce",
+      "label": "Fruits et légumes frais",
+      "lines": [
+        {
+          "ingredient_id": "ingredient-3",
+          "ingredient_ids": [
+            "ingredient-3"
+          ],
+          "purchase_key": "ingredient-3",
+          "normalized_name": "Carottes fraîches",
+          "purchase_category": "FreshProduce",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:2",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-3",
+              "purchase_ingredient_id": "ingredient-3",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-3",
+                "normalized_name": "Carottes fraîches",
+                "name": "Carottes",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "7",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "7",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carottes",
+              "recipe_domain_id": "carottes",
+              "component_id": "service-reference:component:carottes",
+              "component_ids": [
+                "service-reference:component:carottes"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carottes:ingredient:0",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-3",
+              "purchase_ingredient_id": "ingredient-3",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-3",
+                "normalized_name": "Carottes fraîches",
+                "name": "Carottes",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "12",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "12",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "12",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "67",
+            "denominator": "5"
+          },
+          "display_quantity": "13,4",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-24",
+          "ingredient_ids": [
+            "ingredient-24"
+          ],
+          "purchase_key": "ingredient-24",
+          "normalized_name": "Échalotes fraîches",
+          "purchase_category": "FreshProduce",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:2",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-24",
+              "purchase_ingredient_id": "ingredient-24",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-24",
+                  "purchase_ingredient_id": "ingredient-24",
+                  "source_unit": "g",
+                  "purchase_unit": "kg",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-24",
+                "normalized_name": "Échalotes fraîches",
+                "name": "Échalotes",
+                "unit": "g",
+                "exact": {
+                  "numerator": "300",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "300",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "10"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "3",
+            "denominator": "10"
+          },
+          "display_quantity": "0,3",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-18",
+          "ingredient_ids": [
+            "ingredient-18"
+          ],
+          "purchase_key": "ingredient-18",
+          "normalized_name": "Frites crues sous vide",
+          "purchase_category": "FreshProduce",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:frites",
+              "recipe_domain_id": "frites",
+              "component_id": "service-reference:component:frites",
+              "component_ids": [
+                "service-reference:component:frites"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:frites:ingredient:0",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-18",
+              "purchase_ingredient_id": "ingredient-18",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Frites",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-18",
+                "normalized_name": "Frites crues sous vide",
+                "name": "Frites crues sous vide",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "20",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "20",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "20",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "20",
+            "denominator": "1"
+          },
+          "display_quantity": "20,0",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-2",
+          "ingredient_ids": [
+            "ingredient-2"
+          ],
+          "purchase_key": "ingredient-2",
+          "normalized_name": "Oignons frais",
+          "purchase_category": "FreshProduce",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:1",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-2",
+              "purchase_ingredient_id": "ingredient-2",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-2",
+                "normalized_name": "Oignons frais",
+                "name": "Oignons",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "14",
+                  "denominator": "5"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "14",
+                "denominator": "5"
+              },
+              "exact_quantity": {
+                "numerator": "14",
+                "denominator": "5"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "14",
+            "denominator": "5"
+          },
+          "display_quantity": "2,8",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        }
+      ]
+    },
+    {
+      "category": "Grocery",
+      "label": "Épicerie",
+      "lines": [
+        {
+          "ingredient_id": "ingredient-8",
+          "ingredient_ids": [
+            "ingredient-8"
+          ],
+          "purchase_key": "ingredient-8",
+          "normalized_name": "Bière brune/ambrée",
+          "purchase_category": "Grocery",
+          "canonical_unit": "L",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:7",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-8",
+              "purchase_ingredient_id": "ingredient-8",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-8",
+                "normalized_name": "Bière brune/ambrée",
+                "name": "Bière brune/ambrée",
+                "unit": "L",
+                "exact": {
+                  "numerator": "3",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "1"
+              },
+              "canonical_unit": "L"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "display_quantity": "3,0",
+          "display_unit": "L",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "purchase-bouillon-beef-powder",
+          "ingredient_ids": [
+            "purchase-bouillon-beef-powder"
+          ],
+          "purchase_key": "purchase-bouillon-beef-powder",
+          "normalized_name": "Bouillon de bœuf en poudre",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": {
+            "small_unit": "g",
+            "threshold": "1"
+          },
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:8",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-9",
+              "purchase_ingredient_id": "purchase-bouillon-beef-powder",
+              "purchase_conversion_steps": [
+                {
+                  "type": "product_conversion",
+                  "source_ingredient_id": "ingredient-9",
+                  "purchase_ingredient_id": "purchase-bouillon-beef-powder",
+                  "source_unit": "L",
+                  "purchase_unit": "kg",
+                  "ratio": "0.020"
+                }
+              ],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-9",
+                "normalized_name": "Bouillon de bœuf préparé",
+                "name": "Bouillon de bœuf",
+                "unit": "L",
+                "exact": {
+                  "numerator": "4",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "80",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "2",
+                "denominator": "25"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "2",
+            "denominator": "25"
+          },
+          "display_quantity": "80",
+          "display_unit": "g",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "purchase-bouillon-vegetables-powder",
+          "ingredient_ids": [
+            "purchase-bouillon-vegetables-powder"
+          ],
+          "purchase_key": "purchase-bouillon-vegetables-powder",
+          "normalized_name": "Bouillon de légumes en poudre",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": {
+            "small_unit": "g",
+            "threshold": "1"
+          },
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carottes",
+              "recipe_domain_id": "carottes",
+              "component_id": "service-reference:component:carottes",
+              "component_ids": [
+                "service-reference:component:carottes"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carottes:ingredient:3",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-35",
+              "purchase_ingredient_id": "purchase-bouillon-vegetables-powder",
+              "purchase_conversion_steps": [
+                {
+                  "type": "product_conversion",
+                  "source_ingredient_id": "ingredient-35",
+                  "purchase_ingredient_id": "purchase-bouillon-vegetables-powder",
+                  "source_unit": "L",
+                  "purchase_unit": "kg",
+                  "ratio": "0.020"
+                }
+              ],
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-35",
+                "normalized_name": "Bouillon de légumes préparé",
+                "name": "Bouillon de légumes préparé",
+                "unit": "L",
+                "exact": {
+                  "numerator": "2",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "40",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "25"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "1",
+            "denominator": "25"
+          },
+          "display_quantity": "40",
+          "display_unit": "g",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-6",
+          "ingredient_ids": [
+            "ingredient-6"
+          ],
+          "purchase_key": "ingredient-6",
+          "normalized_name": "Cassonade",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:5",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-6",
+              "purchase_ingredient_id": "ingredient-6",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-6",
+                  "purchase_ingredient_id": "ingredient-6",
+                  "source_unit": "g",
+                  "purchase_unit": "kg",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-6",
+                "normalized_name": "Cassonade",
+                "name": "Cassonade",
+                "unit": "g",
+                "exact": {
+                  "numerator": "140",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "140",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "50"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "7",
+            "denominator": "50"
+          },
+          "display_quantity": "0,1",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-5",
+          "ingredient_ids": [
+            "ingredient-5"
+          ],
+          "purchase_key": "ingredient-5",
+          "normalized_name": "Farine de blé",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:4",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-5",
+              "purchase_ingredient_id": "ingredient-5",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-5",
+                  "purchase_ingredient_id": "ingredient-5",
+                  "source_unit": "g",
+                  "purchase_unit": "kg",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-5",
+                "normalized_name": "Farine de blé",
+                "name": "Farine",
+                "unit": "g",
+                "exact": {
+                  "numerator": "250",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "250",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "4"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "1",
+            "denominator": "4"
+          },
+          "display_quantity": "0,3",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-4",
+          "ingredient_ids": [
+            "ingredient-4"
+          ],
+          "purchase_key": "ingredient-4",
+          "normalized_name": "Huile",
+          "purchase_category": "Grocery",
+          "canonical_unit": "L",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:3",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-4",
+              "purchase_ingredient_id": "ingredient-4",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-4",
+                  "purchase_ingredient_id": "ingredient-4",
+                  "source_unit": "ml",
+                  "purchase_unit": "L",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-4",
+                "normalized_name": "Huile",
+                "name": "Huile",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "300",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "300",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "10"
+              },
+              "canonical_unit": "L"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carottes",
+              "recipe_domain_id": "carottes",
+              "component_id": "service-reference:component:carottes",
+              "component_ids": [
+                "service-reference:component:carottes"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carottes:ingredient:2",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-4",
+              "purchase_ingredient_id": "ingredient-4",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-4",
+                  "purchase_ingredient_id": "ingredient-4",
+                  "source_unit": "ml",
+                  "purchase_unit": "L",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-4",
+                "normalized_name": "Huile",
+                "name": "Huile",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "100",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "100",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "10"
+              },
+              "canonical_unit": "L"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "2",
+            "denominator": "5"
+          },
+          "display_quantity": "0,4",
+          "display_unit": "L",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-26",
+          "ingredient_ids": [
+            "ingredient-26"
+          ],
+          "purchase_key": "ingredient-26",
+          "normalized_name": "Jus de citron",
+          "purchase_category": "Grocery",
+          "canonical_unit": "L",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:4",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-26",
+              "purchase_ingredient_id": "ingredient-26",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-26",
+                  "purchase_ingredient_id": "ingredient-26",
+                  "source_unit": "ml",
+                  "purchase_unit": "L",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-26",
+                "normalized_name": "Jus de citron",
+                "name": "Jus de citron",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "100",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "100",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "10"
+              },
+              "canonical_unit": "L"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "1",
+            "denominator": "10"
+          },
+          "display_quantity": "0,1",
+          "display_unit": "L",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-13",
+          "ingredient_ids": [
+            "ingredient-13"
+          ],
+          "purchase_key": "ingredient-13",
+          "normalized_name": "Laurier sec",
+          "purchase_category": "Grocery",
+          "canonical_unit": "pièces",
+          "purchase_display": null,
+          "has_qs": true,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:12",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-13",
+              "purchase_ingredient_id": "ingredient-13",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-13",
+                "normalized_name": "Laurier sec",
+                "name": "Laurier sec",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "pièces",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "pièces"
+            }
+          ],
+          "exact_quantity": null,
+          "display_quantity": "QS",
+          "display_unit": "pièces",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": false
+        },
+        {
+          "ingredient_id": "ingredient-27",
+          "ingredient_ids": [
+            "ingredient-27"
+          ],
+          "purchase_key": "ingredient-27",
+          "normalized_name": "Maïzena",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:5",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-27",
+              "purchase_ingredient_id": "ingredient-27",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-27",
+                  "purchase_ingredient_id": "ingredient-27",
+                  "source_unit": "g",
+                  "purchase_unit": "kg",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-27",
+                "normalized_name": "Maïzena",
+                "name": "Maïzena",
+                "unit": "g",
+                "exact": {
+                  "numerator": "30",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "30",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "100"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "3",
+            "denominator": "100"
+          },
+          "display_quantity": "0,0",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-11",
+          "ingredient_ids": [
+            "ingredient-11"
+          ],
+          "purchase_key": "ingredient-11",
+          "normalized_name": "Moutarde forte",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:10",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-11",
+              "purchase_ingredient_id": "ingredient-11",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-11",
+                  "purchase_ingredient_id": "ingredient-11",
+                  "source_unit": "g",
+                  "purchase_unit": "kg",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-11",
+                "normalized_name": "Moutarde forte",
+                "name": "Moutarde forte",
+                "unit": "g",
+                "exact": {
+                  "numerator": "500",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "500",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "2"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "1",
+            "denominator": "2"
+          },
+          "display_quantity": "0,5",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-10",
+          "ingredient_ids": [
+            "ingredient-10"
+          ],
+          "purchase_key": "ingredient-10",
+          "normalized_name": "Pain d’épices",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:9",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-10",
+              "purchase_ingredient_id": "ingredient-10",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-10",
+                "normalized_name": "Pain d’épices",
+                "name": "Pain d’épices",
+                "unit": "kg",
+                "exact": {
+                  "numerator": "1",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "exact_quantity": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "1",
+            "denominator": "1"
+          },
+          "display_quantity": "1,0",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-15",
+          "ingredient_ids": [
+            "ingredient-15"
+          ],
+          "purchase_key": "ingredient-15",
+          "normalized_name": "Poivre noir",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": true,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:14",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-15",
+              "purchase_ingredient_id": "ingredient-15",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "name": "Poivre noir",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carottes",
+              "recipe_domain_id": "carottes",
+              "component_id": "service-reference:component:carottes",
+              "component_ids": [
+                "service-reference:component:carottes"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carottes:ingredient:5",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-15",
+              "purchase_ingredient_id": "ingredient-15",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "name": "Poivre",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:7",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-15",
+              "purchase_ingredient_id": "ingredient-15",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-15",
+                "normalized_name": "Poivre noir",
+                "name": "Poivre noir",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": null,
+          "display_quantity": "QS",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": false
+        },
+        {
+          "ingredient_id": "ingredient-14",
+          "ingredient_ids": [
+            "ingredient-14"
+          ],
+          "purchase_key": "ingredient-14",
+          "normalized_name": "Sel fin",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": true,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:13",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-14",
+              "purchase_ingredient_id": "ingredient-14",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "name": "Sel",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carottes",
+              "recipe_domain_id": "carottes",
+              "component_id": "service-reference:component:carottes",
+              "component_ids": [
+                "service-reference:component:carottes"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carottes:ingredient:4",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-14",
+              "purchase_ingredient_id": "ingredient-14",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carottes braisées",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "name": "Sel",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            },
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:6",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-14",
+              "purchase_ingredient_id": "ingredient-14",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-14",
+                "normalized_name": "Sel fin",
+                "name": "Sel",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": null,
+          "display_quantity": "QS",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": false
+        },
+        {
+          "ingredient_id": "ingredient-12",
+          "ingredient_ids": [
+            "ingredient-12"
+          ],
+          "purchase_key": "ingredient-12",
+          "normalized_name": "Thym sec",
+          "purchase_category": "Grocery",
+          "canonical_unit": "kg",
+          "purchase_display": null,
+          "has_qs": true,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:11",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-12",
+              "purchase_ingredient_id": "ingredient-12",
+              "purchase_conversion_steps": [],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-12",
+                "normalized_name": "Thym sec",
+                "name": "Thym sec",
+                "unit": "QS",
+                "exact": null
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "kg",
+              "original_exact_quantity": null,
+              "exact_quantity": null,
+              "canonical_unit": "kg"
+            }
+          ],
+          "exact_quantity": null,
+          "display_quantity": "QS",
+          "display_unit": "kg",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": false
+        },
+        {
+          "ingredient_id": "ingredient-7",
+          "ingredient_ids": [
+            "ingredient-7"
+          ],
+          "purchase_key": "ingredient-7",
+          "normalized_name": "Vinaigre de vin",
+          "purchase_category": "Grocery",
+          "canonical_unit": "L",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:carbonnade",
+              "recipe_domain_id": "carbonnade",
+              "component_id": "service-reference:component:carbonnade",
+              "component_ids": [
+                "service-reference:component:carbonnade"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:carbonnade:ingredient:6",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-7",
+              "purchase_ingredient_id": "ingredient-7",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-7",
+                  "purchase_ingredient_id": "ingredient-7",
+                  "source_unit": "ml",
+                  "purchase_unit": "L",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Carbonnade flamande",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-7",
+                "normalized_name": "Vinaigre de vin",
+                "name": "Vinaigre de vin",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "140",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "140",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "7",
+                "denominator": "50"
+              },
+              "canonical_unit": "L"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "7",
+            "denominator": "50"
+          },
+          "display_quantity": "0,1",
+          "display_unit": "L",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        },
+        {
+          "ingredient_id": "ingredient-25",
+          "ingredient_ids": [
+            "ingredient-25"
+          ],
+          "purchase_key": "ingredient-25",
+          "normalized_name": "Vinaigre de vin blanc",
+          "purchase_category": "Grocery",
+          "canonical_unit": "L",
+          "purchase_display": null,
+          "has_qs": false,
+          "source_services": [
+            "service-reference"
+          ],
+          "sources": [
+            {
+              "selection_index": 0,
+              "service_id": "service-reference",
+              "service_name": "Carbonnade / Limande",
+              "headcount": 100,
+              "recipe_id": "service-reference:recipe:beurre-blanc",
+              "recipe_domain_id": "beurre-blanc",
+              "component_id": "service-reference:component:beurre-blanc",
+              "component_ids": [
+                "service-reference:component:beurre-blanc"
+              ],
+              "shared_preparation_id": null,
+              "recipe_ingredient_id": "service-reference:recipe:beurre-blanc:ingredient:3",
+              "rule_profile_id": null,
+              "source_ingredient_id": "ingredient-25",
+              "purchase_ingredient_id": "ingredient-25",
+              "purchase_conversion_steps": [
+                {
+                  "type": "unit_normalization",
+                  "source_ingredient_id": "ingredient-25",
+                  "purchase_ingredient_id": "ingredient-25",
+                  "source_unit": "ml",
+                  "purchase_unit": "L",
+                  "ratio": {
+                    "numerator": "1",
+                    "denominator": "1000"
+                  },
+                  "convention": null
+                }
+              ],
+              "recipe_name": "Sauce beurre blanc",
+              "culinary_requirement": {
+                "ingredient_id": "ingredient-25",
+                "normalized_name": "Vinaigre de vin blanc",
+                "name": "Vinaigre de vin blanc",
+                "unit": "ml",
+                "exact": {
+                  "numerator": "150",
+                  "denominator": "1"
+                }
+              },
+              "purchase_unit_convention": null,
+              "original_unit": "L",
+              "original_exact_quantity": {
+                "numerator": "150",
+                "denominator": "1000"
+              },
+              "exact_quantity": {
+                "numerator": "3",
+                "denominator": "20"
+              },
+              "canonical_unit": "L"
+            }
+          ],
+          "exact_quantity": {
+            "numerator": "3",
+            "denominator": "20"
+          },
+          "display_quantity": "0,2",
+          "display_unit": "L",
+          "source_count": 1,
+          "selection_count": 1,
+          "quantity_complete": true
+        }
+      ]
+    }
+  ]
+}

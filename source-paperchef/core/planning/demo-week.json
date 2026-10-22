@@ -1,0 +1,61 @@
+{
+  "week": {
+    "id": "demo-week-2026-10-05",
+    "name": "Semaine de démonstration",
+    "start_date": "2026-10-05",
+    "end_date": "2026-10-11",
+    "status": "draft",
+    "created_at": "2026-10-03T13:57:19.734Z",
+    "updated_at": "2026-10-03T13:57:19.734Z"
+  },
+  "plannedServices": [
+    {
+      "id": "demo-monday-lunch",
+      "week_id": "demo-week-2026-10-05",
+      "service_date": "2026-10-05",
+      "meal_period": "lunch",
+      "service_template_id": "service-reference",
+      "cover_count": 100,
+      "state": "planned",
+      "frozen_snapshot": null,
+      "created_at": "2026-10-03T13:57:19.737Z",
+      "updated_at": "2026-10-03T13:57:19.737Z"
+    },
+    {
+      "id": "demo-monday-dinner",
+      "week_id": "demo-week-2026-10-05",
+      "service_date": "2026-10-05",
+      "meal_period": "dinner",
+      "service_template_id": "couscous-vegetarien",
+      "cover_count": 100,
+      "state": "planned",
+      "frozen_snapshot": null,
+      "created_at": "2026-10-03T13:57:19.744Z",
+      "updated_at": "2026-10-03T13:57:19.744Z"
+    },
+    {
+      "id": "demo-tuesday-lunch",
+      "week_id": "demo-week-2026-10-05",
+      "service_date": "2026-10-06",
+      "meal_period": "lunch",
+      "service_template_id": "lasagnes",
+      "cover_count": 100,
+      "state": "planned",
+      "frozen_snapshot": null,
+      "created_at": "2026-10-03T13:57:19.746Z",
+      "updated_at": "2026-10-03T13:57:19.746Z"
+    },
+    {
+      "id": "demo-tuesday-dinner",
+      "week_id": "demo-week-2026-10-05",
+      "service_date": "2026-10-06",
+      "meal_period": "dinner",
+      "service_template_id": "quiches",
+      "cover_count": 100,
+      "state": "planned",
+      "frozen_snapshot": null,
+      "created_at": "2026-10-03T13:57:19.747Z",
+      "updated_at": "2026-10-03T13:57:19.747Z"
+    }
+  ]
+}

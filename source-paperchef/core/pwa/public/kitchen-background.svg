@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600">
+<g fill="none" stroke="#b7cfba" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+<!-- Planche et couteau -->
+<g transform="translate(48 46) rotate(-16 75 65)"><path d="M14 13h41V0q0-10 15-10T85 0v13h42q14 0 14 14v104q0 14-14 14H14q-14 0-14-14V27q0-14 14-14Z"/><circle cx="70" cy="0" r="4"/><path d="M12 35v77m8-70v55m105-60v79M99 43q-20 30-38 49M104 73 74 105"/><path d="M34 35q5 38 17 57l8-3-9-58Z M51 92l12 28q4 7 10 3l-14-34"/><circle cx="63" cy="106" r="1"/></g>
+<!-- Tomate coupée -->
+<g transform="translate(278 24) rotate(12)"><path d="M42 22q-34-15-40 22q-7 40 35 43q40 3 48-30q8-35-31-35 M41 24l-8-15 14 6 6-18 5 18 15-6-13 18 M13 48q-3 18 9 26"/><ellipse cx="117" cy="64" rx="33" ry="30"/><path d="M117 39v50 M91 64h52 M99 46q12 3 10 11m17-11q-11 3-8 11m-20 22q12-3 10-11m18 11q-11-3-8-11"/><path d="m103 53 2 3m27-3-2 3m-27 20 2-3m27 3-2-3"/></g>
+<!-- Carottes -->
+<g transform="translate(532 50) rotate(29)"><path d="M0 21q20-13 35 0L16 117Q4 88 0 21Z M6 37l13 3 M13 54l15 3 M7 73l13 3 M12 93l8 2 M17 18Q-4 0 2-13q17 0 16 31 M18 18q3-34 16-34q8 19-16 34 M20 19q21-23 30-13q-1 17-30 13"/></g>
+<!-- Marmite -->
+<g transform="translate(230 211) rotate(-9)"><path d="M5 32h109v70q0 27-54 27T5 102Z M-1 31h122 M12 23q48-35 94 0 M47 4V-4h26V4 M5 49h-20q-12 0-12 13t32 13 M114 49h20q12 0 12 13t-32 13 M17 43v50q0 16 20 19 M37-15q-12-10 0-22 M59-19q-12-10 0-22 M82-15q-12-10 0-22"/></g>
+<!-- Oignon et ail -->
+<g transform="translate(49 278) rotate(14)"><path d="M42 8q-37 15-40 46q-4 32 40 33q44-1 40-33Q77 23 42 8Z M36 12l3-17 9-4-1 21 M42 16q-30 32-19 61 M42 16q30 32 19 61 M42 16v66 M31 88l-6 8m17-8v10m10-10 6 8"/><path d="M108 52q-25 11-24 32q0 22 25 22t25-22q-3-19-25-32 M109 52l5-15 M109 59q-14 16-8 40 M109 59q15 16 8 40 M109 59v44"/></g>
+<!-- Fouet -->
+<g transform="translate(464 230) rotate(30)"><path d="M25 0Q-5 3 0 43q4 30 25 45q21-15 25-45Q55 3 25 0Z M25 0Q4 25 25 88Q46 25 25 0 M25 0v88 M18 89h14v62q0 8-7 8t-7-8Z M21 102v39"/></g>
+<!-- Planche ronde et herbes -->
+<g transform="translate(584 302) rotate(-18)"><path d="M17 7q-19 19-17 49q2 48 51 48t51-48q2-30-17-49H65v-30H37V7Z"/><circle cx="51" cy="-12" r="4"/><path d="M11 50q-4 30 20 42 M73 22q18 10 19 35 M51 29v54 M51 43q-27-26-30-9q0 17 30 9 M51 58q-27-23-28-7q3 15 28 7 M51 73q-24-17-24-4q4 12 24 4 M51 43q27-26 30-9q0 17-30 9 M51 58q27-23 28-7q-3 15-28 7 M51 73q24-17 24-4q-4 12-24 4"/></g>
+<!-- Champignons -->
+<g transform="translate(293 459) rotate(16)"><path d="M0 34q3-41 42-41t42 41q-40 12-84 0Z M30 42l-6 43q18 10 36 0l-6-43 M13 26q2-13 14-19 M11 37l12 7m11-4 2 7m16-7-2 7m17-10-12 7"/><path d="M96 69q0-22 24-22t24 22q-24 8-48 0 M114 73v26h14V73"/></g>
+<!-- Poêle -->
+<g transform="translate(538 494) rotate(-12)"><ellipse cx="47" cy="10" rx="47" ry="20"/><ellipse cx="47" cy="10" rx="38" ry="13"/><path d="M0 10v12q1 25 47 25t47-25V10 M92 14h76q9 0 9 8t-9 8H93 M108 18h54"/></g>
+<!-- Feuilles de basilic -->
+<g transform="translate(58 498) rotate(-23)"><path d="M0 25q-3-32 31-25q18 27-10 40Z M6 31 26 7 M13 23l-9-5m15-1 10 2 M40 44q-7-28 22-30q25 17 4 35Z M47 40l15-20 M50 34l-9-3"/></g>
+</g></svg>
+

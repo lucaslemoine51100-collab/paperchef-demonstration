@@ -1,0 +1,34 @@
+const fs=require('fs'),path=require('path');const root=__dirname,src=path.join(root,'source-paperchef'),out=path.join(root,'docs');fs.mkdirSync(out,{recursive:true});fs.cpSync(path.join(src,'core/pwa/public'),out,{recursive:true});for(const f of ['shared.js','messaging.js'])fs.copyFileSync(path.join(src,f),path.join(out,f));fs.copyFileSync(path.join(root,'catalogue-demo.tar.gz'),path.join(out,'catalogue.tar.gz'));
+
+const files={};function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name),rel=path.relative(src,p).replaceAll('\\','/');if(e.isDirectory()){if(!/profile|client|node_modules/.test(e.name))walk(p);}else if(/\.(css|json|sql|svg)$/.test(e.name)&& !/test|tmp|catalog-seed/.test(e.name)){files['/paperchef/'+rel]=rel.startsWith('core/pwa/public/')&&!/icon\.svg/.test(rel)?'':fs.readFileSync(p,'utf8');}}}walk(src);for(const rel of ['core/order-sheets/auto-fit.js','core/weekly-allergens/auto-fit.js',...fs.readdirSync(path.join(src,'core/pwa/public')).filter(n=>/\.(js|html)$/.test(n)).map(n=>'core/pwa/public/'+n),...fs.readdirSync(path.join(src,'core/pwa/public/pdf-runtime')).filter(n=>/\.js$/.test(n)).map(n=>'core/pwa/public/pdf-runtime/'+n)])files['/paperchef/'+rel]=['core/order-sheets/auto-fit.js','core/weekly-allergens/auto-fit.js'].includes(rel)?fs.readFileSync(path.join(src,rel),'utf8'):'';files['/paperchef/catalog-seed.json']=fs.readFileSync(path.join(src,'catalog-seed.json'),'utf8');fs.writeFileSync(path.join(root,'embedded-files.json'),JSON.stringify(files));
+
+let index=fs.readFileSync(path.join(out,'index.html'),'utf8').replace('<head>','<head><script src="/demo.js"></script>').replace('</head>','<script src="/profile-icons.js" defer></script><script src="/shared.js" defer></script><script src="/messaging.js" defer></script></head>');fs.writeFileSync(path.join(out,'index.html'),index);fs.copyFileSync(path.join(root,'demo.js'),path.join(out,'demo.js'));
+
+let shared=fs.readFileSync(path.join(out,'shared.js'),'utf8');shared=shared.replace(/async function switchAccount\(\)\{[\s\S]*?\nfunction expected\(/,'async function switchAccount(){window.DemoChooseRole();}\nfunction expected(').replaceAll("location.href='/shared/login'","window.DemoChooseRole()").replace("(x.user.role==='cook'?button('Gérer les comptes','users'):'')+",'');shared=shared.replace(/\(x.user.role==='cook'\?button\('[^']*','users'\):''\)\+/,'');fs.writeFileSync(path.join(out,'shared.js'),shared);let app=fs.readFileSync(path.join(out,'app.js'),'utf8').replace("if('serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});",'');fs.writeFileSync(path.join(out,'app.js'),app);
+
+const modules=process.env.PAPERCHEF_BUILD_NODE_MODULES||path.join(root,'node_modules');const pg=path.join(modules,'@electric-sql/pglite/dist');for(const f of ['pglite.wasm','pglite.data'])fs.copyFileSync(path.join(pg,f),path.join(out,f));
+
+const esbuild=require(path.join(modules,'esbuild'));
+
+const shims={
+
+ fs:`import files from './embedded-files.json';import {Buffer} from 'buffer';const saved={},revisions={};export function restore(v){Object.assign(saved,v||{})}export const readFileSync=(p,enc)=>{const v=saved[p]??files[p];if(v===undefined)throw Error('Fichier introuvable : '+p);return enc?v:Buffer.from(v)};export const existsSync=p=>p in saved||p in files;export const statSync=p=>({mtimeMs:revisions[p]||1,size:(saved[p]??files[p]??'').length});export function writeFileSync(p,v){revisions[p]=(revisions[p]||1)+1;saved[p]=String(v);postMessage({fs:saved})}export function renameSync(a,b){saved[b]=saved[a];delete saved[a];postMessage({fs:saved})}export default {readFileSync,existsSync,writeFileSync,renameSync,statSync};`,
+
+ crypto:`import {sha256} from '@noble/hashes/sha256';import {Buffer} from 'buffer';export const randomUUID=()=>crypto.randomUUID();export const randomBytes=n=>Buffer.from(crypto.getRandomValues(new Uint8Array(n)));export function createHash(){let parts=[];return {update(v){parts.push(Buffer.from(String(v)));return this},digest(){return Buffer.from(sha256(Buffer.concat(parts))).toString('hex')}}}export const scrypt=()=>{};export const timingSafeEqual=(a,b)=>a.equals(b);export default {randomUUID,randomBytes,createHash,scrypt,timingSafeEqual};`,
+
+ http:`export function createServer(handler){return {handler,listeners(){return [handler]}}}export default {createServer};`,
+
+ util:`export const promisify=f=>(...a)=>new Promise((resolve,reject)=>f(...a,(e,v)=>e?reject(e):resolve(v)));`,
+
+ vm:`export const compileFunction=()=>{throw Error('Compilation indisponible')};`,
+
+ document:`export const documentPdf=()=>{throw Error('Utilisez le moteur PDF du navigateur')};`,
+
+ pg:`export class Client{}`
+
+};for(const [k,v]of Object.entries(shims))fs.writeFileSync(path.join(root,'shim-'+k+'.mjs'),v);
+
+fs.writeFileSync(path.join(root,'globals.mjs'),`import {Buffer} from 'buffer';globalThis.Buffer=Buffer;globalThis.process={env:{},cwd:()=>'/paperchef'};export {Buffer};export const process=globalThis.process;`);
+
+esbuild.build({entryPoints:[path.join(root,'worker.mjs')],outfile:path.join(out,'worker.js'),bundle:true,format:'esm',platform:'browser',target:'es2022',minify:true,nodePaths:[path.join(root,'node_modules'),modules],inject:[path.join(root,'globals.mjs')],plugins:[{name:'paperchef-browser',setup(b){b.onResolve({filter:/^(node:)?(fs|http|crypto|util|vm|path)$/},a=>({path:a.path.replace('node:','')==='path'?require.resolve('path-browserify',{paths:[modules]}):path.join(root,'shim-'+a.path.replace('node:','')+'.mjs')}));b.onResolve({filter:/document-pdf$/},()=>({path:path.join(root,'shim-document.mjs')}));b.onResolve({filter:/^pg$/},()=>({path:path.join(root,'shim-pg.mjs')}));b.onResolve({filter:/^@electric-sql\/pglite$/},()=>({path:path.join(pg,'index.js')}));b.onLoad({filter:/\.(js|cjs)$/},a=>{if(!a.path.startsWith(src))return;let text=fs.readFileSync(a.path,'utf8');if(a.path.endsWith('server.cjs'))text=text.slice(0,text.indexOf('async function start()'))+'module.exports={createSharedServer};';if(a.path.endsWith('adapter.js'))text=text.replace("const run=compileFunction(fs.readFileSync(engineFile,'utf8'),['require','module','exports'],{filename:engineFile});",`const run=function(require,module,exports){${fs.readFileSync(path.join(src,'core/engine.js'),'utf8')}};`);if(a.path.endsWith('accounts.cjs'))text=text.replace('module.exports={initialize,saveUser,sessionUser,login,event,publicUser,allowed,problem};','module.exports={initialize,saveUser,sessionUser:async()=>globalThis.demoUser,login,event,publicUser,allowed,problem};');return {contents:`const __dirname=${JSON.stringify('/paperchef/'+path.relative(src,path.dirname(a.path)).replaceAll('\\','/'))};\n`+text,loader:'js'};});}}]}).catch(e=>{console.error(e);process.exitCode=1});
+

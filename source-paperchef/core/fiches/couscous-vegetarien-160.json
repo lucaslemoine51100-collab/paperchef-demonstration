@@ -1,0 +1,471 @@
+{
+  "orderSelection": {
+    "serviceId": "couscous-vegetarien",
+    "headcount": 160
+  },
+  "dayLabel": null,
+  "mealType": null,
+  "serviceName": "Merguez végétales · Semoule · Légumes couscous · Sauce couscous végétarienne",
+  "serviceId": "couscous-vegetarien",
+  "headcount": 160,
+  "portionSummary": "160 portions végétariennes",
+  "components": [
+    {
+      "source": {
+        "serviceId": "couscous-vegetarien",
+        "componentId": "couscous-vegetarien:component:merguez-vegetales",
+        "sharedPreparationId": null,
+        "recipeId": "couscous-vegetarien:recipe:merguez-vegetales"
+      },
+      "name": "Merguez végétales",
+      "id": "merguez-vegetales",
+      "categories": [
+        [
+          "Protéine",
+          "Végétarien"
+        ]
+      ],
+      "colorProfile": "vegetarian",
+      "calculatedPortions": 160,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Merguez végétales",
+          "displayQuantity": "320 pièces",
+          "displayUnit": "pièces",
+          "exact": {
+            "numerator": "320",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Répartir les merguez végétales dans le matériel de cuisson adapté au produit."
+        },
+        {
+          "order": 2,
+          "text": "Cuire selon les indications du fabricant."
+        },
+        {
+          "order": 3,
+          "text": "Prévoir deux merguez par personne au dressage."
+        }
+      ],
+      "steps": [
+        "Répartir les merguez végétales dans le matériel de cuisson adapté au produit.",
+        "Cuire selon les indications du fabricant.",
+        "Prévoir deux merguez par personne au dressage."
+      ],
+      "notes": [],
+      "allergens": [],
+      "reviewNames": [
+        "Merguez végétales"
+      ],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "couscous-vegetarien",
+        "componentId": "couscous-vegetarien:component:semoule",
+        "sharedPreparationId": null,
+        "recipeId": "couscous-vegetarien:recipe:semoule"
+      },
+      "name": "Semoule",
+      "id": "semoule",
+      "categories": [
+        [
+          "Féculent"
+        ]
+      ],
+      "colorProfile": "starch",
+      "calculatedPortions": 160,
+      "shared": false,
+      "productionReferences": [
+        {
+          "type": "per_base_quantity",
+          "label": "PAR BAC GN 1/1 PROFOND · 2,5 KG DE SEMOULE",
+          "order": 0,
+          "base": {
+            "exact": {
+              "numerator": "5",
+              "denominator": "2"
+            },
+            "unit": "kg",
+            "displayQuantity": "2,5 kg"
+          },
+          "yield": null,
+          "productionUnitId": null,
+          "ratios": [
+            {
+              "name": "Eau",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "15",
+                "denominator": "4"
+              },
+              "unit": "L",
+              "displayQuantity": "3,75 L",
+              "order": 0
+            },
+            {
+              "name": "Sel",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "75",
+                "denominator": "2"
+              },
+              "unit": "g",
+              "displayQuantity": "37,5 g",
+              "order": 1
+            },
+            {
+              "name": "Huile d’olive",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "125",
+                "denominator": "1"
+              },
+              "unit": "ml",
+              "displayQuantity": "125 ml",
+              "order": 2
+            }
+          ]
+        }
+      ],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Semoule crue",
+          "displayQuantity": "12,8 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "64",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Eau",
+          "displayQuantity": "19,2 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "96",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "190 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "192",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Huile d’olive",
+          "displayQuantity": "640 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "640",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Porter l’eau mesurée à ébullition avec le sel."
+        },
+        {
+          "order": 2,
+          "text": "Répartir 2,5 kg de semoule par bac GN 1/1 profond et ajouter l’huile d’olive."
+        },
+        {
+          "order": 3,
+          "text": "Verser l’eau chaude, mélanger et couvrir pour laisser gonfler."
+        },
+        {
+          "order": 4,
+          "text": "Égrener soigneusement avant de servir."
+        }
+      ],
+      "steps": [
+        "Porter l’eau mesurée à ébullition avec le sel.",
+        "Répartir 2,5 kg de semoule par bac GN 1/1 profond et ajouter l’huile d’olive.",
+        "Verser l’eau chaude, mélanger et couvrir pour laisser gonfler.",
+        "Égrener soigneusement avant de servir."
+      ],
+      "notes": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "reviewNames": [],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "couscous-vegetarien",
+        "componentId": "couscous-vegetarien:component:legumes-couscous",
+        "sharedPreparationId": null,
+        "recipeId": "couscous-vegetarien:recipe:legumes-couscous"
+      },
+      "name": "Légumes couscous",
+      "id": "legumes-couscous",
+      "categories": [
+        [
+          "Légume"
+        ]
+      ],
+      "colorProfile": "vegetable",
+      "calculatedPortions": 160,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Légumes couscous surgelés",
+          "displayQuantity": "19,2 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "96",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Cuire les légumes surgelés selon les indications du fabricant."
+        },
+        {
+          "order": 2,
+          "text": "Égoutter si nécessaire, puis dresser en garniture."
+        }
+      ],
+      "steps": [
+        "Cuire les légumes surgelés selon les indications du fabricant.",
+        "Égoutter si nécessaire, puis dresser en garniture."
+      ],
+      "notes": [
+        "Garniture distincte des légumes utilisés dans la sauce."
+      ],
+      "allergens": [],
+      "reviewNames": [
+        "Légumes couscous surgelés"
+      ],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "couscous-vegetarien",
+        "componentId": "couscous-vegetarien:component:sauce-couscous",
+        "sharedPreparationId": null,
+        "recipeId": "couscous-vegetarien:recipe:sauce-couscous"
+      },
+      "name": "Sauce couscous végétarienne",
+      "id": "sauce-couscous",
+      "categories": [
+        [
+          "Sauce"
+        ]
+      ],
+      "colorProfile": "sauce",
+      "calculatedPortions": 160,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Légumes couscous surgelés (sauce)",
+          "displayQuantity": "2,9 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "72",
+            "denominator": "25"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Tomates concassées",
+          "displayQuantity": "4,3 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "108",
+            "denominator": "25"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Bouillon de légumes préparé",
+          "displayQuantity": "5,8 L",
+          "displayUnit": "L",
+          "exact": {
+            "numerator": "144",
+            "denominator": "25"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Concentré de tomate",
+          "displayQuantity": "210 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "208",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Farine",
+          "displayQuantity": "400 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "400",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Huile d’olive",
+          "displayQuantity": "400 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "400",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Ras-el-hanout",
+          "displayQuantity": "80 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "80",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Cumin moulu",
+          "displayQuantity": "30 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "32",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Ail",
+          "displayQuantity": "110 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "112",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "20 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "16",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Chauffer l’huile d’olive et faire revenir les légumes prévus pour la sauce avec l’ail."
+        },
+        {
+          "order": 2,
+          "text": "Ajouter le concentré de tomate, le ras-el-hanout et le cumin ; mélanger."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter la farine et mélanger pour la répartir."
+        },
+        {
+          "order": 4,
+          "text": "Verser progressivement le bouillon en remuant, puis ajouter les tomates concassées."
+        },
+        {
+          "order": 5,
+          "text": "Laisser mijoter jusqu’à cuisson des légumes et liaison de la sauce."
+        },
+        {
+          "order": 6,
+          "text": "Rectifier le sel et le poivre. Contrôler la consistance et le rendement cible."
+        }
+      ],
+      "steps": [
+        "Chauffer l’huile d’olive et faire revenir les légumes prévus pour la sauce avec l’ail.",
+        "Ajouter le concentré de tomate, le ras-el-hanout et le cumin ; mélanger.",
+        "Ajouter la farine et mélanger pour la répartir.",
+        "Verser progressivement le bouillon en remuant, puis ajouter les tomates concassées.",
+        "Laisser mijoter jusqu’à cuisson des légumes et liaison de la sauce.",
+        "Rectifier le sel et le poivre. Contrôler la consistance et le rendement cible."
+      ],
+      "notes": [
+        "Les légumes de cette sauce ne remplacent pas la garniture."
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "reviewNames": [
+        "Légumes couscous surgelés",
+        "Bouillon de légumes préparé",
+        "Ras-el-hanout"
+      ],
+      "yield": "12,0 L",
+      "serviceRule": null,
+      "allocations": []
+    }
+  ],
+  "sharedPreparations": [],
+  "allergens": [
+    "Gluten"
+  ],
+  "reviewNames": [
+    "Merguez végétales",
+    "Légumes couscous surgelés",
+    "Bouillon de légumes préparé",
+    "Ras-el-hanout"
+  ],
+  "allergensComplete": false,
+  "notes": [
+    "Quantités arrondies uniquement à l’affichage.",
+    "QS : quantité suffisante, à ajuster à la préparation."
+  ],
+  "roundingNote": "kg / L : au dixième · g / ml : à la dizaine · pièces : entières"
+}

@@ -1,0 +1,12 @@
+/* Même langage graphique que les fiches techniques, couleurs du référentiel. */
+html{color:#172b29}h1{font-size:24pt;letter-spacing:-.4pt}.landscape h1{font-size:24pt}
+.category{border-color:#d7e1df;border-radius:2mm}
+.category header{background:color-mix(in srgb,var(--accent) 16%,white);color:#172b29;border-left:1.2mm solid var(--accent);border-bottom:.25mm solid #d7e1df;padding:2mm;gap:2mm}
+.category header svg{color:var(--accent)}
+.category header>span{color:#52635d;border-left:.2mm solid #b9c9c1;font-weight:normal}
+.category h2{font-size:12pt;line-height:1.12}.landscape .category h2{font-size:12pt}
+table{color:#10201a}td{border-color:#d9e2df}td:last-child{border-left-color:#d9e2df}
+.landscape .continuation header{background:color-mix(in srgb,var(--accent) 8%,white)}
+.landscape .continuation h2{font-size:10pt}
+.document-header{position:relative;box-shadow:0 .25mm 0 #b9c9c1}footer{color:#52635d}
+

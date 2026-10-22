@@ -1,0 +1,1361 @@
+{
+  "weekLabel": "ALLERGÈNES DE LA SEMAINE",
+  "dateRangeLabel": "DU LUNDI 5 AU DIMANCHE 11 OCTOBRE 2026",
+  "days": [
+    {
+      "date": "2026-10-05",
+      "dayLabel": "LUNDI",
+      "lunchService": {
+        "serviceId": "demo-monday-lunch",
+        "plannedServiceId": "demo-monday-lunch",
+        "serviceTemplateId": "service-reference",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "service-reference:component:carbonnade",
+            "recipeId": "service-reference:recipe:carbonnade",
+            "name": "Carbonnade flamande",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Viande"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "mustard",
+                "label": "Moutarde",
+                "color": "#897300",
+                "order": 9,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Moutarde\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#897300\"/><path d=\"M10 5h12v4H10ZM8 12h16v16H8Zm4 4v8m4-8v8m4-8v8\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-1",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-2",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-3",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-4",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-5",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-6",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-7",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-8",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:7",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-9",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:8",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-10",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:9",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-11",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:10",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-12",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:11",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-13",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:12",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:13",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:14",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-30",
+                "recipeId": "service-reference:recipe:carbonnade",
+                "recipeIngredientId": "service-reference:recipe:carbonnade:ingredient:15",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Huile",
+              "Vinaigre de vin",
+              "Bouillon de bœuf préparé"
+            ]
+          },
+          {
+            "componentId": "service-reference:component:limande",
+            "recipeId": "service-reference:recipe:limande",
+            "name": "Limande meunière",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Poisson"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "fish",
+                "label": "Poissons",
+                "color": "#006FC4",
+                "order": 3,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Poissons\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#006FC4\"/><path d=\"M7 16c7-11 15-7 20 0-5 7-13 11-20 0Zm0 0-4-5v10l4-5M22 14h.1\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-17",
+                "recipeId": "service-reference:recipe:limande",
+                "recipeIngredientId": "service-reference:recipe:limande:ingredient:0",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": []
+          },
+          {
+            "componentId": "service-reference:component:frites",
+            "recipeId": "service-reference:recipe:frites",
+            "name": "Frites",
+            "functionalCategories": [
+              [
+                "Féculent"
+              ]
+            ],
+            "displayColor": "#d75b00",
+            "allergens": [],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-18",
+                "recipeId": "service-reference:recipe:frites",
+                "recipeIngredientId": "service-reference:recipe:frites:ingredient:0",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Frites crues sous vide"
+            ]
+          },
+          {
+            "componentId": "service-reference:component:carottes",
+            "recipeId": "service-reference:recipe:carottes",
+            "name": "Carottes braisées",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d",
+            "allergens": [
+              {
+                "allergenId": "milk",
+                "label": "Lait",
+                "color": "#6542B5",
+                "order": 6,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-3",
+                "recipeId": "service-reference:recipe:carottes",
+                "recipeIngredientId": "service-reference:recipe:carottes:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-22",
+                "recipeId": "service-reference:recipe:carottes",
+                "recipeIngredientId": "service-reference:recipe:carottes:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-4",
+                "recipeId": "service-reference:recipe:carottes",
+                "recipeIngredientId": "service-reference:recipe:carottes:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-35",
+                "recipeId": "service-reference:recipe:carottes",
+                "recipeIngredientId": "service-reference:recipe:carottes:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "service-reference:recipe:carottes",
+                "recipeIngredientId": "service-reference:recipe:carottes:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "service-reference:recipe:carottes",
+                "recipeIngredientId": "service-reference:recipe:carottes:ingredient:5",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Huile",
+              "Bouillon de légumes préparé"
+            ]
+          },
+          {
+            "componentId": "service-reference:component:beurre-blanc",
+            "recipeId": "service-reference:recipe:beurre-blanc",
+            "name": "Sauce beurre blanc",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5",
+            "allergens": [
+              {
+                "allergenId": "milk",
+                "label": "Lait",
+                "color": "#6542B5",
+                "order": 6,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-22",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-23",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-24",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-25",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-26",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-27",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "service-reference:recipe:beurre-blanc",
+                "recipeIngredientId": "service-reference:recipe:beurre-blanc:ingredient:7",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Vinaigre de vin blanc"
+            ]
+          }
+        ],
+        "allergensComplete": false
+      },
+      "dinnerService": {
+        "serviceId": "demo-monday-dinner",
+        "plannedServiceId": "demo-monday-dinner",
+        "serviceTemplateId": "couscous-vegetarien",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "couscous-vegetarien:component:merguez-vegetales",
+            "recipeId": "couscous-vegetarien:recipe:merguez-vegetales",
+            "name": "Merguez végétales",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Végétarien"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-28",
+                "recipeId": "couscous-vegetarien:recipe:merguez-vegetales",
+                "recipeIngredientId": "couscous-vegetarien:recipe:merguez-vegetales:ingredient:0",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Merguez végétales"
+            ]
+          },
+          {
+            "componentId": "couscous-vegetarien:component:semoule",
+            "recipeId": "couscous-vegetarien:recipe:semoule",
+            "name": "Semoule",
+            "functionalCategories": [
+              [
+                "Féculent"
+              ]
+            ],
+            "displayColor": "#d75b00",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-29",
+                "recipeId": "couscous-vegetarien:recipe:semoule",
+                "recipeIngredientId": "couscous-vegetarien:recipe:semoule:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-30",
+                "recipeId": "couscous-vegetarien:recipe:semoule",
+                "recipeIngredientId": "couscous-vegetarien:recipe:semoule:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "couscous-vegetarien:recipe:semoule",
+                "recipeIngredientId": "couscous-vegetarien:recipe:semoule:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-31",
+                "recipeId": "couscous-vegetarien:recipe:semoule",
+                "recipeIngredientId": "couscous-vegetarien:recipe:semoule:ingredient:3",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": []
+          },
+          {
+            "componentId": "couscous-vegetarien:component:legumes-couscous",
+            "recipeId": "couscous-vegetarien:recipe:legumes-couscous",
+            "name": "Légumes couscous",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d",
+            "allergens": [],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-33",
+                "recipeId": "couscous-vegetarien:recipe:legumes-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:legumes-couscous:ingredient:0",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Légumes couscous surgelés"
+            ]
+          },
+          {
+            "componentId": "couscous-vegetarien:component:sauce-couscous",
+            "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+            "name": "Sauce couscous végétarienne",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-33",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-34",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-35",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-36",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-5",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-31",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-37",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-38",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:7",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-39",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:8",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:9",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "couscous-vegetarien:recipe:sauce-couscous",
+                "recipeIngredientId": "couscous-vegetarien:recipe:sauce-couscous:ingredient:10",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Légumes couscous surgelés",
+              "Bouillon de légumes préparé",
+              "Ras-el-hanout"
+            ]
+          }
+        ],
+        "allergensComplete": false
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "dayLabel": "MARDI",
+      "lunchService": {
+        "serviceId": "demo-tuesday-lunch",
+        "plannedServiceId": "demo-tuesday-lunch",
+        "serviceTemplateId": "lasagnes",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "lasagnes:component:lasagnes-bolo",
+            "recipeId": "lasagnes:recipe:lasagnes-bolo",
+            "name": "Lasagnes bolognaises",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Viande"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Légume"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "milk",
+                "label": "Lait",
+                "color": "#6542B5",
+                "order": 6,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "celery",
+                "label": "Céleri",
+                "color": "#008477",
+                "order": 8,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Céleri\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#008477\"/><path d=\"M12 27 9 14m7 13V11m4 16 3-13M11 27h10M9 14C2 13 4 6 9 8c4-4 7 3 0 6Zm7-3c-7-4-2-10 0-6 4-3 7 3 0 6Zm7 3c-7-3-4-10 0-6 5-2 7 5 0 6Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-41",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-v1-f520fc8c78c3148c",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-34",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-36",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-9",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-31",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-12",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-39",
+                "recipeId": "lasagnes:recipe:lasagnes-bolo",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-bolo:ingredient:7",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-53",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-22",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-5",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-45",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-54",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-45",
+                "recipeId": "lasagnes:recipe:grana-finition",
+                "recipeIngredientId": "lasagnes:recipe:grana-finition:ingredient:0",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Bouillon de bœuf préparé"
+            ]
+          },
+          {
+            "componentId": "lasagnes:component:lasagnes-saumon",
+            "recipeId": "lasagnes:recipe:lasagnes-saumon",
+            "name": "Lasagnes saumon-épinards",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Poisson"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Légume"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "fish",
+                "label": "Poissons",
+                "color": "#006FC4",
+                "order": 3,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Poissons\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#006FC4\"/><path d=\"M7 16c7-11 15-7 20 0-5 7-13 11-20 0Zm0 0-4-5v10l4-5M22 14h.1\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "milk",
+                "label": "Lait",
+                "color": "#6542B5",
+                "order": 6,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-43",
+                "recipeId": "lasagnes:recipe:lasagnes-saumon",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-saumon:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-v1-193f3be8b788e191",
+                "recipeId": "lasagnes:recipe:lasagnes-saumon",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-saumon:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-26",
+                "recipeId": "lasagnes:recipe:lasagnes-saumon",
+                "recipeIngredientId": "lasagnes:recipe:lasagnes-saumon:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-53",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-22",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-5",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-45",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-54",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "lasagnes:recipe:bechamel",
+                "recipeIngredientId": "lasagnes:recipe:bechamel:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-45",
+                "recipeId": "lasagnes:recipe:grana-finition",
+                "recipeIngredientId": "lasagnes:recipe:grana-finition:ingredient:0",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": []
+          },
+          {
+            "componentId": "lasagnes:component:salade",
+            "recipeId": "lasagnes:recipe:salade",
+            "name": "Salade verte",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d",
+            "allergens": [],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-46",
+                "recipeId": "lasagnes:recipe:salade",
+                "recipeIngredientId": null,
+                "ruleProfileId": "lasagnes:recipe:salade:override:portionQuantity"
+              }
+            ],
+            "reviewNames": []
+          },
+          {
+            "componentId": "lasagnes:component:vinaigrette",
+            "recipeId": "lasagnes:recipe:vinaigrette",
+            "name": "Vinaigrette",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5",
+            "allergens": [
+              {
+                "allergenId": "mustard",
+                "label": "Moutarde",
+                "color": "#897300",
+                "order": 9,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Moutarde\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#897300\"/><path d=\"M10 5h12v4H10ZM8 12h16v16H8Zm4 4v8m4-8v8m4-8v8\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-47",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-48",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-49",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-50",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-51",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-30",
+                "recipeId": "lasagnes:recipe:vinaigrette",
+                "recipeIngredientId": "lasagnes:recipe:vinaigrette:ingredient:7",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": []
+          }
+        ],
+        "allergensComplete": false
+      },
+      "dinnerService": {
+        "serviceId": "demo-tuesday-dinner",
+        "plannedServiceId": "demo-tuesday-dinner",
+        "serviceTemplateId": "quiches",
+        "coverCount": 100,
+        "components": [
+          {
+            "componentId": "quiches:component:quiche-lard",
+            "recipeId": "quiches:recipe:quiche-lard",
+            "name": "Quiche au lard",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Viande"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "eggs",
+                "label": "Œufs",
+                "color": "#9C6300",
+                "order": 2,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Œufs\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#9C6300\"/><path d=\"M16 5C10 5 6 17 7 22c2 8 16 8 18 0 1-5-3-17-9-17Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "milk",
+                "label": "Lait",
+                "color": "#6542B5",
+                "order": 6,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-55",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-23",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-53",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-v1-a683b205fc742a0c",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-27",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-57",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-58",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:7",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "quiches:recipe:quiche-lard",
+                "recipeIngredientId": "quiches:recipe:quiche-lard:ingredient:8",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": [
+              "Lardons crus"
+            ]
+          },
+          {
+            "componentId": "quiches:component:quiche-thon",
+            "recipeId": "quiches:recipe:quiche-thon",
+            "name": "Quiche au thon",
+            "functionalCategories": [
+              [
+                "Protéine",
+                "Poisson"
+              ],
+              [
+                "Féculent"
+              ],
+              [
+                "Plat complet"
+              ]
+            ],
+            "displayColor": "#c91529",
+            "allergens": [
+              {
+                "allergenId": "gluten",
+                "label": "Gluten",
+                "color": "#C51D34",
+                "order": 0,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "eggs",
+                "label": "Œufs",
+                "color": "#9C6300",
+                "order": 2,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Œufs\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#9C6300\"/><path d=\"M16 5C10 5 6 17 7 22c2 8 16 8 18 0 1-5-3-17-9-17Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "fish",
+                "label": "Poissons",
+                "color": "#006FC4",
+                "order": 3,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Poissons\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#006FC4\"/><path d=\"M7 16c7-11 15-7 20 0-5 7-13 11-20 0Zm0 0-4-5v10l4-5M22 14h.1\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              },
+              {
+                "allergenId": "milk",
+                "label": "Lait",
+                "color": "#6542B5",
+                "order": 6,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-55",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-23",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-53",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-v1-a683b205fc742a0c",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-27",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-59",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-58",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:7",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "quiches:recipe:quiche-thon",
+                "recipeIngredientId": "quiches:recipe:quiche-thon:ingredient:8",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": []
+          },
+          {
+            "componentId": "quiches:component:salade",
+            "recipeId": "quiches:recipe:salade",
+            "name": "Salade verte",
+            "functionalCategories": [
+              [
+                "Légume"
+              ]
+            ],
+            "displayColor": "#08752d",
+            "allergens": [],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-46",
+                "recipeId": "quiches:recipe:salade",
+                "recipeIngredientId": null,
+                "ruleProfileId": "quiches:recipe:salade:override:portionQuantity"
+              }
+            ],
+            "reviewNames": []
+          },
+          {
+            "componentId": "quiches:component:vinaigrette",
+            "recipeId": "quiches:recipe:vinaigrette",
+            "name": "Vinaigrette",
+            "functionalCategories": [
+              [
+                "Sauce"
+              ]
+            ],
+            "displayColor": "#064bd5",
+            "allergens": [
+              {
+                "allergenId": "mustard",
+                "label": "Moutarde",
+                "color": "#897300",
+                "order": 9,
+                "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Moutarde\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#897300\"/><path d=\"M10 5h12v4H10ZM8 12h16v16H8Zm4 4v8m4-8v8m4-8v8\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+              }
+            ],
+            "traces": [],
+            "ingredientSources": [
+              {
+                "ingredientId": "ingredient-47",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:0",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-48",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:1",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-49",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:2",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-50",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:3",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-24",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:4",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-14",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:5",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-15",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:6",
+                "ruleProfileId": null
+              },
+              {
+                "ingredientId": "ingredient-30",
+                "recipeId": "quiches:recipe:vinaigrette",
+                "recipeIngredientId": "quiches:recipe:vinaigrette:ingredient:7",
+                "ruleProfileId": null
+              }
+            ],
+            "reviewNames": []
+          }
+        ],
+        "allergensComplete": false
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "dayLabel": "MERCREDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-08",
+      "dayLabel": "JEUDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-09",
+      "dayLabel": "VENDREDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-10",
+      "dayLabel": "SAMEDI",
+      "lunchService": null,
+      "dinnerService": null
+    },
+    {
+      "date": "2026-10-11",
+      "dayLabel": "DIMANCHE",
+      "lunchService": null,
+      "dinnerService": null
+    }
+  ],
+  "legend": [
+    {
+      "allergenId": "gluten",
+      "label": "Gluten",
+      "color": "#C51D34",
+      "order": 0,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Gluten\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C51D34\"/><path d=\"M16 5v23M16 12C10 12 9 7 9 7c6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Zm0 6c-6 0-7-5-7-5 6 0 7 5 7 5Zm0 0c6 0 7-5 7-5-6 0-7 5-7 5Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "crustaceans",
+      "label": "Crustacés",
+      "color": "#C04B00",
+      "order": 1,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Crustacés\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#C04B00\"/><path d=\"M23 10c-10-6-19 6-12 14 5 6 15 0 11-6-3-4-9-2-9 1M23 10l4-5m-4 5 5 1M10 12l6 2m-8 4 6 1m-3 7 4-4M23 13h.1\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "eggs",
+      "label": "Œufs",
+      "color": "#9C6300",
+      "order": 2,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Œufs\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#9C6300\"/><path d=\"M16 5C10 5 6 17 7 22c2 8 16 8 18 0 1-5-3-17-9-17Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "fish",
+      "label": "Poissons",
+      "color": "#006FC4",
+      "order": 3,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Poissons\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#006FC4\"/><path d=\"M7 16c7-11 15-7 20 0-5 7-13 11-20 0Zm0 0-4-5v10l4-5M22 14h.1\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "peanuts",
+      "label": "Arachides",
+      "color": "#AD4775",
+      "order": 4,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Arachides\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#AD4775\"/><path d=\"M11 5C5 5 5 11 9 16 5 21 6 27 12 27c5 0 5-6 8-9 6-6 6-12 1-13-5-1-6 4-10 0ZM12 10l3 3m-4 8 3 2\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "soy",
+      "label": "Soja",
+      "color": "#176936",
+      "order": 5,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Soja\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#176936\"/><path d=\"M16 27V14m0 6C3 22 4 8 4 8c10 0 12 8 12 12Zm0-4C16 5 27 5 27 5c1 10-6 12-11 11Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "milk",
+      "label": "Lait",
+      "color": "#6542B5",
+      "order": 6,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lait\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6542B5\"/><path d=\"M12 4h8v5l3 4v15H9V13l3-4V4Zm0 5h8M9 15h14\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "nuts",
+      "label": "Fruits à coque",
+      "color": "#6F3C1B",
+      "order": 7,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Fruits à coque\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#6F3C1B\"/><path d=\"M16 5C5 13 6 26 16 28c10-2 11-15 0-23ZM16 9c-3 6-3 11 0 15\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "celery",
+      "label": "Céleri",
+      "color": "#008477",
+      "order": 8,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Céleri\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#008477\"/><path d=\"M12 27 9 14m7 13V11m4 16 3-13M11 27h10M9 14C2 13 4 6 9 8c4-4 7 3 0 6Zm7-3c-7-4-2-10 0-6 4-3 7 3 0 6Zm7 3c-7-3-4-10 0-6 5-2 7 5 0 6Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "mustard",
+      "label": "Moutarde",
+      "color": "#897300",
+      "order": 9,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Moutarde\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#897300\"/><path d=\"M10 5h12v4H10ZM8 12h16v16H8Zm4 4v8m4-8v8m4-8v8\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "sesame",
+      "label": "Sésame",
+      "color": "#536E20",
+      "order": 10,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Sésame\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#536E20\"/><path d=\"M8 6c-4 3-4 9 0 9s4-6 0-9Zm15 1c-4 3-4 9 0 9s4-6 0-9Zm-8 12c-4 3-4 9 0 9s4-6 0-9Z\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "sulphites",
+      "label": "Sulfites",
+      "color": "#47566B",
+      "order": 11,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Sulfites\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#47566B\"/><path d=\"M12 5h8m-7 0v8L6 25c-1 2 0 3 2 3h16c2 0 3-1 2-3l-7-12V5M11 18h10M18 21c-6-3-6 3-2 3 4 0 4 4-2 2\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "lupin",
+      "label": "Lupin",
+      "color": "#9B2EA0",
+      "order": 12,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Lupin\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#9B2EA0\"/><path d=\"M16 28V5M16 8c-7 0-6-6 0-3 6-3 7 3 0 3Zm0 6c-10 0-9-7 0-4 9-3 10 4 0 4Zm0 6c-12 0-11-8 0-4 11-4 12 4 0 4ZM16 27l-7-4m7 4 7-4\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+      "allergenId": "molluscs",
+      "label": "Mollusques",
+      "color": "#8E163B",
+      "order": 13,
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" role=\"img\" aria-label=\"Mollusques\"><circle cx=\"16\" cy=\"16\" r=\"16\" fill=\"#8E163B\"/><path d=\"M16 27C3 22 3 9 8 10c0-5 5-6 8-3 3-3 8-2 8 3 5-1 5 12-8 17ZM16 27V9m0 18L9 12m7 15 7-15m-7 15L6 17m10 10 10-10\" fill=\"none\" stroke=\"white\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    }
+  ],
+  "containsOnly": true,
+  "hasReviewRequired": true,
+  "note": "Allergènes « contient » issus des ingrédients référencés. Les traces ne sont pas affichées. Une zone vide ne garantit pas l’absence d’allergènes.",
+  "weekId": "demo-week-2026-10-05"
+}

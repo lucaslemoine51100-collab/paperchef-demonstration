@@ -1,0 +1,25 @@
+
+/* One physical page; all columns share the same type and spacing scale. */
+.sheet{--order-scale:1}
+.sheet table{font-size:calc(11.5pt * var(--order-scale));line-height:1.15}
+.sheet td:last-child{font-size:calc(12.5pt * var(--order-scale));width:28%}
+.sheet td{padding:calc(.7mm * var(--order-scale)) calc(2mm * var(--order-scale))}
+.sheet.landscape table{font-size:calc(12pt * var(--order-scale))}
+.sheet.landscape td:last-child{font-size:calc(13pt * var(--order-scale))}
+.sheet.landscape td{padding:calc(.35mm * var(--order-scale)) calc(2mm * var(--order-scale))}
+.sheet .category{margin-bottom:calc(3mm * var(--order-scale))}
+.sheet .category header{padding:calc(2mm * var(--order-scale));min-height:calc(12mm * var(--order-scale))}
+.sheet .category header svg{width:calc(8mm * var(--order-scale));height:calc(8mm * var(--order-scale))}
+.sheet .category h2{font-size:calc(12pt * var(--order-scale))}
+.sheet .category header>span{font-size:calc(7pt * var(--order-scale))}
+.sheet .document-header{margin-bottom:calc(5mm * var(--order-scale))}
+.sheet h1{font-size:calc(24pt * var(--order-scale))}
+.sheet .document-header p{font-size:calc(11pt * var(--order-scale))}
+.sheet .summary{font-size:calc(10pt * var(--order-scale))}
+.sheet .range{font-size:calc(9pt * var(--order-scale))!important}
+.sheet footer{font-size:calc(7.5pt * var(--order-scale))}
+.sheet .column{min-width:0}.sheet td:first-child{overflow-wrap:anywhere}
+
+.sheet.landscape .columns{grid-template-columns:repeat(4,minmax(0,1fr));gap:3mm}
+
+@media screen and (max-width:700px){.sheet.landscape .columns{grid-template-columns:1fr}}

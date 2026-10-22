@@ -1,0 +1,54 @@
+(function(root){
+'use strict';
+const MM=72/25.4,W=210*MM,H=297*MM;
+const equipment=[
+ {id:'reserve-inox',name:'Réfrigérateur inox - Réserve'},
+ {id:'reserve',name:'Réfrigérateur - Réserve'},
+ {id:'preparation-froide',name:'Meuble réfrigéré - Préparation froide'},
+ {id:'desserts',name:'Armoire réfrigérée à desserts'},
+ {id:'self',name:'Vitrine réfrigérée du self'},
+ {id:'chambres-froides',name:'Chambres froides positive et négative',combined:true}
+];
+const months=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function options(input){const year=Number(input.year),month=Number(input.month);if(!Number.isInteger(year)||year<2000||year>2100||!Number.isInteger(month)||month<1||month>12)throw Error('Choisissez un mois et une année entre 2000 et 2100.');if(!Array.isArray(input.ids)||!input.ids.length||new Set(input.ids).size!==input.ids.length||input.ids.some(id=>!equipment.some(e=>e.id===id)))throw Error('Sélectionnez au moins une feuille de température.');return {year,month,ids:input.ids};}
+function plan(input,id){const {year,month}=options(input),item=equipment.find(e=>e.id===id);if(!item)throw Error('Équipement inconnu.');const days=new Date(Date.UTC(year,month,0)).getUTCDate(),left=12*MM,right=W-left,top=H-34*MM,bottom=14*MM,header=21*MM,body=top-header,row=(body-bottom)/days,width=right-left,split=item.combined?4:3,fractions=item.combined?[0,.10,.265,.43,.55,.715,.88,1]:[0,.12,.36,.56,.80,1],xs=fractions.map(f=>left+f*width),texts=[],rects=[],lines=[];
+const text=(value,x,y,size=10,bold=false,align='center')=>texts.push({text:value,x,y,size,bold,align});
+const divider=right-54*MM;
+text('RELEVÉ DE TEMPÉRATURE',left+4*MM,H-20*MM,14,true,'left');text(item.name,left+4*MM,H-27*MM,11,false,'left');text(months[month-1].toLocaleUpperCase('fr-FR')+' '+year,(divider+right)/2,H-24*MM,14,true);
+rects.push({x:left,y:top,w:width,h:header,fill:'#f2f2f2'});
+for(let d=1;d<=days;d++){const weekday=new Date(Date.UTC(year,month-1,d)).getUTCDay();if(weekday===0||weekday===6)rects.push({x:left,y:body-(d-1)*row,w:width,h:row,fill:'#f5f5f5'});text(String(d),(xs[0]+xs[1])/2,body-(d-.5)*row-3.5);}
+const line=(x1,y1,x2,y2)=>lines.push({x1,y1,x2,y2});
+line(left,H-12*MM,right,H-12*MM);line(left,H-32*MM,right,H-32*MM);line(left,H-32*MM,left,H-12*MM);line(right,H-32*MM,right,H-12*MM);line(divider,H-32*MM,divider,H-12*MM);
+line(left,top,right,top);line(left,bottom,right,bottom);line(left,bottom,left,top);line(right,bottom,right,top);
+for(let i=1;i<xs.length-1;i++)line(xs[i],bottom,xs[i],i===1||i===split?top:top-10*MM);
+line(xs[1],top-10*MM,right,top-10*MM);line(left,body,right,body);
+for(let d=1;d<days;d++)line(left,body-d*row,right,body-d*row);
+text('Date',(xs[0]+xs[1])/2,top-header/2-3,10,true);
+text('MATIN - 7 h',(xs[1]+xs[split])/2,top-6.5*MM,10.5,true);text('SOIR - 17 h',(xs[split]+xs.at(-1))/2,top-6.5*MM,10.5,true);
+const labels=item.combined?['Positive (°C)','Négative (°C)','Visa','Positive (°C)','Négative (°C)','Visa']:['Température (°C)','Visa','Température (°C)','Visa'];
+labels.forEach((label,i)=>text(label,(xs[i+1]+xs[i+2])/2,top-17*MM,item.combined?8.5:9,true));
+return {W,H,days,texts,rects,lines};}
+function svg(input,id){return renderPlan(plan(input,id));}
+function renderPlan(p){return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 '+W+' '+H+'" style="font-family:Arial,sans-serif;background:white"><rect width="100%" height="100%" fill="white"/>'+p.rects.map(r=>'<rect x="'+r.x+'" y="'+(H-r.y)+'" width="'+r.w+'" height="'+r.h+'" fill="'+r.fill+'"/>').join('')+p.lines.map(l=>'<path d="M'+l.x1+' '+(H-l.y1)+'L'+l.x2+' '+(H-l.y2)+'" stroke="#666" stroke-width=".45"/>').join('')+p.texts.map(t=>'<text x="'+t.x+'" y="'+(H-t.y)+'" font-size="'+t.size+'" font-weight="'+(t.bold?'700':'400')+'" text-anchor="'+(t.align==='left'?'start':'middle')+'" fill="black">'+esc(t.text)+'</text>').join('')+'</svg>';}
+function html(input){const o=options(input);return '<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Feuilles de température</title><style>@page{size:A4 portrait;margin:0}body{margin:0}section{width:210mm;height:297mm;break-after:page}section:last-child{break-after:auto}svg{display:block;width:100%;height:100%}</style></head><body>'+o.ids.map(id=>'<section>'+svg(o,id)+'</section>').join('')+'</body></html>';}
+let loading;
+async function generate(input){const o=options(input);return generatePlans(o.ids.map(id=>plan(o,id)),'Feuilles de température - '+months[o.month-1]+' '+o.year);}
+async function generatePlans(plans,title){if(!root.PDFLib){if(!loading)loading=new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='./pdf-runtime/pdf-lib.min.js';script.onload=resolve;script.onerror=()=>{loading=null;script.remove();reject(Error('Impossible de charger le générateur PDF. Réessayez.'));};document.head.append(script);});await loading;}
+const lib=root.PDFLib,pdf=await lib.PDFDocument.create(),regular=await pdf.embedFont(lib.StandardFonts.Helvetica),bold=await pdf.embedFont(lib.StandardFonts.HelveticaBold);
+for(const p of plans){const page=pdf.addPage([p.W,p.H]);for(const r of p.rects){const n=parseInt(r.fill.slice(1,3),16)/255;page.drawRectangle({x:r.x,y:r.y-r.h,width:r.w,height:r.h,color:lib.rgb(n,n,n)});}for(const l of p.lines)page.drawLine({start:{x:l.x1,y:l.y1},end:{x:l.x2,y:l.y2},thickness:.45,color:lib.rgb(.4,.4,.4)});for(const t of p.texts){const font=t.bold?bold:regular;page.drawText(t.text,{x:t.align==='left'?t.x:t.x-font.widthOfTextAtSize(t.text,t.size)/2,y:t.y,size:t.size,font,color:lib.rgb(0,0,0)});}}
+pdf.setTitle(title);pdf.setAuthor('PaperChef');return new Blob([await pdf.save()],{type:'application/pdf'});}
+const api={equipment,months,options,plan,svg,html,generate,renderPlan,generatePlans};if(typeof module==='object')module.exports=api;else root.PaperChefTemperatures=api;
+if(typeof document==='undefined')return;
+const style=document.createElement('style');style.textContent='.temperature-dialog{width:min(850px,calc(100vw - 32px));height:min(860px,calc(100vh - 32px));max-height:calc(100vh - 32px);box-sizing:border-box;padding:20px}.temperature-dialog[open]{display:flex;flex-direction:column;gap:12px}.temperature-dialog h2{margin:0}.temperature-fields{display:flex;gap:12px;flex-wrap:wrap}.temperature-fields label{display:grid;gap:5px;font-size:13px}.temperature-fields select,.temperature-fields input{font:inherit;padding:9px;border:1px solid #b7cbbd;border-radius:7px;background:white}.temperature-equipment{display:grid;grid-template-columns:1fr 1fr;gap:9px;border:0;padding:0;margin:0}.temperature-equipment legend{margin-bottom:8px;font-weight:600}.temperature-equipment label{display:flex;flex-direction:row;gap:8px;align-items:center;font-size:13px}.temperature-equipment input{width:18px;height:18px;flex:none}.temperature-preview{flex:1;min-height:100px;overflow:auto;background:#e8eeeb;padding:12px;text-align:center}.temperature-preview svg{width:min(100%,480px);height:auto;display:block;margin:auto auto 12px}.temperature-dialog .dialog-actions{margin:0;flex-wrap:wrap;flex:none}.temperature-error{color:#a12b3c;margin:0;font-size:13px}.temperature-error:empty{display:none}@media(max-width:550px){.temperature-equipment{grid-template-columns:1fr}.temperature-dialog{padding:12px}}';document.head.append(style);
+function open(){const now=new Date(),dialog=document.createElement('dialog');dialog.className='temperature-dialog';dialog.setAttribute('aria-label','Feuilles de température');dialog.innerHTML='<div class="dialog-head"><h2>Feuilles de température</h2><button type="button" class="icon-button" data-temp-close aria-label="Fermer">×</button></div><div class="temperature-fields"><label>Mois<select data-temp-month>'+months.map((m,i)=>'<option value="'+(i+1)+'" '+(i===now.getMonth()?'selected':'')+'>'+m+'</option>').join('')+'</select></label><label>Année<input data-temp-year type="number" min="2000" max="2100" value="'+now.getFullYear()+'"></label></div><fieldset class="temperature-equipment"><legend>Feuilles à imprimer</legend>'+equipment.map(e=>'<label><input type="checkbox" data-temp-id="'+e.id+'" checked>'+e.name+'</label>').join('')+'</fieldset><p class="temperature-error" role="alert"></p><div class="temperature-preview" aria-label="Aperçu des feuilles sélectionnées"></div><div class="dialog-actions"><button type="button" class="button secondary" data-temp-close>Fermer</button><button type="button" class="button secondary" data-temp-download>Télécharger le PDF</button><button type="button" class="button" data-temp-print>Imprimer</button></div>';
+document.body.append(dialog);const preview=dialog.querySelector('.temperature-preview'),error=dialog.querySelector('.temperature-error');let busy=false;
+const selection=()=>options({month:dialog.querySelector('[data-temp-month]').value,year:dialog.querySelector('[data-temp-year]').value,ids:[...dialog.querySelectorAll('[data-temp-id]:checked')].map(el=>el.dataset.tempId)});
+function paint(){try{const o=selection();preview.innerHTML=o.ids.map(id=>svg(o,id)).join('');error.textContent='';dialog.querySelectorAll('[data-temp-download],[data-temp-print]').forEach(b=>b.disabled=busy);}catch(e){error.textContent=e.message;preview.innerHTML='';dialog.querySelectorAll('[data-temp-download],[data-temp-print]').forEach(b=>b.disabled=true);}}
+dialog.addEventListener('change',paint);dialog.addEventListener('input',e=>{if(e.target.hasAttribute('data-temp-year'))paint();});
+dialog.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;if(b.hasAttribute('data-temp-close')){dialog.close();return;}if(busy)return;let failure;try{if(b.hasAttribute('data-temp-print')){const frame=document.createElement('iframe');frame.title='Impression des feuilles de température';frame.style.cssText='position:fixed;width:1px;height:1px;left:-10000px;border:0';frame.onload=()=>{frame.contentWindow.addEventListener('afterprint',()=>frame.remove(),{once:true});frame.contentWindow.focus();frame.contentWindow.print();};frame.srcdoc=html(selection());document.body.append(frame);return;}if(!b.hasAttribute('data-temp-download'))return;const o=selection();busy=true;paint();const blob=await generate(o),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='temperatures-'+o.year+'-'+String(o.month).padStart(2,'0')+'.pdf';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);}catch(e){failure=e.message;}finally{busy=false;if(dialog.open)paint();if(failure)error.textContent=failure;}});
+dialog.addEventListener('close',()=>dialog.remove(),{once:true});dialog.showModal();paint();}
+document.addEventListener('click',e=>{if(e.target.closest('[data-open-temperatures]'))open();});
+})(typeof window==='undefined'?globalThis:window);
+
+

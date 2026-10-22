@@ -1,0 +1,5 @@
+(async function(){
+ const status=document.getElementById('pdf-status'),download=document.getElementById('pdf-download'),retry=document.getElementById('pdf-retry'),frame=document.getElementById('pdf-frame'),url=new URL(document.body.dataset.pdfUrl,location.origin);let blob,address;
+ async function run(){retry.hidden=true;download.hidden=true;status.textContent='Préparation du PDF sur cet ordinateur…';try{blob=await PaperChefClientPdf.generate(url,message=>status.textContent=message);if(address)URL.revokeObjectURL(address);address=URL.createObjectURL(blob);frame.src=address;frame.hidden=false;download.hidden=false;status.textContent='PDF prêt.';if(url.searchParams.get('download')==='1')PaperChefClientPdf.save(blob,url.pathname.split('/').at(-1)+'.pdf');}catch(e){status.textContent=e.message;retry.hidden=false;}}
+ download.onclick=()=>PaperChefClientPdf.save(blob,url.pathname.split('/').at(-1)+'.pdf');retry.onclick=run;addEventListener('pagehide',()=>{if(address)URL.revokeObjectURL(address);});await run();
+})();

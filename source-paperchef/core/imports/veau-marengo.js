@@ -1,0 +1,18 @@
+// Semaine 3 : quantités corrigées et plats existants validés par l'utilisateur.
+const lines=[['Sauté de veau','10.5','kg'],['Oignons frais','1.5','kg'],['Carottes fraîches','2','kg'],['Champignons surgelés','2.5','kg'],['Tomates concassées','4','kg'],['Concentré de tomate','300','g'],['Farine de blé','200','g'],['Bouillon de bœuf préparé','7.5','L'],['Huile','300','ml'],['Thym sec','20','g'],['Ail','100','g'],['Eau',null,'QS'],['Sel fin',null,'QS'],['Poivre noir',null,'QS']];
+const steps=['Bien colorer le veau dans l’huile.','Ajouter les oignons et les carottes, puis faire suer.','Ajouter l’ail et le concentré de tomate, puis pincer.','Singer avec la farine.','Ajouter les tomates concassées.','Mouiller avec le bouillon de bœuf et ajouter le thym.','Cuire à feu doux jusqu’à ce que la viande soit tendre.','Ajouter les champignons émincés surgelés en cours de cuisson.','Surveiller la réduction et ajouter de l’eau chaude si nécessaire pour conserver le volume de sauce souhaité.','Rectifier l’assaisonnement.'];
+const notes=['150 g de veau par portion viande.','Sauce Marengo intégrée à la cuisson : objectif de 7,5 L en fin de cuisson pour 70 portions viande. Adapter le volume aux portions calculées.','Bouillon de bœuf : 7,5 L au départ pour 70 portions viande. Reconstituer selon le dosage enregistré de 20 g de poudre par litre (150 g à la référence).','Les champignons rendent de l’eau pendant la cuisson. Laisser réduire et compléter en eau chaude QS si nécessaire.'];
+async function integrate(request){
+ const existing=await request('/api/dishes'),catalog=await request('/api/library/catalog'),library=await request('/api/library');
+ if(existing.some(d=>d.name==='Sauté de veau Marengo'))throw Error('Le veau Marengo existe déjà : import arrêté pour éviter un doublon.');
+ const reused=['Filet de lieu noir','Frites','Carottes braisées','Sauce beurre blanc'].map(name=>{const d=existing.find(d=>d.active&&d.name===name&&(name==='Filet de lieu noir'||d.recipe_id.startsWith('service-reference:')));if(!d)throw Error('Plat de référence introuvable : '+name);return d;});
+ const ingredients=lines.map(([name,quantity,unit])=>{const i=catalog.ingredients.find(i=>i.active&&i.normalized_name===name);if(!i)throw Error('Ingrédient introuvable : '+name);return {ingredient_id:i.id,quantity,unit,is_qs:quantity===null};});
+ if(library.some(s=>s.components.some(c=>/Marengo/i.test(c.name))))throw Error('Un service Marengo existe déjà.');
+ const graph=(await request('/api/library/new')).snapshot;
+ const saved=await request('/api/dishes/save','POST',{dish:{name:'Sauté de veau Marengo',active:true,configuration:{portion_group:'meat',classification_tags:[]}},recipe:{scale_mode:'by_portions',reference_portions:'70',steps,notes,production_references:[]},ingredients,categories:[{category:'Protein',subcategory:'Meat'}]});
+ const dishes=[await request('/api/dishes/detail?id='+saved.id),...await Promise.all(reused.map(d=>request('/api/dishes/detail?id='+encodeURIComponent(d.id))))];
+ graph.components=dishes.map((d,i)=>({id:'new-marengo-component-'+i,domain_key:['veau-marengo','lieu-noir','frites','carottes','beurre-blanc'][i],name:d.dish.name,dish_id:d.dish.id,recipe_id:d.recipe.id,portion_group:d.dish.configuration.portion_group,sort_order:i,active:true,menu_visible:true,classification_tags:[]}));
+ const service=await request('/api/assembly/save','POST',{snapshot:graph,dishVersions:Object.fromEntries(dishes.map(d=>[d.dish.id,d.dish.version]))});
+ return {serviceId:service.id,createdDishId:saved.id,reusedDishIds:reused.map(d=>d.id)};
+}
+module.exports={integrate,lines,steps,notes};

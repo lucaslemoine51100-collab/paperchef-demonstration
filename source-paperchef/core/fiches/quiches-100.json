@@ -1,0 +1,723 @@
+{
+  "orderSelection": {
+    "serviceId": "quiches",
+    "headcount": 100
+  },
+  "dayLabel": null,
+  "mealType": null,
+  "serviceName": "Quiche au lard · Quiche au thon · Salade verte · Vinaigrette",
+  "serviceId": "quiches",
+  "headcount": 100,
+  "portionSummary": "70 portions viande · 30 portions poisson",
+  "components": [
+    {
+      "source": {
+        "serviceId": "quiches",
+        "componentId": "quiches:component:quiche-lard",
+        "sharedPreparationId": null,
+        "recipeId": "quiches:recipe:quiche-lard"
+      },
+      "name": "Quiche au lard",
+      "id": "quiche-lard",
+      "categories": [
+        [
+          "Protéine",
+          "Viande"
+        ],
+        [
+          "Féculent"
+        ],
+        [
+          "Plat complet"
+        ]
+      ],
+      "colorProfile": "meat",
+      "calculatedPortions": 70,
+      "shared": false,
+      "productionReferences": [
+        {
+          "type": "per_production_unit",
+          "label": "PAR BAC GN · 1 PLAQUE DE FEUILLETAGE",
+          "order": 0,
+          "base": {
+            "exact": {
+              "numerator": "1",
+              "denominator": "1"
+            },
+            "unit": "plaques",
+            "displayQuantity": "1 plaque"
+          },
+          "yield": {
+            "exact": {
+              "numerator": "10",
+              "denominator": "1"
+            },
+            "unit": "portions",
+            "displayQuantity": "10 portions"
+          },
+          "productionUnitId": "production-2",
+          "ratios": [
+            {
+              "name": "Feuilletage surgelé",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "unit": "plaques",
+              "displayQuantity": "1 plaque",
+              "order": 0
+            },
+            {
+              "name": "Crème liquide",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "500",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "500 g",
+              "order": 1
+            },
+            {
+              "name": "Lait",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "500",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "500 g",
+              "order": 2
+            },
+            {
+              "name": "Œufs entiers liquides",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "500",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "500 g",
+              "order": 3
+            },
+            {
+              "name": "Maïzena",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "50",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "50 g",
+              "order": 4
+            }
+          ]
+        }
+      ],
+      "productionUnits": {
+        "name": "Plaque",
+        "units": "7 plaques",
+        "items": null,
+        "capacity": "70 portions",
+        "ingredientBasis": "Ingrédients par unité produite"
+      },
+      "ingredients": [
+        {
+          "name": "Feuilletage surgelé",
+          "displayQuantity": "7 plaques",
+          "displayUnit": "plaques",
+          "exact": {
+            "numerator": "7",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Crème liquide",
+          "displayQuantity": "3,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "7",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Lait",
+          "displayQuantity": "3,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "7",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Œufs entiers liquides",
+          "displayQuantity": "3,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "7",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Maïzena",
+          "displayQuantity": "350 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "350",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Lardons crus",
+          "displayQuantity": "4,2 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "21",
+            "denominator": "5"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Emmental râpé",
+          "displayQuantity": "1,1 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "21",
+            "denominator": "20"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "20 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "21",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Préparer le feuilletage selon les indications de décongélation du fabricant et foncer les plaques."
+        },
+        {
+          "order": 2,
+          "text": "Faire revenir les lardons, puis les égoutter."
+        },
+        {
+          "order": 3,
+          "text": "Délayer la Maïzena dans une partie du lait froid."
+        },
+        {
+          "order": 4,
+          "text": "Mélanger les œufs liquides, la crème, le lait et la Maïzena délayée. Ajouter sel et poivre."
+        },
+        {
+          "order": 5,
+          "text": "Répartir les lardons et l’emmental, puis verser l’appareil."
+        },
+        {
+          "order": 6,
+          "text": "Cuire 1 h 30 à 180 °C, dans un four sans ventilation, à 0 % d’humidité."
+        }
+      ],
+      "steps": [
+        "Préparer le feuilletage selon les indications de décongélation du fabricant et foncer les plaques.",
+        "Faire revenir les lardons, puis les égoutter.",
+        "Délayer la Maïzena dans une partie du lait froid.",
+        "Mélanger les œufs liquides, la crème, le lait et la Maïzena délayée. Ajouter sel et poivre.",
+        "Répartir les lardons et l’emmental, puis verser l’appareil.",
+        "Cuire 1 h 30 à 180 °C, dans un four sans ventilation, à 0 % d’humidité."
+      ],
+      "notes": [],
+      "allergens": [
+        "Gluten",
+        "Œufs",
+        "Lait"
+      ],
+      "reviewNames": [
+        "Lardons crus"
+      ],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "quiches",
+        "componentId": "quiches:component:quiche-thon",
+        "sharedPreparationId": null,
+        "recipeId": "quiches:recipe:quiche-thon"
+      },
+      "name": "Quiche au thon",
+      "id": "quiche-thon",
+      "categories": [
+        [
+          "Protéine",
+          "Poisson"
+        ],
+        [
+          "Féculent"
+        ],
+        [
+          "Plat complet"
+        ]
+      ],
+      "colorProfile": "fish",
+      "calculatedPortions": 30,
+      "shared": false,
+      "productionReferences": [
+        {
+          "type": "per_production_unit",
+          "label": "PAR BAC GN · 1 PLAQUE DE FEUILLETAGE",
+          "order": 0,
+          "base": {
+            "exact": {
+              "numerator": "1",
+              "denominator": "1"
+            },
+            "unit": "plaques",
+            "displayQuantity": "1 plaque"
+          },
+          "yield": {
+            "exact": {
+              "numerator": "10",
+              "denominator": "1"
+            },
+            "unit": "portions",
+            "displayQuantity": "10 portions"
+          },
+          "productionUnitId": "production-2",
+          "ratios": [
+            {
+              "name": "Feuilletage surgelé",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "1",
+                "denominator": "1"
+              },
+              "unit": "plaques",
+              "displayQuantity": "1 plaque",
+              "order": 0
+            },
+            {
+              "name": "Crème liquide",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "500",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "500 g",
+              "order": 1
+            },
+            {
+              "name": "Lait",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "500",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "500 g",
+              "order": 2
+            },
+            {
+              "name": "Œufs entiers liquides",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "500",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "500 g",
+              "order": 3
+            },
+            {
+              "name": "Maïzena",
+              "source": "recipe",
+              "isQs": false,
+              "exact": {
+                "numerator": "50",
+                "denominator": "1"
+              },
+              "unit": "g",
+              "displayQuantity": "50 g",
+              "order": 4
+            }
+          ]
+        }
+      ],
+      "productionUnits": {
+        "name": "Plaque",
+        "units": "3 plaques",
+        "items": null,
+        "capacity": "30 portions",
+        "ingredientBasis": "Ingrédients par unité produite"
+      },
+      "ingredients": [
+        {
+          "name": "Feuilletage surgelé",
+          "displayQuantity": "3 plaques",
+          "displayUnit": "plaques",
+          "exact": {
+            "numerator": "3",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Crème liquide",
+          "displayQuantity": "1,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "3",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Lait",
+          "displayQuantity": "1,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "3",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Œufs entiers liquides",
+          "displayQuantity": "1,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "3",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Maïzena",
+          "displayQuantity": "150 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "150",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Thon égoutté",
+          "displayQuantity": "1,5 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "3",
+            "denominator": "2"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Emmental râpé",
+          "displayQuantity": "450 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "450",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "30 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "30",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Préparer le feuilletage selon les indications de décongélation du fabricant et foncer les plaques."
+        },
+        {
+          "order": 2,
+          "text": "Égoutter et émietter le thon."
+        },
+        {
+          "order": 3,
+          "text": "Délayer la Maïzena dans une partie du lait froid."
+        },
+        {
+          "order": 4,
+          "text": "Mélanger les œufs liquides, la crème, le lait et la Maïzena délayée. Ajouter sel et poivre."
+        },
+        {
+          "order": 5,
+          "text": "Répartir le thon et l’emmental, puis verser l’appareil."
+        },
+        {
+          "order": 6,
+          "text": "Cuire 1 h 30 à 180 °C, dans un four sans ventilation, à 0 % d’humidité."
+        }
+      ],
+      "steps": [
+        "Préparer le feuilletage selon les indications de décongélation du fabricant et foncer les plaques.",
+        "Égoutter et émietter le thon.",
+        "Délayer la Maïzena dans une partie du lait froid.",
+        "Mélanger les œufs liquides, la crème, le lait et la Maïzena délayée. Ajouter sel et poivre.",
+        "Répartir le thon et l’emmental, puis verser l’appareil.",
+        "Cuire 1 h 30 à 180 °C, dans un four sans ventilation, à 0 % d’humidité."
+      ],
+      "notes": [],
+      "allergens": [
+        "Poisson",
+        "Gluten",
+        "Œufs",
+        "Lait"
+      ],
+      "reviewNames": [],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "quiches",
+        "componentId": "quiches:component:salade",
+        "sharedPreparationId": null,
+        "recipeId": "quiches:recipe:salade"
+      },
+      "name": "Salade verte",
+      "id": "salade",
+      "categories": [
+        [
+          "Légume"
+        ]
+      ],
+      "colorProfile": "vegetable",
+      "calculatedPortions": 100,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Salade verte",
+          "displayQuantity": "5,0 kg",
+          "displayUnit": "kg",
+          "exact": {
+            "numerator": "5",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Préparer la salade selon son conditionnement : laver et essorer si nécessaire."
+        },
+        {
+          "order": 2,
+          "text": "Dresser la quantité de salade indiquée."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter la vinaigrette au moment du service, ou la proposer à part."
+        }
+      ],
+      "steps": [
+        "Préparer la salade selon son conditionnement : laver et essorer si nécessaire.",
+        "Dresser la quantité de salade indiquée.",
+        "Ajouter la vinaigrette au moment du service, ou la proposer à part."
+      ],
+      "notes": [],
+      "allergens": [],
+      "reviewNames": [],
+      "yield": null,
+      "serviceRule": null,
+      "allocations": []
+    },
+    {
+      "source": {
+        "serviceId": "quiches",
+        "componentId": "quiches:component:vinaigrette",
+        "sharedPreparationId": null,
+        "recipeId": "quiches:recipe:vinaigrette"
+      },
+      "name": "Vinaigrette",
+      "id": "vinaigrette",
+      "categories": [
+        [
+          "Sauce"
+        ]
+      ],
+      "colorProfile": "sauce",
+      "calculatedPortions": 100,
+      "shared": false,
+      "productionReferences": [],
+      "productionUnits": null,
+      "ingredients": [
+        {
+          "name": "Huile de colza",
+          "displayQuantity": "900 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "900",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Vinaigre de cidre",
+          "displayQuantity": "300 ml",
+          "displayUnit": "ml",
+          "exact": {
+            "numerator": "300",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Moutarde à l’ancienne",
+          "displayQuantity": "150 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "150",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Miel",
+          "displayQuantity": "80 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "75",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Échalotes",
+          "displayQuantity": "110 g",
+          "displayUnit": "g",
+          "exact": {
+            "numerator": "110",
+            "denominator": "1"
+          },
+          "internalTransfer": false
+        },
+        {
+          "name": "Sel",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Poivre noir",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        },
+        {
+          "name": "Eau (si besoin pour détendre)",
+          "displayQuantity": "QS",
+          "displayUnit": "QS",
+          "exact": null,
+          "internalTransfer": false
+        }
+      ],
+      "preparationSteps": [
+        {
+          "order": 1,
+          "text": "Mélanger le vinaigre, la moutarde, le miel, le sel et le poivre."
+        },
+        {
+          "order": 2,
+          "text": "Incorporer l’huile progressivement en fouettant."
+        },
+        {
+          "order": 3,
+          "text": "Ajouter les échalotes et mélanger."
+        },
+        {
+          "order": 4,
+          "text": "Détendre avec un peu d’eau uniquement si nécessaire."
+        },
+        {
+          "order": 5,
+          "text": "Mélanger de nouveau avant le service."
+        }
+      ],
+      "steps": [
+        "Mélanger le vinaigre, la moutarde, le miel, le sel et le poivre.",
+        "Incorporer l’huile progressivement en fouettant.",
+        "Ajouter les échalotes et mélanger.",
+        "Détendre avec un peu d’eau uniquement si nécessaire.",
+        "Mélanger de nouveau avant le service."
+      ],
+      "notes": [],
+      "allergens": [
+        "Moutarde"
+      ],
+      "reviewNames": [],
+      "yield": "1,5 L",
+      "serviceRule": null,
+      "allocations": []
+    }
+  ],
+  "sharedPreparations": [],
+  "allergens": [
+    "Gluten",
+    "Œufs",
+    "Lait",
+    "Poisson",
+    "Moutarde"
+  ],
+  "reviewNames": [
+    "Lardons crus"
+  ],
+  "allergensComplete": false,
+  "notes": [
+    "Quantités arrondies uniquement à l’affichage.",
+    "QS : quantité suffisante, à ajuster à la préparation."
+  ],
+  "roundingNote": "kg / L : au dixième · g / ml : à la dizaine · pièces : entières"
+}
