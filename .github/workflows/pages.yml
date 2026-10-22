@@ -1,0 +1,39 @@
+name: Installer et publier PaperChef
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Installer les sources préparées
+        if: ${{ hashFiles('paperchef-source.zip.part*') != '' }}
+        run: |
+          cat paperchef-source.zip.part* > "$RUNNER_TEMP/paperchef-source.zip"
+          unzip -o "$RUNNER_TEMP/paperchef-source.zip" -x '.github/workflows/pages.yml'
+          mkdir -p .github/bootstrap
+          mv paperchef-source.zip.part* .github/bootstrap/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Installer les sources et la démonstration PaperChef'
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Publier la démonstration
+        id: deployment
+        uses: actions/deploy-pages@v4
